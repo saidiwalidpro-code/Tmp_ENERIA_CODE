@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_QlqjQDlxEfG3PdBWJalhYA" name="savoir" id="_Lf1R4DlxEfG3PdBWJalhYA" label="savoir" dataPackage="_Qn3isDlxEfG3PdBWJalhYA" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://localhost:5432/postgres?" dbVersionString="V9_X" Port="5432" Username="postgres" Password="enc:system.encryption.key.v1:o/CmZxXW2hNIae6j+cn6+8bsUFDYfY/YC7eW+2UvoJXZ" ServerName="localhost" DatasourceName="" FileFieldName="" SID="postgres" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="savoir" supportNLS="false">
+    <taggedValue xmi:id="_QlrKUDlxEfG3PdBWJalhYA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_QmIdUDlxEfG3PdBWJalhYA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_QmUDgDlxEfG3PdBWJalhYA" tag="Status" value=""/>
+    <taggedValue xmi:id="_QmUDgTlxEfG3PdBWJalhYA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_QmUDgjlxEfG3PdBWJalhYA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_QmUDgzlxEfG3PdBWJalhYA" tag="Description" value=""/>
+    <taggedValue xmi:id="_QmUDhDlxEfG3PdBWJalhYA" tag="Author" value=""/>
+    <taggedValue xmi:id="_QmUDhTlxEfG3PdBWJalhYA" tag="otherParameter"/>
+    <taggedValue xmi:id="_QnDqYDlxEfG3PdBWJalhYA" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_QnDqYTlxEfG3PdBWJalhYA" tag="DB ProductVersion" value="18.3"/>
+    <taggedValue xmi:id="_QnDqYjlxEfG3PdBWJalhYA" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_QlrKUTlxEfG3PdBWJalhYA" key="CONN_PARA_KEY_USERNAME" value="postgres"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_Qn3isDlxEfG3PdBWJalhYA" name="postgres" dataManager="_QlqjQDlxEfG3PdBWJalhYA">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_Qn4JwDlxEfG3PdBWJalhYA" name="savoir"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
