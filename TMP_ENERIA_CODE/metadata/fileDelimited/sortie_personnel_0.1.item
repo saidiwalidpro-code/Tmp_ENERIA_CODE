@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_GE3aATmdEfG3PdBWJalhYA" name="sortie_personnel" id="_GE3aADmdEfG3PdBWJalhYA" dataPackage="_GE3aAjmdEfG3PdBWJalhYA" Server="Localhost 127.0.0.1" FilePath="E:/Talend/data/Zadig_in/sortie_savoir_personnel.csv" Format="WINDOWS" Encoding="windows-1252" FieldSeparatorValue="&quot;,&quot;" RowSeparatorType="Custom String" RowSeparatorValue="&quot;\r\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" EscapeType="CSV" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_GE3aAjmdEfG3PdBWJalhYA" name="default" dataManager="_GE3aATmdEfG3PdBWJalhYA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_GE3aAzmdEfG3PdBWJalhYA" id="_rHIoQDmcEfG3PdBWJalhYA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aBDmdEfG3PdBWJalhYA" label="code_societe_salarie" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aBTmdEfG3PdBWJalhYA" label="matricule_salarie" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aBjmdEfG3PdBWJalhYA" label="titre_salarie" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aBzmdEfG3PdBWJalhYA" label="nom_salarie" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aCDmdEfG3PdBWJalhYA" label="prenom_salarie" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aCTmdEfG3PdBWJalhYA" label="date_entree_salarie" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aCjmdEfG3PdBWJalhYA" label="date_sortie_salarie" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aCzmdEfG3PdBWJalhYA" label="etablissement_salarie" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aDDmdEfG3PdBWJalhYA" label="section_salarie" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aDTmdEfG3PdBWJalhYA" label="niveau_echelon_salarie" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aDjmdEfG3PdBWJalhYA" label="categorie_salarie" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aDzmdEfG3PdBWJalhYA" label="code_emploi_salarie" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aEDmdEfG3PdBWJalhYA" label="intitule_emploi_salarie" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aETmdEfG3PdBWJalhYA" label="type_production" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aEjmdEfG3PdBWJalhYA" label="indicateur_ventile" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aEzmdEfG3PdBWJalhYA" label="cout_standard" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aFDmdEfG3PdBWJalhYA" label="type_imputation" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aFTmdEfG3PdBWJalhYA" label="code_agence" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aFjmdEfG3PdBWJalhYA" label="date_jour" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aFzmdEfG3PdBWJalhYA" label="jrn_user_personnel" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aGDmdEfG3PdBWJalhYA" label="jrn_dattim_personnel" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aGTmdEfG3PdBWJalhYA" label="date_modif_personnel" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aGjmdEfG3PdBWJalhYA" label="indic_marine" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aGzmdEfG3PdBWJalhYA" label="naissance_mois" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_7GNpMDmeEfG3PdBWJalhYA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aHDmdEfG3PdBWJalhYA" label="naissance_jour" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aHTmdEfG3PdBWJalhYA" label="code_destination" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aHjmdEfG3PdBWJalhYA" label="code_contrat" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GE3aHzmdEfG3PdBWJalhYA" label="cout_export" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

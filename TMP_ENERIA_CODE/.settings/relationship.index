@@ -5,13 +5,29 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_GE3aADmdEfG3PdBWJalhYA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "_Lf1R4DlxEfG3PdBWJalhYA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_R-9q8DmREfG3PdBWJalhYA",
     "version" : "Latest",
     "type" : "property"
   }, {
     "id" : "_tLfKoDllEfGc79AzFwSrsw",
     "version" : "Latest",
     "type" : "property"
+  }, {
+    "id" : "_GE3aADmdEfG3PdBWJalhYA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_R-9q8DmREfG3PdBWJalhYA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
   }, {
     "id" : "_tLfKoDllEfGc79AzFwSrsw - metadata",
     "version" : "Latest",
