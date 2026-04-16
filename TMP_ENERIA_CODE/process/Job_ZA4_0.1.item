@@ -1837,34 +1837,34 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="sortie_personnel" expressionFilter="(row4.C_Etablissement_St__Jur).startsWith(&quot;8&quot;)" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="sortie_personnel" expressionFilter="(row4.C_Etablissement_St__Jur).startsWith(&quot;8&quot;)||&#xA;(row4.Matricule).startsWith(&quot;8&quot;)||(row4.Matricule).startsWith(&quot;9&quot;)" activateExpressionFilter="true">
         <mapperTableEntries name="code_societe_salarie" expression="row4.C_Etablissement_St__Jur.substring(1,2) " type="id_String" nullable="true"/>
-        <mapperTableEntries name="matricule_salarie" type="id_String" nullable="true"/>
-        <mapperTableEntries name="titre_salarie" type="id_String" nullable="true"/>
-        <mapperTableEntries name="nom_salarie" type="id_String" nullable="true"/>
-        <mapperTableEntries name="prenom_salarie" expression="" type="id_String" nullable="true"/>
-        <mapperTableEntries name="date_entree_salarie" type="id_String" nullable="true"/>
-        <mapperTableEntries name="date_sortie_salarie" type="id_String" nullable="true"/>
-        <mapperTableEntries name="etablissement_salarie" type="id_String" nullable="true"/>
-        <mapperTableEntries name="section_salarie" type="id_String" nullable="true"/>
+        <mapperTableEntries name="matricule_salarie" expression="row4.Matricule " type="id_String" nullable="true"/>
+        <mapperTableEntries name="titre_salarie" expression="row4.C_Qualite.substring(1,3) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="nom_salarie" expression="row4.Les_dossiers_Nom.substring(1,30) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="prenom_salarie" expression="row4.Les_dossiers_Prenom.substring(1,30)  " type="id_String" nullable="true"/>
+        <mapperTableEntries name="date_entree_salarie" expression="row4.D_Entree_societe " type="id_String" nullable="true"/>
+        <mapperTableEntries name="date_sortie_salarie" expression="row4.D_Sortie_societe " type="id_String" nullable="true"/>
+        <mapperTableEntries name="etablissement_salarie" expression="row4.C_Etablissement_St__Jur.substring(1,6) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="section_salarie" expression="row4.N__Imputation.substring(1,6) " type="id_String" nullable="true"/>
         <mapperTableEntries name="niveau_echelon_salarie" expression="" type="id_String" nullable="true"/>
         <mapperTableEntries name="categorie_salarie" type="id_String" nullable="true"/>
-        <mapperTableEntries name="code_emploi_salarie" type="id_String" nullable="true"/>
-        <mapperTableEntries name="intitule_emploi_salarie" type="id_String" nullable="true"/>
-        <mapperTableEntries name="type_production" type="id_String" nullable="true"/>
-        <mapperTableEntries name="indicateur_ventile" type="id_String" nullable="true"/>
+        <mapperTableEntries name="code_emploi_salarie" expression="row4.C_Emploi  " type="id_String" nullable="true"/>
+        <mapperTableEntries name="intitule_emploi_salarie" expression="(StringHandling.LEFT(row4.L_Emploi_bull__paie ,30) != null &amp;&amp; !StringHandling.LEFT(row4.L_Emploi_bull__paie ,30).trim().equals(&quot;&quot;))&#xD;&#xA;? StringHandling.LEFT(row4.L_Emploi_bull__paie,30)&#xD;&#xA;: StringHandling.LEFT(row4.L_Emploi,30) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="type_production" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="indicateur_ventile" expression="(row4.D_Sortie_societe == null&#xD;&#xA; || row4.D_Sortie_societe.trim().equals(&quot;&quot;)&#xD;&#xA; || TalendDate.parseDate(&quot;yyyy-MM-dd&quot;, row4.D_Sortie_societe).after(TalendDate.getCurrentDate()))&#xD;&#xA;? &quot;&quot;&#xD;&#xA;: StringHandling.LEFT(row4.Code_Ventile , 1) " type="id_String" nullable="true"/>
         <mapperTableEntries name="cout_standard" type="id_String" nullable="true"/>
         <mapperTableEntries name="type_imputation" type="id_String" nullable="true"/>
-        <mapperTableEntries name="code_agence" type="id_String" nullable="true"/>
+        <mapperTableEntries name="code_agence" expression="row4.C_Etablissement_St__Jur.substring(3,5) " type="id_String" nullable="true"/>
         <mapperTableEntries name="date_jour" type="id_String" nullable="true"/>
         <mapperTableEntries name="jrn_user_personnel" type="id_String" nullable="true"/>
-        <mapperTableEntries name="jrn_dattim_personnel" type="id_String" nullable="true"/>
+        <mapperTableEntries name="jrn_dattim_personnel" expression="TalendDate.formatDate(&quot;yyyy-MM-dd HH.mm.ss&quot;, TalendDate.getCurrentDate()) " type="id_String" nullable="true"/>
         <mapperTableEntries name="date_modif_personnel" type="id_String" nullable="true"/>
-        <mapperTableEntries name="indic_marine" type="id_String" nullable="true"/>
+        <mapperTableEntries name="indic_marine" expression="&quot;1&quot;" type="id_String" nullable="true"/>
         <mapperTableEntries name="naissance_mois" type="id_String" nullable="true"/>
-        <mapperTableEntries name="naissance_jour" type="id_String" nullable="true"/>
-        <mapperTableEntries name="code_destination" type="id_String" nullable="true"/>
-        <mapperTableEntries name="code_contrat" type="id_String" nullable="true"/>
+        <mapperTableEntries name="naissance_jour" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="code_destination" expression="row4.L_Imputation.substring(1,6) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="code_contrat" expression="row4.L_nature_contrat.substring(1,10) " type="id_String" nullable="true"/>
         <mapperTableEntries name="cout_export" type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row4" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
@@ -1968,7 +1968,7 @@
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
     <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false" show="false"/>
     <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
@@ -1978,8 +1978,8 @@
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
     <elementParameter field="TABLE" name="ADD_COLS"/>
-    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
-    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="true"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS">
       <elementValue elementRef="SCHEMA_COLUMN" value="code_societe_salarie" id="0"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="1"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="2"/>
@@ -2193,17 +2193,7 @@
   </node>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_4" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tFileInputDelimited" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="File/Input" show="false"/>
-    <elementParameter field="CHECK" name="START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="false" show="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tFileInputDelimited" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_GE3aADmdEfG3PdBWJalhYA" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
@@ -2469,7 +2459,7 @@
       <column comment="" key="false" length="-1" name="cout_export" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="sortie_personnel_PRD">
         <mapperTableEntries name="code_societe_salarie" expression="row5.code_societe_salarie " type="id_String" nullable="true"/>
@@ -2795,14 +2785,14 @@
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
   </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tFileInputDelimited_2">
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
-  </connection>
   <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tMap_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tFileInputDelimited_2">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="sorite_prd" lineStyle="0" metaname="sorite_prd" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tDBOutput_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -2817,14 +2807,14 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="sortie_personnel" show="false"/>
   </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputDelimited_4" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_4" target="tFileInputDelimited_3">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
+  </connection>
   <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tFileInputDelimited_4" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_4" target="tMap_4">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row5" show="false"/>
-  </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputDelimited_4" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_4" target="tFileInputDelimited_3">
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="sortie_personnel_PRD" lineStyle="0" metaname="sortie_personnel_PRD" offsetLabelX="0" offsetLabelY="0" source="tMap_4" target="tDBOutput_4">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
