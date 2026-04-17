@@ -5,6 +5,10 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_--F5oDpiEfGmVIRtVNjVZw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "_GE3aADmdEfG3PdBWJalhYA",
     "version" : "Latest",
     "type" : "property"
@@ -20,6 +24,10 @@
     "id" : "_tLfKoDllEfGc79AzFwSrsw",
     "version" : "Latest",
     "type" : "property"
+  }, {
+    "id" : "_--F5oDpiEfGmVIRtVNjVZw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
   }, {
     "id" : "_GE3aADmdEfG3PdBWJalhYA - metadata",
     "version" : "Latest",
