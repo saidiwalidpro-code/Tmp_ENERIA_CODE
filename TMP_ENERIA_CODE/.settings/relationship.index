@@ -68,4 +68,23 @@
     "version" : "Latest",
     "type" : "routine"
   } ]
+}, {
+  "baseItem" : {
+    "id" : "_w7R5cD80EfGiguL-kOB8Aw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Lf1R4DlxEfG3PdBWJalhYA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tLfKoDllEfGc79AzFwSrsw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tLfKoDllEfGc79AzFwSrsw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
 } ]
