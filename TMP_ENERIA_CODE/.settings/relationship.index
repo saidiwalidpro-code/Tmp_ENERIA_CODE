@@ -70,6 +70,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_Vx_iEEIgEfGHjcSPz0OCDw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_o2KlUEIaEfGHjcSPz0OCDw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_o2KlUEIaEfGHjcSPz0OCDw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_lTcSMD-5EfGiguL-kOB8Aw",
     "version" : "0.1",
     "type" : "job"
