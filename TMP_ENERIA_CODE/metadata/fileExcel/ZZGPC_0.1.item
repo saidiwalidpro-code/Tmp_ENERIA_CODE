@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_WTSdAEI7EfGHjcSPz0OCDw" name="ZZGPC" dataPackage="_WTSdAUI7EfGHjcSPz0OCDw" Server="Localhost 127.0.0.1" FilePath="E:/Talend/data/Zadig_in/extractionsQLIKBSW.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="ZZGPC" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="ZZGPC:w&#xA;" generationMode="EVENT_MODE">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+    <sheetColumns>O</sheetColumns>
+    <sheetColumns>P</sheetColumns>
+    <sheetColumns>Q</sheetColumns>
+    <sheetColumns>R</sheetColumns>
+    <sheetColumns>S</sheetColumns>
+    <sheetColumns>T</sheetColumns>
+    <sheetColumns>U</sheetColumns>
+    <sheetColumns>V</sheetColumns>
+    <sheetColumns>W</sheetColumns>
+    <sheetColumns>X</sheetColumns>
+    <sheetColumns>Y</sheetColumns>
+    <sheetColumns>Z</sheetColumns>
+    <sheetColumns>AA</sheetColumns>
+    <sheetColumns>AB</sheetColumns>
+    <sheetColumns>AC</sheetColumns>
+    <sheetColumns>AD</sheetColumns>
+    <sheetColumns>AE</sheetColumns>
+    <sheetColumns>AF</sheetColumns>
+    <sheetColumns>AG</sheetColumns>
+    <sheetColumns>AH</sheetColumns>
+    <sheetColumns>AI</sheetColumns>
+    <sheetColumns>AJ</sheetColumns>
+    <sheetColumns>AK</sheetColumns>
+    <sheetColumns>AL</sheetColumns>
+    <sheetColumns>AM</sheetColumns>
+    <sheetColumns>AN</sheetColumns>
+    <sheetColumns>AO</sheetColumns>
+    <sheetColumns>AP</sheetColumns>
+    <sheetColumns>AQ</sheetColumns>
+    <sheetColumns>AR</sheetColumns>
+    <sheetColumns>AS</sheetColumns>
+    <sheetColumns>AT</sheetColumns>
+    <sheetColumns>AU</sheetColumns>
+    <sheetColumns>AV</sheetColumns>
+    <sheetColumns>AW</sheetColumns>
+    <sheetColumns>AX</sheetColumns>
+    <sheetColumns>AY</sheetColumns>
+    <sheetColumns>AZ</sheetColumns>
+    <sheetColumns>BA</sheetColumns>
+    <sheetColumns>BB</sheetColumns>
+    <sheetColumns>BC</sheetColumns>
+    <sheetColumns>BD</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_WTSdAUI7EfGHjcSPz0OCDw" name="default" dataManager="_WTSdAEI7EfGHjcSPz0OCDw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_WTSdAkI7EfGHjcSPz0OCDw" id="_9M7ckEI6EfGHjcSPz0OCDw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdA0I7EfGHjcSPz0OCDw" label="Code_societe" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdBEI7EfGHjcSPz0OCDw" label="Numero_de_compte" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdBUI7EfGHjcSPz0OCDw" label="Libelle_compte" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdBkI7EfGHjcSPz0OCDw" label="Libelle_court" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdB0I7EfGHjcSPz0OCDw" label="Type_de_lettrage" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdCEI7EfGHjcSPz0OCDw" label="Type_de_compte" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdCUI7EfGHjcSPz0OCDw" label="Nature_TVA" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdCkI7EfGHjcSPz0OCDw" label="Base_TVA" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdC0I7EfGHjcSPz0OCDw" label="Code_TVA" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdDEI7EfGHjcSPz0OCDw" label="Regime_TVA" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdDUI7EfGHjcSPz0OCDw" label="Code_devise" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdDkI7EfGHjcSPz0OCDw" label="Section_analytique" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdD0I7EfGHjcSPz0OCDw" label="Rubrique_analytique" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdEEI7EfGHjcSPz0OCDw" label="Compte_reporting" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdEUI7EfGHjcSPz0OCDw" label="Date_d_ouverture" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdEkI7EfGHjcSPz0OCDw" label="Date_de_fermeture" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdE0I7EfGHjcSPz0OCDw" label="Code_compression" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdFEI7EfGHjcSPz0OCDw" label="Type_de_tiers" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdFUI7EfGHjcSPz0OCDw" label="Code_result__compta" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdFkI7EfGHjcSPz0OCDw" label="Code_EAP" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdF0I7EfGHjcSPz0OCDw" label="Code_EAR" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdGEI7EfGHjcSPz0OCDw" label="Axe_1" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdGUI7EfGHjcSPz0OCDw" label="Axe_2" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdGkI7EfGHjcSPz0OCDw" label="Axe_3" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdG0I7EfGHjcSPz0OCDw" label="Axe_4" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdHEI7EfGHjcSPz0OCDw" label="Code_reciprocite" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdHUI7EfGHjcSPz0OCDw" label="Date_d_ouverture1" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdHkI7EfGHjcSPz0OCDw" label="Date_de_fermeture1" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdH0I7EfGHjcSPz0OCDw" label="Zone_parametrable_6" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdIEI7EfGHjcSPz0OCDw" label="Zone_parametrable_15" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdIUI7EfGHjcSPz0OCDw" label="Date_derniere_MAJ" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdIkI7EfGHjcSPz0OCDw" label="Poids_entite" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdI0I7EfGHjcSPz0OCDw" label="Axe_Tiers_0" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdJEI7EfGHjcSPz0OCDw" label="Axe_Tiers_1" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdJUI7EfGHjcSPz0OCDw" label="Axe_Tiers_2" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdJkI7EfGHjcSPz0OCDw" label="Axe_Tiers_3" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdJ0I7EfGHjcSPz0OCDw" label="Axe_Tiers_4" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdKEI7EfGHjcSPz0OCDw" label="Lettrage_par_montant" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdKUI7EfGHjcSPz0OCDw" label="C_monnaie_acqu_per_1" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdKkI7EfGHjcSPz0OCDw" label="Date_Changement_CMA" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdK0I7EfGHjcSPz0OCDw" label="C_monnaie_acqu_per_2" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdLEI7EfGHjcSPz0OCDw" label="C_monnaie_gest_per_1" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdLUI7EfGHjcSPz0OCDw" label="Date_Changement_CMG" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdLkI7EfGHjcSPz0OCDw" label="C_monnaie_gest_per_2" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdL0I7EfGHjcSPz0OCDw" label="Date_valeur_obligat" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdMEI7EfGHjcSPz0OCDw" label="Etab_rattachement" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdMUI7EfGHjcSPz0OCDw" label="Axe_5" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdMkI7EfGHjcSPz0OCDw" label="Axe_6" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdM0I7EfGHjcSPz0OCDw" label="Axe_7" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdNEI7EfGHjcSPz0OCDw" label="Axe_8" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdNUI7EfGHjcSPz0OCDw" label="Axe_9" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdNkI7EfGHjcSPz0OCDw" label="Date_de_creation" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdN0I7EfGHjcSPz0OCDw" label="Heure_de_creation" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdOEI7EfGHjcSPz0OCDw" label="Util__creation" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdOUI7EfGHjcSPz0OCDw" label="Heure_de_mise_a_jour" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WTSdOkI7EfGHjcSPz0OCDw" label="Utilisateur_Maj" length="-1" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
