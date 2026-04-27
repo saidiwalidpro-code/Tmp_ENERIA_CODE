@@ -85,6 +85,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_hv18sEI3EfGHjcSPz0OCDw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_33LnQEI3EfGHjcSPz0OCDw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_33LnQEI3EfGHjcSPz0OCDw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_lTcSMD-5EfGiguL-kOB8Aw",
     "version" : "0.1",
     "type" : "job"
