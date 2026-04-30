@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
-  <TalendMetadata:DatabaseConnection xmi:id="_adb9kEPNEfG9ndm8B-jwTQ" name="DB_BASWARE" id="_GkTP8EPNEfG9ndm8B-jwTQ" label="DB_BASWARE" dataPackage="_xhzREEPNEfG9ndm8B-jwTQ" ContextMode="true" ContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" contextName="Default" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://FRMLYDAT02TEST:5432/postgres?" dbVersionString="V9_X" Port="context.DB_BASWARE_Port" Username="context.DB_BASWARE_Login" Password="context.DB_BASWARE_Password" ServerName="context.DB_BASWARE_Server" DatasourceName="" FileFieldName="" SID="context.DB_BASWARE_Database" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="context.DB_BASWARE_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="context.DB_BASWARE_Schema" supportNLS="false">
+  <TalendMetadata:DatabaseConnection xmi:id="_adb9kEPNEfG9ndm8B-jwTQ" name="DB_BASWARE" id="_GkTP8EPNEfG9ndm8B-jwTQ" label="DB_BASWARE" dataPackage="_91RT8ER0EfG9ndm8B-jwTQ" ContextMode="true" ContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" contextName="Default" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://FRMLYDAT02TEST:5432/dbprod?" dbVersionString="V9_X" Port="context.DB_BASWARE_Port" Username="context.DB_BASWARE_Login" Password="context.DB_BASWARE_Password" ServerName="context.DB_BASWARE_Server" DatasourceName="" FileFieldName="" SID="context.DB_BASWARE_Database" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="context.DB_BASWARE_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="context.DB_BASWARE_Schema" supportNLS="false">
     <taggedValue xmi:id="_adb9kUPNEfG9ndm8B-jwTQ" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_ad0YEEPNEfG9ndm8B-jwTQ" tag="package filter" value=""/>
     <taggedValue xmi:id="_ad0YEUPNEfG9ndm8B-jwTQ" tag="Status" value=""/>
@@ -14,9 +14,7 @@
     <taggedValue xmi:id="_xho5AkPNEfG9ndm8B-jwTQ" tag="DB IdentifierQuoteString" value="&quot;"/>
     <parameters xmi:id="_adb9kkPNEfG9ndm8B-jwTQ" key="CONN_PARA_KEY_USERNAME" value="context.DB_BASWARE_Login"/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_xhzREEPNEfG9ndm8B-jwTQ" name="postgres" dataManager="_adb9kEPNEfG9ndm8B-jwTQ">
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_xhzREUPNEfG9ndm8B-jwTQ" name="information_schema"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_xhzREkPNEfG9ndm8B-jwTQ" name="pg_catalog"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_xhzRE0PNEfG9ndm8B-jwTQ" name="public"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_91RT8ER0EfG9ndm8B-jwTQ" name="dbprod" dataManager="_adb9kEPNEfG9ndm8B-jwTQ">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_91RT8UR0EfG9ndm8B-jwTQ" name="basware"/>
   </orgomg.cwm.resource.relational:Catalog>
 </xmi:XMI>

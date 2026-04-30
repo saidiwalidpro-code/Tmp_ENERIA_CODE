@@ -6,8 +6,8 @@
     <contextParameter xmi:id="_ZysXc0PNEfG9ndm8B-jwTQ" comment="" name="DB_BASWARE_Server" prompt="DB_BASWARE_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FRMLYDAT02TEST"/>
     <contextParameter xmi:id="_ZysXdEPNEfG9ndm8B-jwTQ" comment="" name="DB_BASWARE_Port" prompt="DB_BASWARE_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
     <contextParameter xmi:id="_ZysXdUPNEfG9ndm8B-jwTQ" comment="" name="DB_BASWARE_Password" prompt="DB_BASWARE_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:v0KdgSFsJkxkGBx7zyPFUsZswVj1M5nqok2KyNLoiu/gLe0="/>
-    <contextParameter xmi:id="_ZysXdkPNEfG9ndm8B-jwTQ" comment="" name="DB_BASWARE_Schema" prompt="DB_BASWARE_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_ZysXd0PNEfG9ndm8B-jwTQ" comment="" name="DB_BASWARE_Database" prompt="DB_BASWARE_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_ZysXdkPNEfG9ndm8B-jwTQ" comment="" name="DB_BASWARE_Schema" prompt="DB_BASWARE_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="basware"/>
+    <contextParameter xmi:id="_ZysXd0PNEfG9ndm8B-jwTQ" comment="" name="DB_BASWARE_Database" prompt="DB_BASWARE_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbprod"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_ZysXeEPNEfG9ndm8B-jwTQ" confirmationNeeded="false" hide="false" name="PRODUCTION">
     <contextParameter xmi:id="_ZysXeUPNEfG9ndm8B-jwTQ" comment="" name="DB_BASWARE_Login" prompt="DB_BASWARE_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
@@ -24,7 +24,7 @@
     <contextParameter xmi:id="_ZysXg0PNEfG9ndm8B-jwTQ" comment="" name="DB_BASWARE_Server" prompt="DB_BASWARE_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FRMLYDAT02TEST"/>
     <contextParameter xmi:id="_ZysXhEPNEfG9ndm8B-jwTQ" comment="" name="DB_BASWARE_Port" prompt="DB_BASWARE_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
     <contextParameter xmi:id="_ZysXhUPNEfG9ndm8B-jwTQ" comment="" name="DB_BASWARE_Password" prompt="DB_BASWARE_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:UdLlX9hGZqNbcFvUu/47oFNRziOSC+V9+uDEZOwL7LXDaDI="/>
-    <contextParameter xmi:id="_ZysXhkPNEfG9ndm8B-jwTQ" comment="" name="DB_BASWARE_Schema" prompt="DB_BASWARE_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_ZysXh0PNEfG9ndm8B-jwTQ" comment="" name="DB_BASWARE_Database" prompt="DB_BASWARE_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_ZysXhkPNEfG9ndm8B-jwTQ" comment="" name="DB_BASWARE_Schema" prompt="DB_BASWARE_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="basware"/>
+    <contextParameter xmi:id="_ZysXh0PNEfG9ndm8B-jwTQ" comment="" name="DB_BASWARE_Database" prompt="DB_BASWARE_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbprod"/>
   </talendfile:ContextType>
 </xmi:XMI>
