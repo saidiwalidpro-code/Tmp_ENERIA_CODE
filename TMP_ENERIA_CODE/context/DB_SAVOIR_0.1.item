@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
   <talendfile:ContextType xmi:id="_HvOVgEPOEfG9ndm8B-jwTQ" confirmationNeeded="false" hide="false" name="Default">
-    <contextParameter xmi:id="_HvOVgUPOEfG9ndm8B-jwTQ" comment="" name="DB_SAVOIR_Login" prompt="DB_SAVOIR_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="savoir"/>
-    <contextParameter xmi:id="_HvOVgkPOEfG9ndm8B-jwTQ" comment="" name="DB_SAVOIR_AdditionalParams" prompt="DB_SAVOIR_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_HvOVg0POEfG9ndm8B-jwTQ" comment="" name="DB_SAVOIR_Server" prompt="DB_SAVOIR_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FRMLYDAT02TEST"/>
-    <contextParameter xmi:id="_HvOVhEPOEfG9ndm8B-jwTQ" comment="" name="DB_SAVOIR_Port" prompt="DB_SAVOIR_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
-    <contextParameter xmi:id="_HvOVhUPOEfG9ndm8B-jwTQ" comment="" name="DB_SAVOIR_Password" prompt="DB_SAVOIR_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:QNWrAkm7NOnJnpmd9bQWFK9hxa1zElMNQ5trrAl/60wamIk="/>
-    <contextParameter xmi:id="_HvOVhkPOEfG9ndm8B-jwTQ" comment="" name="DB_SAVOIR_Schema" prompt="DB_SAVOIR_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_HvOVh0POEfG9ndm8B-jwTQ" comment="" name="DB_SAVOIR_Database" prompt="DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_HvOVgUPOEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_Login" prompt="connection_DB_SAVOIR_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="savoir"/>
+    <contextParameter xmi:id="_HvOVgkPOEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_AdditionalParams" prompt="connection_DB_SAVOIR_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_HvOVg0POEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_Server" prompt="connection_DB_SAVOIR_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FRMLYDAT02TEST"/>
+    <contextParameter xmi:id="_HvOVhEPOEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_Port" prompt="connection_DB_SAVOIR_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+    <contextParameter xmi:id="_HvOVhUPOEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_Password" prompt="connection_DB_SAVOIR_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:QNWrAkm7NOnJnpmd9bQWFK9hxa1zElMNQ5trrAl/60wamIk="/>
+    <contextParameter xmi:id="_HvOVhkPOEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_Schema" prompt="connection_DB_SAVOIR_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_HvOVh0POEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_Database" prompt="connection_DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_HvOViEPOEfG9ndm8B-jwTQ" confirmationNeeded="false" hide="false" name="PRODUCTION">
-    <contextParameter xmi:id="_HvOViUPOEfG9ndm8B-jwTQ" comment="" name="DB_SAVOIR_Login" prompt="DB_SAVOIR_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_HvOVikPOEfG9ndm8B-jwTQ" comment="" name="DB_SAVOIR_AdditionalParams" prompt="DB_SAVOIR_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_HvOVi0POEfG9ndm8B-jwTQ" comment="" name="DB_SAVOIR_Server" prompt="DB_SAVOIR_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_HvOVjEPOEfG9ndm8B-jwTQ" comment="" name="DB_SAVOIR_Port" prompt="DB_SAVOIR_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_HvOVjUPOEfG9ndm8B-jwTQ" comment="" name="DB_SAVOIR_Password" prompt="DB_SAVOIR_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
-    <contextParameter xmi:id="_HvOVjkPOEfG9ndm8B-jwTQ" comment="" name="DB_SAVOIR_Schema" prompt="DB_SAVOIR_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_HvOVj0POEfG9ndm8B-jwTQ" comment="" name="DB_SAVOIR_Database" prompt="DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_HvOViUPOEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_Login" prompt="connection_DB_SAVOIR_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_HvOVikPOEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_AdditionalParams" prompt="connection_DB_SAVOIR_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_HvOVi0POEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_Server" prompt="connection_DB_SAVOIR_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_HvOVjEPOEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_Port" prompt="connection_DB_SAVOIR_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_HvOVjUPOEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_Password" prompt="connection_DB_SAVOIR_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+    <contextParameter xmi:id="_HvOVjkPOEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_Schema" prompt="connection_DB_SAVOIR_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_HvOVj0POEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_Database" prompt="connection_DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_HvOVkEPOEfG9ndm8B-jwTQ" confirmationNeeded="false" hide="false" name="RECETTE">
-    <contextParameter xmi:id="_HvOVkUPOEfG9ndm8B-jwTQ" comment="" name="DB_SAVOIR_Login" prompt="DB_SAVOIR_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="savoir"/>
-    <contextParameter xmi:id="_HvOVkkPOEfG9ndm8B-jwTQ" comment="" name="DB_SAVOIR_AdditionalParams" prompt="DB_SAVOIR_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_HvOVk0POEfG9ndm8B-jwTQ" comment="" name="DB_SAVOIR_Server" prompt="DB_SAVOIR_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FRMLYDAT02TEST"/>
-    <contextParameter xmi:id="_HvOVlEPOEfG9ndm8B-jwTQ" comment="" name="DB_SAVOIR_Port" prompt="DB_SAVOIR_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
-    <contextParameter xmi:id="_HvOVlUPOEfG9ndm8B-jwTQ" comment="" name="DB_SAVOIR_Password" prompt="DB_SAVOIR_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:b3g93dY1b56A4X9fpV6lwrvH6cA5FN6co9uW8Te4ewkKSkI="/>
-    <contextParameter xmi:id="_HvOVlkPOEfG9ndm8B-jwTQ" comment="" name="DB_SAVOIR_Schema" prompt="DB_SAVOIR_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="savoir"/>
-    <contextParameter xmi:id="_HvOVl0POEfG9ndm8B-jwTQ" comment="" name="DB_SAVOIR_Database" prompt="DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_HvOVkUPOEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_Login" prompt="connection_DB_SAVOIR_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="savoir"/>
+    <contextParameter xmi:id="_HvOVkkPOEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_AdditionalParams" prompt="connection_DB_SAVOIR_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_HvOVk0POEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_Server" prompt="connection_DB_SAVOIR_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FRMLYDAT02TEST"/>
+    <contextParameter xmi:id="_HvOVlEPOEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_Port" prompt="connection_DB_SAVOIR_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+    <contextParameter xmi:id="_HvOVlUPOEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_Password" prompt="connection_DB_SAVOIR_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:b3g93dY1b56A4X9fpV6lwrvH6cA5FN6co9uW8Te4ewkKSkI="/>
+    <contextParameter xmi:id="_HvOVlkPOEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_Schema" prompt="connection_DB_SAVOIR_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="savoir"/>
+    <contextParameter xmi:id="_HvOVl0POEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_Database" prompt="connection_DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres"/>
   </talendfile:ContextType>
 </xmi:XMI>

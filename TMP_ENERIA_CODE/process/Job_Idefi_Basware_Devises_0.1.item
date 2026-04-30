@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Default">
-    <contextParameter comment="" name="DB_AS400_Login" prompt="DB_AS400_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_AeR5oEPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_AS400_AdditionalParams" prompt="DB_AS400_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_AeR5oUPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_AS400_Server" prompt="DB_AS400_Server?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_AeR5okPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_AS400_Password" prompt="DB_AS400_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:EtlIoqeLTMQhVrX/DuLiTgr/jmGaIUK4ZPhwlCHnfrxQ40rl7Ps=" internalId="_AeR5o0PdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_AS400_Database" prompt="DB_AS400_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="DBTESTFR2" internalId="_AeR5pEPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_BASWARE_Login" prompt="DB_BASWARE_Login?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_AeSgsEPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_BASWARE_Database" prompt="DB_BASWARE_Database?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_AeSgsUPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_BASWARE_Password" prompt="DB_BASWARE_Password?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:VvQLqInsZfh7sAzD+QFWpTMz3yaTanjKKM+2qLZWRz4ypAk=" internalId="_AeSgskPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_BASWARE_Schema" prompt="DB_BASWARE_Schema?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_AeSgs0PdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_BASWARE_Server" prompt="DB_BASWARE_Server?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_AeSgtEPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_BASWARE_AdditionalParams" prompt="DB_BASWARE_AdditionalParams?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeSgtUPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_BASWARE_Port" prompt="DB_BASWARE_Port?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_AeSgtkPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_AS400_Login" prompt="connection_DB_AS400_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_AeR5oEPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_AS400_AdditionalParams" prompt="connection_DB_AS400_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_AeR5oUPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_AS400_Server" prompt="connection_DB_AS400_Server?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_AeR5okPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_AS400_Password" prompt="connection_DB_AS400_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:EtlIoqeLTMQhVrX/DuLiTgr/jmGaIUK4ZPhwlCHnfrxQ40rl7Ps=" internalId="_AeR5o0PdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_AS400_Database" prompt="connection_DB_AS400_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="DBTESTFR2" internalId="_AeR5pEPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_BASWARE_Login" prompt="connection_DB_BASWARE_Login?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_AeSgsEPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_BASWARE_Database" prompt="connection_DB_BASWARE_Database?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_AeSgsUPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_BASWARE_Password" prompt="connection_DB_BASWARE_Password?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:VvQLqInsZfh7sAzD+QFWpTMz3yaTanjKKM+2qLZWRz4ypAk=" internalId="_AeSgskPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_BASWARE_Schema" prompt="connection_DB_BASWARE_Schema?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_AeSgs0PdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_BASWARE_Server" prompt="connection_DB_BASWARE_Server?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_AeSgtEPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_BASWARE_AdditionalParams" prompt="connection_DB_BASWARE_AdditionalParams?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeSgtUPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_BASWARE_Port" prompt="connection_DB_BASWARE_Port?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_AeSgtkPdEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Repertoire_racine" prompt="Repertoire_racine?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="E:/Talend/data/" internalId="_AeSgt0PdEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Repertoire_out" prompt="Repertoire_out?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/out/" internalId="_AeSguEPdEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Nom_fichier_sortie" prompt="Nom_fichier_sortie?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="tauxchange.csv" internalId="_AeSguUPdEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Table_cible" prompt="Table_cible?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="devises" internalId="_c3DmcER0EfG9ndm8B-jwTQ"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="RECETTE">
-    <contextParameter comment="" name="DB_AS400_Login" prompt="DB_AS400_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_AeSgukPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_AS400_AdditionalParams" prompt="DB_AS400_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_AeSgu0PdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_AS400_Server" prompt="DB_AS400_Server?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_AeSgvEPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_AS400_Password" prompt="DB_AS400_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:h+1kAlh0tL7dUDFXuHt+pe+ggv4QDAD8QIcPnwjOxTiOw+/fJUE=" internalId="_AeTHwEPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_AS400_Database" prompt="DB_AS400_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="DBTESTFR2" internalId="_AeTHwUPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_BASWARE_Login" prompt="DB_BASWARE_Login?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_AeTHwkPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_BASWARE_Database" prompt="DB_BASWARE_Database?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_AeTHw0PdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_BASWARE_Password" prompt="DB_BASWARE_Password?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:Z0RizAVc1VwjcvmCDh3YD3Uza6IWPS0HAQP2G5UwmysWawQ=" internalId="_AeTHxEPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_BASWARE_Schema" prompt="DB_BASWARE_Schema?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_AeTHxUPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_BASWARE_Server" prompt="DB_BASWARE_Server?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_AeTHxkPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_BASWARE_AdditionalParams" prompt="DB_BASWARE_AdditionalParams?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeTHx0PdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_BASWARE_Port" prompt="DB_BASWARE_Port?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_AeTHyEPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_AS400_Login" prompt="connection_DB_AS400_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_AeSgukPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_AS400_AdditionalParams" prompt="connection_DB_AS400_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_AeSgu0PdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_AS400_Server" prompt="connection_DB_AS400_Server?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_AeSgvEPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_AS400_Password" prompt="connection_DB_AS400_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:h+1kAlh0tL7dUDFXuHt+pe+ggv4QDAD8QIcPnwjOxTiOw+/fJUE=" internalId="_AeTHwEPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_AS400_Database" prompt="connection_DB_AS400_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="DBTESTFR2" internalId="_AeTHwUPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_BASWARE_Login" prompt="connection_DB_BASWARE_Login?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_AeTHwkPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_BASWARE_Database" prompt="connection_DB_BASWARE_Database?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_AeTHw0PdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_BASWARE_Password" prompt="connection_DB_BASWARE_Password?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:Z0RizAVc1VwjcvmCDh3YD3Uza6IWPS0HAQP2G5UwmysWawQ=" internalId="_AeTHxEPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_BASWARE_Schema" prompt="connection_DB_BASWARE_Schema?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_AeTHxUPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_BASWARE_Server" prompt="connection_DB_BASWARE_Server?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_AeTHxkPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_BASWARE_AdditionalParams" prompt="connection_DB_BASWARE_AdditionalParams?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeTHx0PdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_BASWARE_Port" prompt="connection_DB_BASWARE_Port?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_AeTHyEPdEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Repertoire_racine" prompt="Repertoire_racine?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="E:/Talend/data/" internalId="_AeTHyUPdEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Repertoire_out" prompt="Repertoire_out?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/out/" internalId="_AeTHykPdEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Nom_fichier_sortie" prompt="Nom_fichier_sortie?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="tauxchange.csv" internalId="_AeTHy0PdEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Table_cible" prompt="Table_cible?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="devises" internalId="_c3DmcUR0EfG9ndm8B-jwTQ"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="PRODUCTION">
-    <contextParameter comment="" name="DB_AS400_Login" prompt="DB_AS400_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeTHzEPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_AS400_AdditionalParams" prompt="DB_AS400_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeTHzUPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_AS400_Server" prompt="DB_AS400_Server?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeTHzkPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_AS400_Password" prompt="DB_AS400_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="" internalId="_AeTHz0PdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_AS400_Database" prompt="DB_AS400_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeTH0EPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_BASWARE_Login" prompt="DB_BASWARE_Login?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeTH0UPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_BASWARE_Database" prompt="DB_BASWARE_Database?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeTH0kPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_BASWARE_Password" prompt="DB_BASWARE_Password?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_Password" value="" internalId="_AeTH00PdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_BASWARE_Schema" prompt="DB_BASWARE_Schema?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeTH1EPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_BASWARE_Server" prompt="DB_BASWARE_Server?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeTH1UPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_BASWARE_AdditionalParams" prompt="DB_BASWARE_AdditionalParams?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeTH1kPdEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="DB_BASWARE_Port" prompt="DB_BASWARE_Port?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeTH10PdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_AS400_Login" prompt="connection_DB_AS400_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeTHzEPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_AS400_AdditionalParams" prompt="connection_DB_AS400_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeTHzUPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_AS400_Server" prompt="connection_DB_AS400_Server?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeTHzkPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_AS400_Password" prompt="connection_DB_AS400_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="" internalId="_AeTHz0PdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_AS400_Database" prompt="connection_DB_AS400_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeTH0EPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_BASWARE_Login" prompt="connection_DB_BASWARE_Login?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeTH0UPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_BASWARE_Database" prompt="connection_DB_BASWARE_Database?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeTH0kPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_BASWARE_Password" prompt="connection_DB_BASWARE_Password?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_Password" value="" internalId="_AeTH00PdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_BASWARE_Schema" prompt="connection_DB_BASWARE_Schema?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeTH1EPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_BASWARE_Server" prompt="connection_DB_BASWARE_Server?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeTH1UPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_BASWARE_AdditionalParams" prompt="connection_DB_BASWARE_AdditionalParams?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeTH1kPdEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_BASWARE_Port" prompt="connection_DB_BASWARE_Port?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_AeTH10PdEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Repertoire_racine" prompt="Repertoire_racine?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_AeTH2EPdEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Repertoire_out" prompt="Repertoire_out?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_AeTH2UPdEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Nom_fichier_sortie" prompt="Nom_fichier_sortie?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_AeTH2kPdEfG9ndm8B-jwTQ"/>
@@ -157,16 +157,16 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_NL7HMEOsEfGHjcSPz0OCDw" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="jt400-20.0.7.jar"/>
-    <elementParameter field="TEXT" name="HOST" value="context.DB_AS400_Server"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.DB_AS400_Database"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_DB_AS400_Server"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_DB_AS400_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="AS400" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="context.DB_AS400_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Fj4YUL/hxV8pO/9iwxN46Pi7snteZt6Hg1hsVqLZ3hjwxcQLKBiokufZbjoxOt0AcxicCfw="/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_DB_AS400_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:32cJcXwefSbYs9o6cVskcCzQ8fHGstXNkN12hVYHt/On/pt+waFwzRFXJF3WR0d1TACYDAi+2pzmmPwHupm8Dg=="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="true"/>
     <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="&quot;AS400&quot;"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.DB_AS400_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_DB_AS400_AdditionalParams"/>
     <elementParameter field="CHECK" name="AUTO_COMMIT" value="true"/>
     <elementParameter field="TEXT" name="LABEL" value="Connexion IDEFI"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -192,13 +192,13 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_GkTP8EPNEfG9ndm8B-jwTQ" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="context.DB_BASWARE_Server"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_DB_BASWARE_Server"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="PORT" value="context.DB_BASWARE_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.DB_BASWARE_Database"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.DB_BASWARE_Schema"/>
-    <elementParameter field="TEXT" name="USER" value="context.DB_BASWARE_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:sI+dVDJRptXeIbZHXkvlTvnwvJFh0OoaAp6QqrLYhyH6Z6+LJs/v+a5ydxF+VULLuVoSPUP4DQ=="/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_DB_BASWARE_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_DB_BASWARE_Database"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_DB_BASWARE_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_DB_BASWARE_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:jf0rHW7pn5cZLWT3aEDnRuE3HiuvxGRkVlOlZta5Vr92TfxyXS454Wah3twh2Fk/dRqMK4S1IsGPlsPw8XqNPoVc"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="true"/>
@@ -206,7 +206,7 @@
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.DB_BASWARE_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_DB_BASWARE_AdditionalParams"/>
     <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="Connexion baseware"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -271,11 +271,11 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_NL7HMEOsEfGHjcSPz0OCDw" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="jt400-20.0.7.jar" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.DB_AS400_Server" show="false"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.DB_AS400_Database" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_DB_AS400_Server" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_DB_AS400_Database" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="AS400" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="context.DB_AS400_Login" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Q9ZJitYGfVue6hJ6z99sHLT5aI6LP7jpKbFClju4N8EPfQrQ93zMmmoTjM+5qGQD7QrvS9E=" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_DB_AS400_Login" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:w+t+6PahRtgguIbhWUqrzv0A6XpDIx1YV0l3yx98NuIDjvcr9wc1oA3cmDJzPhdXB01eh7YrsL4A4KlvC4qG4Q==" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -283,7 +283,7 @@
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
     <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select TICODE,TIVAL, TIVALI, TIAAAP, TIMMAP,TIJJAP   from DBTESTFR2.TARINDT&quot;"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="as400_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.DB_AS400_AdditionalParams" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_DB_AS400_AdditionalParams" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
@@ -429,13 +429,13 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.DB_BASWARE_Server" show="false"/>
-    <elementParameter field="TEXT" name="PORT" value="context.DB_BASWARE_Port" show="false"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.DB_BASWARE_Database" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_DB_BASWARE_Server" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_DB_BASWARE_Port" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_DB_BASWARE_Database" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.DB_BASWARE_Schema" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="context.DB_BASWARE_Login" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:4b/hoEx1nqw90DcEf4EDhdghheiSQ8J6a/eWLe+GikSOWSN3I9aPKp/u3DmVR3tZgWnNfqwFUg==" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_DB_BASWARE_Schema" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_DB_BASWARE_Login" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:PGpWR9SudMNqqdk0mjvSEdYV5fvaKxbrn++8XcVzdWKZvIgfOVTaNL2iFQGSxWilnlj+42i5XkwYTGus0yrzImgc" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="context.Table_cible"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -449,7 +449,7 @@
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
     <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false"/>
     <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.DB_BASWARE_AdditionalParams" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_DB_BASWARE_AdditionalParams" show="false"/>
     <elementParameter field="CHECK" name="SAVE_POINT" value="false" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -538,6 +538,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRollback_1" show="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
     <elementParameter field="CHECK" name="CLOSE" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBRollback_1"/>
   </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tWarn_1">
@@ -627,13 +628,13 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>

@@ -5,19 +5,19 @@
     "repoId" : "_zN404EPMEfG9ndm8B-jwTQ",
     "parameterList" : [ {
       "id" : "_zOLv0UPMEfG9ndm8B-jwTQ",
-      "name" : "DB_AS400_Login"
+      "name" : "connection_DB_AS400_Login"
     }, {
       "id" : "_zOLv0kPMEfG9ndm8B-jwTQ",
-      "name" : "DB_AS400_AdditionalParams"
+      "name" : "connection_DB_AS400_AdditionalParams"
     }, {
       "id" : "_zOLv00PMEfG9ndm8B-jwTQ",
-      "name" : "DB_AS400_Server"
+      "name" : "connection_DB_AS400_Server"
     }, {
       "id" : "_zOLv1EPMEfG9ndm8B-jwTQ",
-      "name" : "DB_AS400_Password"
+      "name" : "connection_DB_AS400_Password"
     }, {
       "id" : "_zOLv1UPMEfG9ndm8B-jwTQ",
-      "name" : "DB_AS400_Database"
+      "name" : "connection_DB_AS400_Database"
     } ]
   } ]
 }

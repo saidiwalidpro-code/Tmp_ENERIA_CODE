@@ -5,25 +5,25 @@
     "repoId" : "_ZyeVAEPNEfG9ndm8B-jwTQ",
     "parameterList" : [ {
       "id" : "_ZysXcUPNEfG9ndm8B-jwTQ",
-      "name" : "DB_BASWARE_Login"
+      "name" : "connection_DB_BASWARE_Login"
     }, {
       "id" : "_ZysXckPNEfG9ndm8B-jwTQ",
-      "name" : "DB_BASWARE_AdditionalParams"
+      "name" : "connection_DB_BASWARE_AdditionalParams"
     }, {
       "id" : "_ZysXc0PNEfG9ndm8B-jwTQ",
-      "name" : "DB_BASWARE_Server"
+      "name" : "connection_DB_BASWARE_Server"
     }, {
       "id" : "_ZysXdEPNEfG9ndm8B-jwTQ",
-      "name" : "DB_BASWARE_Port"
+      "name" : "connection_DB_BASWARE_Port"
     }, {
       "id" : "_ZysXdUPNEfG9ndm8B-jwTQ",
-      "name" : "DB_BASWARE_Password"
+      "name" : "connection_DB_BASWARE_Password"
     }, {
       "id" : "_ZysXdkPNEfG9ndm8B-jwTQ",
-      "name" : "DB_BASWARE_Schema"
+      "name" : "connection_DB_BASWARE_Schema"
     }, {
       "id" : "_ZysXd0PNEfG9ndm8B-jwTQ",
-      "name" : "DB_BASWARE_Database"
+      "name" : "connection_DB_BASWARE_Database"
     } ]
   } ]
 }
