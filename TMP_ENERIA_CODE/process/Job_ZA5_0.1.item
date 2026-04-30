@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" hide="false" name="Default"/>
+  <context confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter comment="" name="DB_SAVOIR_Login" prompt="DB_SAVOIR_Login?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_JzFqsEPOEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="DB_SAVOIR_AdditionalParams" prompt="DB_SAVOIR_AdditionalParams?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_JzFqsUPOEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="DB_SAVOIR_Server" prompt="DB_SAVOIR_Server?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_JzFqskPOEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="DB_SAVOIR_Port" prompt="DB_SAVOIR_Port?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_JzFqs0POEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="DB_SAVOIR_Password" prompt="DB_SAVOIR_Password?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:WGxHto36vR0YEgJxz00tgO7XlyV0rWi9Z6+9dUrjklOFIII=" internalId="_JzFqtEPOEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="DB_SAVOIR_Schema" prompt="DB_SAVOIR_Schema?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="savoir" internalId="_JzFqtUPOEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="DB_SAVOIR_Database" prompt="DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="postgres" internalId="_JzFqtkPOEfG9ndm8B-jwTQ"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="RECETTE">
+    <contextParameter comment="" name="DB_SAVOIR_Login" prompt="DB_SAVOIR_Login?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_JzFqt0POEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="DB_SAVOIR_AdditionalParams" prompt="DB_SAVOIR_AdditionalParams?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_JzFquEPOEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="DB_SAVOIR_Server" prompt="DB_SAVOIR_Server?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_JzFquUPOEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="DB_SAVOIR_Port" prompt="DB_SAVOIR_Port?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_JzFqukPOEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="DB_SAVOIR_Password" prompt="DB_SAVOIR_Password?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:ebnsllpTZEH7pwPuHokooUNojxZJkHpNB2gJLOcGHewvFTU=" internalId="_JzFqu0POEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="DB_SAVOIR_Schema" prompt="DB_SAVOIR_Schema?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="savoir" internalId="_JzFqvEPOEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="DB_SAVOIR_Database" prompt="DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="postgres" internalId="_JzFqvUPOEfG9ndm8B-jwTQ"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="PRODUCTION">
+    <contextParameter comment="" name="DB_SAVOIR_Login" prompt="DB_SAVOIR_Login?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_JzFqvkPOEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="DB_SAVOIR_AdditionalParams" prompt="DB_SAVOIR_AdditionalParams?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_JzFqv0POEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="DB_SAVOIR_Server" prompt="DB_SAVOIR_Server?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_JzFqwEPOEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="DB_SAVOIR_Port" prompt="DB_SAVOIR_Port?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_JzFqwUPOEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="DB_SAVOIR_Password" prompt="DB_SAVOIR_Password?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:pzwPlq7fb6fg/Zvh4COkOosd/CG8Hi0KZXVnGL1vHn3oDB8=" internalId="_JzFqwkPOEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="DB_SAVOIR_Schema" prompt="DB_SAVOIR_Schema?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="savoir" internalId="_JzFqw0POEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="DB_SAVOIR_Database" prompt="DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="postgres" internalId="_JzFqxEPOEfG9ndm8B-jwTQ"/>
+  </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -101,16 +127,6 @@
   </parameters>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="120" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tFileInputDelimited" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="File/Input" show="false"/>
-    <elementParameter field="CHECK" name="START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="false" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tFileInputDelimited" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_l1rrwD85EfGiguL-kOB8Aw" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
@@ -633,7 +649,7 @@
       <column comment="" key="false" length="-1" name="cout_export" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="PERSONNEL" expressionFilter="(row1.C_Etablissement_St__Jur).startsWith(&quot;8&quot;)&amp;&amp;&#xD;&#xA;(!(row1.Matricule).startsWith(&quot;8&quot;)||&#xD;&#xA;!(row1.Matricule).startsWith(&quot;9&quot;))" activateExpressionFilter="true">
         <mapperTableEntries name="code_societe_salarie" expression="row1.C_Etablissement_St__Jur.substring(1, 2) " type="id_String" nullable="true"/>
@@ -747,13 +763,13 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;postgres&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.DB_SAVOIR_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.DB_SAVOIR_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.DB_SAVOIR_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;savoir&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:PFw8zMS79G6vnQ7GFB9bi9xhW2T/193t8mWLBFMJ6Hbg6Lg="/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.DB_SAVOIR_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.DB_SAVOIR_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ZqgBoO1Z5rslHYgDc3sQXxEs00/RfCxno38f1DbVxOB/6g+SamcY5qj7QXBpcMn4XzlFpR68"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;personnel&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="UPSERT"/>
@@ -767,7 +783,7 @@
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
     <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false" show="false"/>
     <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.DB_SAVOIR_AdditionalParams"/>
     <elementParameter field="CHECK" name="SAVE_POINT" value="false" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
