@@ -7,7 +7,7 @@
     <contextParameter xmi:id="_ZysXdEPNEfG9ndm8B-jwTQ" comment="" name="connection_BASWARE_DB_Port" prompt="connection_BASWARE_DB_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
     <contextParameter xmi:id="_ZysXdUPNEfG9ndm8B-jwTQ" comment="" name="connection_BASWARE_DB_Password" prompt="connection_BASWARE_DB_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:v0KdgSFsJkxkGBx7zyPFUsZswVj1M5nqok2KyNLoiu/gLe0="/>
     <contextParameter xmi:id="_ZysXdkPNEfG9ndm8B-jwTQ" comment="" name="connection_BASWARE_DB_Schema" prompt="connection_BASWARE_DB_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="basware"/>
-    <contextParameter xmi:id="_ZysXd0PNEfG9ndm8B-jwTQ" comment="" name="connection_DB_BASWARE_Database" prompt="connection_DB_BASWARE_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbprod"/>
+    <contextParameter xmi:id="_SSZuIEekEfG9ndm8B-jwTQ" comment="" name="connection_BASWARE_DB_Database" prompt="connection_BASWARE_DB_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbprod"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_ZysXeEPNEfG9ndm8B-jwTQ" confirmationNeeded="false" hide="false" name="PRODUCTION">
     <contextParameter xmi:id="_ZysXeUPNEfG9ndm8B-jwTQ" comment="" name="connection_BASWARE_DB_Login" prompt="connection_BASWARE_DB_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
@@ -16,7 +16,7 @@
     <contextParameter xmi:id="_ZysXfEPNEfG9ndm8B-jwTQ" comment="" name="connection_BASWARE_DB_Port" prompt="connection_BASWARE_DB_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_ZysXfUPNEfG9ndm8B-jwTQ" comment="" name="connection_BASWARE_DB_Password" prompt="connection_BASWARE_DB_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
     <contextParameter xmi:id="_ZysXfkPNEfG9ndm8B-jwTQ" comment="" name="connection_BASWARE_DB_Schema" prompt="connection_BASWARE_DB_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_ZysXf0PNEfG9ndm8B-jwTQ" comment="" name="connection_DB_BASWARE_Database" prompt="connection_DB_BASWARE_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_SSZuIUekEfG9ndm8B-jwTQ" comment="" name="connection_BASWARE_DB_Database" prompt="connection_BASWARE_DB_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_ZysXgEPNEfG9ndm8B-jwTQ" confirmationNeeded="false" hide="false" name="RECETTE">
     <contextParameter xmi:id="_ZysXgUPNEfG9ndm8B-jwTQ" comment="" name="connection_BASWARE_DB_Login" prompt="connection_BASWARE_DB_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="basware"/>
@@ -25,6 +25,6 @@
     <contextParameter xmi:id="_ZysXhEPNEfG9ndm8B-jwTQ" comment="" name="connection_BASWARE_DB_Port" prompt="connection_BASWARE_DB_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
     <contextParameter xmi:id="_ZysXhUPNEfG9ndm8B-jwTQ" comment="" name="connection_BASWARE_DB_Password" prompt="connection_BASWARE_DB_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:UdLlX9hGZqNbcFvUu/47oFNRziOSC+V9+uDEZOwL7LXDaDI="/>
     <contextParameter xmi:id="_ZysXhkPNEfG9ndm8B-jwTQ" comment="" name="connection_BASWARE_DB_Schema" prompt="connection_BASWARE_DB_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="basware"/>
-    <contextParameter xmi:id="_ZysXh0PNEfG9ndm8B-jwTQ" comment="" name="connection_DB_BASWARE_Database" prompt="connection_DB_BASWARE_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbprod"/>
+    <contextParameter xmi:id="_SSZuIkekEfG9ndm8B-jwTQ" comment="" name="connection_BASWARE_DB_Database" prompt="connection_BASWARE_DB_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbprod"/>
   </talendfile:ContextType>
 </xmi:XMI>

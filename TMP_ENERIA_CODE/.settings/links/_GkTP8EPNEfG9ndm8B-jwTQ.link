@@ -1,0 +1,29 @@
+{
+  "itemId" : "_GkTP8EPNEfG9ndm8B-jwTQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_ZyeVAEPNEfG9ndm8B-jwTQ",
+    "parameterList" : [ {
+      "id" : "_ZysXcUPNEfG9ndm8B-jwTQ",
+      "name" : "connection_BASWARE_DB_Login"
+    }, {
+      "id" : "_ZysXckPNEfG9ndm8B-jwTQ",
+      "name" : "connection_BASWARE_DB_AdditionalParams"
+    }, {
+      "id" : "_ZysXc0PNEfG9ndm8B-jwTQ",
+      "name" : "connection_BASWARE_DB_Server"
+    }, {
+      "id" : "_ZysXdEPNEfG9ndm8B-jwTQ",
+      "name" : "connection_BASWARE_DB_Port"
+    }, {
+      "id" : "_ZysXdUPNEfG9ndm8B-jwTQ",
+      "name" : "connection_BASWARE_DB_Password"
+    }, {
+      "id" : "_ZysXdkPNEfG9ndm8B-jwTQ",
+      "name" : "connection_BASWARE_DB_Schema"
+    }, {
+      "id" : "_SSZuIEekEfG9ndm8B-jwTQ",
+      "name" : "connection_BASWARE_DB_Database"
+    } ]
+  } ]
+}
