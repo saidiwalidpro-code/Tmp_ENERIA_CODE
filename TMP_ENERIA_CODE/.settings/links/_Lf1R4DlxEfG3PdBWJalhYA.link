@@ -1,0 +1,29 @@
+{
+  "itemId" : "_Lf1R4DlxEfG3PdBWJalhYA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_HvA6IEPOEfG9ndm8B-jwTQ",
+    "parameterList" : [ {
+      "id" : "_HvOVgUPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Login"
+    }, {
+      "id" : "_HvOVgkPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_AdditionalParams"
+    }, {
+      "id" : "_HvOVg0POEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Server"
+    }, {
+      "id" : "_HvOVhEPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Port"
+    }, {
+      "id" : "_HvOVhUPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Password"
+    }, {
+      "id" : "_HvOVhkPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Schema"
+    }, {
+      "id" : "_HvOVh0POEfG9ndm8B-jwTQ",
+      "name" : "connection_DB_SAVOIR_Database"
+    } ]
+  } ]
+}

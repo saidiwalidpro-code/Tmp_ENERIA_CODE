@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_zOLv0EPMEfG9ndm8B-jwTQ" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_zOLv0UPMEfG9ndm8B-jwTQ" comment="" name="connection_AS400_DB_Login" prompt="connection_AS400_DB_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="QLIK"/>
+    <contextParameter xmi:id="_zOLv0kPMEfG9ndm8B-jwTQ" comment="" name="connection_AS400_DB_AdditionalParams" prompt="connection_AS400_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true"/>
+    <contextParameter xmi:id="_zOLv00PMEfG9ndm8B-jwTQ" comment="" name="connection_AS400_DB_Server" prompt="connection_AS400_DB_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="172.19.4.58"/>
+    <contextParameter xmi:id="_zOLv1EPMEfG9ndm8B-jwTQ" comment="" name="connection_AS400_DB_Password" prompt="connection_AS400_DB_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:+Wd1e8HDuF7W010kajcm8LuzHO4bhvidKdKq8pBoN3zXeAT7lds="/>
+    <contextParameter xmi:id="_zOLv1UPMEfG9ndm8B-jwTQ" comment="" name="connection_AS400_DB_Database" prompt="connection_AS400_DB_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DBTESTFR2"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_zOLv1kPMEfG9ndm8B-jwTQ" confirmationNeeded="false" hide="false" name="PRODUCTION">
+    <contextParameter xmi:id="_zOLv10PMEfG9ndm8B-jwTQ" comment="" name="connection_AS400_DB_Login" prompt="connection_AS400_DB_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_zOLv2EPMEfG9ndm8B-jwTQ" comment="" name="connection_AS400_DB_AdditionalParams" prompt="connection_AS400_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_zOLv2UPMEfG9ndm8B-jwTQ" comment="" name="connection_AS400_DB_Server" prompt="connection_AS400_DB_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_zOLv2kPMEfG9ndm8B-jwTQ" comment="" name="connection_AS400_DB_Password" prompt="connection_AS400_DB_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+    <contextParameter xmi:id="_zOLv20PMEfG9ndm8B-jwTQ" comment="" name="connection_AS400_DB_Database" prompt="connection_AS400_DB_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_zOLv3EPMEfG9ndm8B-jwTQ" confirmationNeeded="false" hide="false" name="RECETTE">
+    <contextParameter xmi:id="_zOLv3UPMEfG9ndm8B-jwTQ" comment="" name="connection_AS400_DB_Login" prompt="connection_AS400_DB_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="QLIK"/>
+    <contextParameter xmi:id="_zOLv3kPMEfG9ndm8B-jwTQ" comment="" name="connection_AS400_DB_AdditionalParams" prompt="connection_AS400_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true"/>
+    <contextParameter xmi:id="_zOLv30PMEfG9ndm8B-jwTQ" comment="" name="connection_AS400_DB_Server" prompt="connection_AS400_DB_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="172.19.4.58"/>
+    <contextParameter xmi:id="_zOLv4EPMEfG9ndm8B-jwTQ" comment="" name="connection_AS400_DB_Password" prompt="connection_AS400_DB_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:DBCJGS/iC5pZpncsceE427wR/4VUd1moa0GO4WxNrRdJioQALxM="/>
+    <contextParameter xmi:id="_zOLv4UPMEfG9ndm8B-jwTQ" comment="" name="connection_AS400_DB_Database" prompt="connection_AS400_DB_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DBTESTFR2"/>
+  </talendfile:ContextType>
+</xmi:XMI>
