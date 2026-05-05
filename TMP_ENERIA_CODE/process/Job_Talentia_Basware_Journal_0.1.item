@@ -375,11 +375,11 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var"/>
-      <outputTables sizeState="INTERMEDIATE" name="origine" expressionFilter="(&#xA;    row4.DTFE != null&#xA;    &amp;&amp;&#xA;    (&#xA;        row4.DTFE == 0&#xA;        ||&#xA;        row4.DTFE >= Integer.parseInt(TalendDate.formatDate(&quot;yyyyMMdd&quot;, TalendDate.getCurrentDate()))&#xA;    )&#xA;)&#xA;&amp;&amp; row4.CSTE != null&#xA;&amp;&amp; row4.CSTE.length() >= 3&#xA;&amp;&amp; row4.CSTE.substring(1, 3).equals(&quot;38&quot;)" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="origine" expressionFilter="(&#xA;    row4.DTFE == 0&#xA;    ||&#xA;    row4.DTFE >= Integer.parseInt(TalendDate.formatDate(&quot;yyyyMMdd&quot;, TalendDate.getCurrentDate()))&#xA;)&#xA;&amp;&amp; row4.CSTE != null&#xA;&amp;&amp; row4.CSTE.length() >= 3&#xA;&amp;&amp; row4.CSTE.substring(1, 3).equals(&quot;38&quot;)" activateExpressionFilter="true">
         <mapperTableEntries name="origine" expression="row4.CORI " type="id_String" nullable="true"/>
         <mapperTableEntries name="libelle_origine" expression="row4.LCOR " type="id_String" nullable="true"/>
       </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="csv_origine" expressionFilter="(&#xA;    row4.DTFE != null&#xA;    &amp;&amp;&#xA;    (&#xA;        row4.DTFE == 0&#xA;        ||&#xA;        row4.DTFE >= Integer.parseInt(TalendDate.formatDate(&quot;yyyyMMdd&quot;, TalendDate.getCurrentDate()))&#xA;    )&#xA;)&#xA;&amp;&amp; row4.CSTE != null&#xA;&amp;&amp; row4.CSTE.length() >= 3&#xA;&amp;&amp; row4.CSTE.substring(1, 3).equals(&quot;38&quot;)" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="csv_origine" expressionFilter="(&#xA;    row4.DTFE == 0&#xA;    ||&#xA;    row4.DTFE >= Integer.parseInt(TalendDate.formatDate(&quot;yyyyMMdd&quot;, TalendDate.getCurrentDate()))&#xA;)&#xA;&amp;&amp; row4.CSTE != null&#xA;&amp;&amp; row4.CSTE.length() >= 3&#xA;&amp;&amp; row4.CSTE.substring(1, 3).equals(&quot;38&quot;)" activateExpressionFilter="true">
         <mapperTableEntries name="origine" expression="row4.CORI " type="id_String" nullable="true"/>
         <mapperTableEntries name="libelle_origine" expression="row4.LCOR " type="id_String" nullable="true"/>
       </outputTables>
