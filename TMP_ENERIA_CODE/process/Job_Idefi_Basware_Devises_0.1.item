@@ -336,9 +336,9 @@
       <column comment="" key="false" length="10" name="code_devise_de" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="10" usefulColumn="true"/>
     </metadata>
     <metadata connector="FLOW" label="CSV" name="CSV">
-      <column comment="" key="false" length="-1" name="code_devise" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="code_devise" nullable="true" pattern="" precision="3" sourceType="" type="id_String" originalLength="3" usefulColumn="true"/>
       <column comment="" key="false" length="17" name="taux_devise" nullable="true" pattern="" precision="7" sourceType="" type="id_BigDecimal" originalLength="17" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="date_application" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="date_application" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="-1" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="17" name="taux_devise_inverse" nullable="true" pattern="" precision="7" sourceType="" type="id_BigDecimal" originalLength="17" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="code_devise_de" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
@@ -353,9 +353,9 @@
         <mapperTableEntries name="code_devise_de" expression="&quot;EUR&quot;" type="id_String" nullable="true"/>
       </outputTables>
       <outputTables sizeState="INTERMEDIATE" name="CSV">
-        <mapperTableEntries name="code_devise" expression="row1.TICODE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="code_devise" expression="StringHandling.BTRIM(row1.TICODE) " type="id_String" nullable="true"/>
         <mapperTableEntries name="taux_devise" expression="row1.TIVAL " type="id_BigDecimal" nullable="true"/>
-        <mapperTableEntries name="date_application" expression="TalendDate.parseDate(&#xD;&#xA;    &quot;yyyy-MM-dd&quot;,&#xD;&#xA;    String.format(&#xD;&#xA;        &quot;%04d-%02d-%02d&quot;,&#xD;&#xA;        row1.TIAAAP,&#xD;&#xA;        row1.TIJJAP,&#xD;&#xA;        row1.TIMMAP&#xD;&#xA;    )&#xD;&#xA;) " type="id_Date" nullable="true"/>
+        <mapperTableEntries name="date_application" expression="TalendDate.parseDate(&#xD;&#xA;    &quot;dd/MM/yyyy&quot;,&#xD;&#xA;    String.format(&#xD;&#xA;        &quot;%02d/%02d/%04d&quot;,&#xD;&#xA;        row1.TIJJAP,&#xA;        row1.TIMMAP,&#xD;&#xA;        row1.TIAAAP&#xD;&#xA;    )&#xD;&#xA;) " type="id_Date" nullable="true"/>
         <mapperTableEntries name="taux_devise_inverse" expression="row1.TIVALI " type="id_BigDecimal" nullable="true"/>
         <mapperTableEntries name="code_devise_de" expression="&quot;EUR&quot;" type="id_String" nullable="true"/>
       </outputTables>
@@ -374,7 +374,7 @@
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
     <elementParameter field="FILE" name="FILENAME" value="context.Repertoire_racine+jobName+context.Repertoire_out+context.Nom_fichier_sortie"/>
-    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\r\n&quot;"/>
     <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
@@ -401,9 +401,9 @@
     <elementParameter field="TEXT" name="LABEL" value="tauxchange.csv"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="CSV" name="tFileOutputDelimited_1">
-      <column comment="" key="false" length="-1" name="code_devise" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="code_devise" nullable="true" pattern="" precision="3" sourceType="" type="id_String" originalLength="3" usefulColumn="true"/>
       <column comment="" key="false" length="17" name="taux_devise" nullable="true" pattern="" precision="7" sourceType="" type="id_BigDecimal" originalLength="17" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="date_application" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="date_application" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="-1" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="17" name="taux_devise_inverse" nullable="true" pattern="" precision="7" sourceType="" type="id_BigDecimal" originalLength="17" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="code_devise_de" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
