@@ -5,19 +5,19 @@
     "repoId" : "_zN404EPMEfG9ndm8B-jwTQ",
     "parameterList" : [ {
       "id" : "_zOLv0UPMEfG9ndm8B-jwTQ",
-      "name" : "connection_AS400_DB_Login"
+      "name" : "connection_IDEFI_DB_Login"
     }, {
       "id" : "_zOLv0kPMEfG9ndm8B-jwTQ",
-      "name" : "connection_AS400_DB_AdditionalParams"
+      "name" : "connection_IDEFI_DB_AdditionalParams"
     }, {
       "id" : "_zOLv00PMEfG9ndm8B-jwTQ",
-      "name" : "connection_AS400_DB_Server"
+      "name" : "connection_IDEFI_DB_Server"
     }, {
       "id" : "_zOLv1EPMEfG9ndm8B-jwTQ",
-      "name" : "connection_AS400_DB_Password"
+      "name" : "connection_IDEFI_DB_Password"
     }, {
       "id" : "_zOLv1UPMEfG9ndm8B-jwTQ",
-      "name" : "connection_AS400_DB_Database"
+      "name" : "connection_IDEFI_DB_Database"
     } ]
   } ]
 }
