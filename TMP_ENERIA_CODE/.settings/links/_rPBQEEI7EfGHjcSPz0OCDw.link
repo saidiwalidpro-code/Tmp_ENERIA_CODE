@@ -45,6 +45,25 @@
       "name" : "connection_IDEFI_DB_AdditionalParams"
     } ]
   }, {
+    "contextName" : "Default",
+    "repoId" : "_v_AqQEhPEfG9ndm8B-jwTQ",
+    "parameterList" : [ {
+      "id" : "_zOLv0UPMEfG9ndm8B-jwTQ",
+      "name" : "connection_TALENTIA_DB_Login"
+    }, {
+      "id" : "_zOLv00PMEfG9ndm8B-jwTQ",
+      "name" : "connection_TALENTIA_DB_Server"
+    }, {
+      "id" : "_zOLv0kPMEfG9ndm8B-jwTQ",
+      "name" : "connection_TALENTIA_DB_AdditionalParams"
+    }, {
+      "id" : "_zOLv1EPMEfG9ndm8B-jwTQ",
+      "name" : "connection_TALENTIA_DB_Password"
+    }, {
+      "id" : "_zOLv1UPMEfG9ndm8B-jwTQ",
+      "name" : "connection_TALENTIA_DB_Database"
+    } ]
+  }, {
     "contextName" : "RECETTE",
     "repoId" : "_ZyeVAEPNEfG9ndm8B-jwTQ",
     "parameterList" : [ {
@@ -89,6 +108,25 @@
       "name" : "connection_IDEFI_DB_AdditionalParams"
     } ]
   }, {
+    "contextName" : "RECETTE",
+    "repoId" : "_v_AqQEhPEfG9ndm8B-jwTQ",
+    "parameterList" : [ {
+      "id" : "_zOLv3UPMEfG9ndm8B-jwTQ",
+      "name" : "connection_TALENTIA_DB_Login"
+    }, {
+      "id" : "_zOLv30PMEfG9ndm8B-jwTQ",
+      "name" : "connection_TALENTIA_DB_Server"
+    }, {
+      "id" : "_zOLv3kPMEfG9ndm8B-jwTQ",
+      "name" : "connection_TALENTIA_DB_AdditionalParams"
+    }, {
+      "id" : "_zOLv4EPMEfG9ndm8B-jwTQ",
+      "name" : "connection_TALENTIA_DB_Password"
+    }, {
+      "id" : "_zOLv4UPMEfG9ndm8B-jwTQ",
+      "name" : "connection_TALENTIA_DB_Database"
+    } ]
+  }, {
     "contextName" : "PRODUCTION",
     "repoId" : "_ZyeVAEPNEfG9ndm8B-jwTQ",
     "parameterList" : [ {
@@ -131,6 +169,25 @@
     }, {
       "id" : "_zOLv2EPMEfG9ndm8B-jwTQ",
       "name" : "connection_IDEFI_DB_AdditionalParams"
+    } ]
+  }, {
+    "contextName" : "PRODUCTION",
+    "repoId" : "_v_AqQEhPEfG9ndm8B-jwTQ",
+    "parameterList" : [ {
+      "id" : "_zOLv10PMEfG9ndm8B-jwTQ",
+      "name" : "connection_TALENTIA_DB_Login"
+    }, {
+      "id" : "_zOLv2UPMEfG9ndm8B-jwTQ",
+      "name" : "connection_TALENTIA_DB_Server"
+    }, {
+      "id" : "_zOLv2EPMEfG9ndm8B-jwTQ",
+      "name" : "connection_TALENTIA_DB_AdditionalParams"
+    }, {
+      "id" : "_zOLv2kPMEfG9ndm8B-jwTQ",
+      "name" : "connection_TALENTIA_DB_Password"
+    }, {
+      "id" : "_zOLv20PMEfG9ndm8B-jwTQ",
+      "name" : "connection_TALENTIA_DB_Database"
     } ]
   } ]
 }

@@ -1,0 +1,23 @@
+{
+  "itemId" : "_rbv6cEhPEfG9ndm8B-jwTQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_v_AqQEhPEfG9ndm8B-jwTQ",
+    "parameterList" : [ {
+      "id" : "_zOLv0UPMEfG9ndm8B-jwTQ",
+      "name" : "connection_TALENTIA_DB_Login"
+    }, {
+      "id" : "_zOLv0kPMEfG9ndm8B-jwTQ",
+      "name" : "connection_TALENTIA_DB_AdditionalParams"
+    }, {
+      "id" : "_zOLv00PMEfG9ndm8B-jwTQ",
+      "name" : "connection_TALENTIA_DB_Server"
+    }, {
+      "id" : "_zOLv1EPMEfG9ndm8B-jwTQ",
+      "name" : "connection_TALENTIA_DB_Password"
+    }, {
+      "id" : "_zOLv1UPMEfG9ndm8B-jwTQ",
+      "name" : "connection_TALENTIA_DB_Database"
+    } ]
+  } ]
+}

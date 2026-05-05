@@ -18,6 +18,11 @@
     <contextParameter comment="" name="connection_IDEFI_DB_Password" prompt="connection_IDEFI_DB_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:0Hoh7zT1FwnkQmWBa7TiUMxxHCxBertp/sD1n/OrlwESG5drd0U=" internalId="_XC_uHkhOEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_IDEFI_DB_Login" prompt="connection_IDEFI_DB_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_XC_uH0hOEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_IDEFI_DB_AdditionalParams" prompt="connection_IDEFI_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_XC_uIEhOEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Login" prompt="connection_TALENTIA_DB_Login?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_1m08cEhREfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Server" prompt="connection_TALENTIA_DB_Server?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_1m08cUhREfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_AdditionalParams" prompt="connection_TALENTIA_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_1m08ckhREfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Password" prompt="connection_TALENTIA_DB_Password?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:P1hPq6Q29cd5bOHcxhMriXu2FM6xSWR1rNfxT6FCVWGv2WQHKNs=" internalId="_1m08c0hREfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Database" prompt="connection_TALENTIA_DB_Database?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="IR6_1FT38" internalId="_1m08dEhREfG9ndm8B-jwTQ"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="RECETTE">
     <contextParameter comment="" name="connection_AS400_DB_Login" prompt="connection_AS400_DB_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="QLIK" internalId="_XDAVIEhOEfG9ndm8B-jwTQ"/>
@@ -37,6 +42,11 @@
     <contextParameter comment="" name="connection_IDEFI_DB_Password" prompt="connection_IDEFI_DB_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:ZtuPMQNAeVKVd1cpNbtJpocG7WV4VNmhbT9AY8kKSVijZMQaGdU=" internalId="_XDAVLkhOEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_IDEFI_DB_Login" prompt="connection_IDEFI_DB_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_XDAVL0hOEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_IDEFI_DB_AdditionalParams" prompt="connection_IDEFI_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_XDAVMEhOEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Login" prompt="connection_TALENTIA_DB_Login?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_1m08dUhREfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Server" prompt="connection_TALENTIA_DB_Server?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_1m08dkhREfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_AdditionalParams" prompt="connection_TALENTIA_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_1m08d0hREfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Password" prompt="connection_TALENTIA_DB_Password?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:46jvedJb43RExhLP2cQPjBBZIn1RQpTJK90rv8Nb0MFiXPaG1+w=" internalId="_1m08eEhREfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Database" prompt="connection_TALENTIA_DB_Database?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="IR6_1FT38" internalId="_1m08eUhREfG9ndm8B-jwTQ"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="PRODUCTION">
     <contextParameter comment="" name="connection_AS400_DB_Login" prompt="connection_AS400_DB_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_XDAVMUhOEfG9ndm8B-jwTQ"/>
@@ -56,10 +66,15 @@
     <contextParameter comment="" name="connection_IDEFI_DB_Password" prompt="connection_IDEFI_DB_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="" internalId="_XDAVP0hOEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_IDEFI_DB_Login" prompt="connection_IDEFI_DB_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_XDAVQEhOEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_IDEFI_DB_AdditionalParams" prompt="connection_IDEFI_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_XDAVQUhOEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Login" prompt="connection_TALENTIA_DB_Login?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_1m08ekhREfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Server" prompt="connection_TALENTIA_DB_Server?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_1m08e0hREfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_AdditionalParams" prompt="connection_TALENTIA_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_1m08fEhREfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Password" prompt="connection_TALENTIA_DB_Password?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_Password" value="" internalId="_1m08fUhREfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Database" prompt="connection_TALENTIA_DB_Database?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_1m08fkhREfG9ndm8B-jwTQ"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="40" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="54" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="440" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
@@ -833,7 +848,7 @@
   </node>
   <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="400" posY="-200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_1" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connexion BD AS400 KO&quot;"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connexion BD TALENTIA KO&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="4"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
     <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
@@ -854,25 +869,6 @@
   <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="40" posY="-40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="Debut du job"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-  </node>
-  <node componentName="tAS400Connection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="240" posY="-40">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_NL7HMEOsEfGHjcSPz0OCDw" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="jt400-20.0.7.jar"/>
-    <elementParameter field="TEXT" name="HOST" value="context.connection_IDEFI_DB_Server"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.connection_IDEFI_DB_Database"/>
-    <elementParameter field="TEXT" name="TYPE" value="AS400" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="context.connection_IDEFI_DB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:sP81fAZTkosg01YF+MdP0misEPudmDds2hgk/x9zoP9DzKLY7Km8x9jtSSgaJ19jFA8mocWgd2kv0vecxTGx9w=="/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="true"/>
-    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="&quot;AS400&quot;"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_IDEFI_DB_AdditionalParams"/>
-    <elementParameter field="CHECK" name="AUTO_COMMIT" value="true"/>
-    <elementParameter field="TEXT" name="LABEL" value="Connexion IDEFI"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <node componentName="tAS400Input" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="40" posY="240">
@@ -930,7 +926,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_lTcSMD-5EfGiguL-kOB8Aw-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_rPBQEEI7EfGHjcSPz0OCDw-tMap_2-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
@@ -1117,7 +1113,7 @@
   </node>
   <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="-40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connexion BD AS400 OK&quot;"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connexion BD TALENTIA OK&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="1"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
     <elementParameter field="TEXT" name="LABEL" value="connexion AS400"/>
@@ -1220,6 +1216,35 @@
       <column comment="" key="false" length="10" name="code_devise_de" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="10" usefulColumn="true"/>
     </metadata>
   </node>
+  <node componentName="tAS400Connection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="240" posY="-40">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_3" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tAS400Connection" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/AS400|ELT/Connections" show="false"/>
+    <elementParameter field="CHECK" name="START" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tAS400Connection" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_rbv6cEhPEfG9ndm8B-jwTQ" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="jt400-20.0.7.jar"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_TALENTIA_DB_Server"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_TALENTIA_DB_Database"/>
+    <elementParameter field="TEXT" name="TYPE" value="AS400" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_TALENTIA_DB_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:3xzhMubCR4HnsXtj4GhdPULNELP1vZZnlenS/40JWB77mqC91IoPH/JAPJtX5yoOTRxDSyxOF+S/Y5V2xW+GwuVV1g=="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="true"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="&quot;Talentia&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_TALENTIA_DB_AdditionalParams"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Connexion Talentia"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputExcel_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputExcel_1" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
@@ -1236,14 +1261,8 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
   </connection>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tDBConnection_1">
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tDBConnection_3">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
-  </connection>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tWarn_1">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk2" show="false"/>
-  </connection>
-  <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tDie_1">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentError1" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -1288,6 +1307,12 @@
   <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tDBCommit_1" offsetLabelX="0" offsetLabelY="0" source="tDBCommit_1" target="tWarn_5">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row5" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tDBConnection_3" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_3" target="tDie_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentError1" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBConnection_3" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_3" target="tWarn_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk2" show="false"/>
   </connection>
   <note opaque="true" posX="-40" posY="520" sizeHeight="201" sizeWidth="1281" text="Fermeture desonnexions aux bases de données &#xD;&#xA;AS400 et BASEWARE">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="166;193;152"/>
@@ -1336,11 +1361,6 @@
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
@@ -1396,6 +1416,11 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBCommit_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_3" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
