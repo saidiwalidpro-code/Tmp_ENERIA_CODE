@@ -8,11 +8,6 @@
     <contextParameter comment="" name="connection_BASWARE_DB_Server" prompt="connection_BASWARE_DB_Server?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_XC_uGUhOEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_BASWARE_DB_Schema" prompt="connection_BASWARE_DB_Schema?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_XC_uGkhOEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_BASWARE_DB_Login" prompt="connection_BASWARE_DB_Login?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_XC_uG0hOEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Server" prompt="connection_IDEFI_DB_Server?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_XC_uHEhOEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Database" prompt="connection_IDEFI_DB_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="DBTESTFR2" internalId="_XC_uHUhOEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Password" prompt="connection_IDEFI_DB_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:0Hoh7zT1FwnkQmWBa7TiUMxxHCxBertp/sD1n/OrlwESG5drd0U=" internalId="_XC_uHkhOEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Login" prompt="connection_IDEFI_DB_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_XC_uH0hOEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_AdditionalParams" prompt="connection_IDEFI_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_XC_uIEhOEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_TALENTIA_DB_Login" prompt="connection_TALENTIA_DB_Login?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_1m08cEhREfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_TALENTIA_DB_Server" prompt="connection_TALENTIA_DB_Server?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_1m08cUhREfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_TALENTIA_DB_AdditionalParams" prompt="connection_TALENTIA_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_1m08ckhREfG9ndm8B-jwTQ"/>
@@ -31,11 +26,6 @@
     <contextParameter comment="" name="connection_BASWARE_DB_Server" prompt="connection_BASWARE_DB_Server?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_XDAVKUhOEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_BASWARE_DB_Schema" prompt="connection_BASWARE_DB_Schema?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_XDAVKkhOEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_BASWARE_DB_Login" prompt="connection_BASWARE_DB_Login?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_XDAVK0hOEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Server" prompt="connection_IDEFI_DB_Server?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_XDAVLEhOEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Database" prompt="connection_IDEFI_DB_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="DBTESTFR2" internalId="_XDAVLUhOEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Password" prompt="connection_IDEFI_DB_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:ZtuPMQNAeVKVd1cpNbtJpocG7WV4VNmhbT9AY8kKSVijZMQaGdU=" internalId="_XDAVLkhOEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Login" prompt="connection_IDEFI_DB_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_XDAVL0hOEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_AdditionalParams" prompt="connection_IDEFI_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_XDAVMEhOEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_TALENTIA_DB_Login" prompt="connection_TALENTIA_DB_Login?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_1m08dUhREfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_TALENTIA_DB_Server" prompt="connection_TALENTIA_DB_Server?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_1m08dkhREfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_TALENTIA_DB_AdditionalParams" prompt="connection_TALENTIA_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_1m08d0hREfG9ndm8B-jwTQ"/>
@@ -54,11 +44,6 @@
     <contextParameter comment="" name="connection_BASWARE_DB_Server" prompt="connection_BASWARE_DB_Server?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_XDAVOkhOEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_BASWARE_DB_Schema" prompt="connection_BASWARE_DB_Schema?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_XDAVO0hOEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_BASWARE_DB_Login" prompt="connection_BASWARE_DB_Login?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_XDAVPEhOEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Server" prompt="connection_IDEFI_DB_Server?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_XDAVPUhOEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Database" prompt="connection_IDEFI_DB_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_XDAVPkhOEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Password" prompt="connection_IDEFI_DB_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="" internalId="_XDAVP0hOEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Login" prompt="connection_IDEFI_DB_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_XDAVQEhOEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_AdditionalParams" prompt="connection_IDEFI_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_XDAVQUhOEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_TALENTIA_DB_Login" prompt="connection_TALENTIA_DB_Login?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_1m08ekhREfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_TALENTIA_DB_Server" prompt="connection_TALENTIA_DB_Server?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_1m08e0hREfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_TALENTIA_DB_AdditionalParams" prompt="connection_TALENTIA_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_1m08fEhREfG9ndm8B-jwTQ"/>
@@ -323,16 +308,6 @@
   </node>
   <node componentName="tAS400Input" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="80" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_3" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tAS400Input" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/AS400" show="false"/>
-    <elementParameter field="CHECK" name="START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="false" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tAS400Input" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
@@ -422,15 +397,6 @@
   </node>
   <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="520" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_3" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tPostgresqlOutput" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/PostgreSQL" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="false" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="false" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tPostgresqlOutput" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_GkTP8EPNEfG9ndm8B-jwTQ" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
@@ -541,6 +507,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBClose_1" show="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_3"/>
     <elementParameter field="TEXT" name="LABEL" value="Deconnexion TALENTIA"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="8" offsetLabelY="16" source="tPrejob_1" target="tDBConnection_3">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>

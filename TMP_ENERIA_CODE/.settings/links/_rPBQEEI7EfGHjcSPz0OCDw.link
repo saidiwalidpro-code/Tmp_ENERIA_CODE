@@ -27,25 +27,6 @@
     } ]
   }, {
     "contextName" : "Default",
-    "repoId" : "_zN404EPMEfG9ndm8B-jwTQ",
-    "parameterList" : [ {
-      "id" : "_zOLv00PMEfG9ndm8B-jwTQ",
-      "name" : "connection_IDEFI_DB_Server"
-    }, {
-      "id" : "_zOLv1UPMEfG9ndm8B-jwTQ",
-      "name" : "connection_IDEFI_DB_Database"
-    }, {
-      "id" : "_zOLv1EPMEfG9ndm8B-jwTQ",
-      "name" : "connection_IDEFI_DB_Password"
-    }, {
-      "id" : "_zOLv0UPMEfG9ndm8B-jwTQ",
-      "name" : "connection_IDEFI_DB_Login"
-    }, {
-      "id" : "_zOLv0kPMEfG9ndm8B-jwTQ",
-      "name" : "connection_IDEFI_DB_AdditionalParams"
-    } ]
-  }, {
-    "contextName" : "Default",
     "repoId" : "_v_AqQEhPEfG9ndm8B-jwTQ",
     "parameterList" : [ {
       "id" : "_zOLv0UPMEfG9ndm8B-jwTQ",
@@ -90,25 +71,6 @@
     } ]
   }, {
     "contextName" : "RECETTE",
-    "repoId" : "_zN404EPMEfG9ndm8B-jwTQ",
-    "parameterList" : [ {
-      "id" : "_zOLv30PMEfG9ndm8B-jwTQ",
-      "name" : "connection_IDEFI_DB_Server"
-    }, {
-      "id" : "_zOLv4UPMEfG9ndm8B-jwTQ",
-      "name" : "connection_IDEFI_DB_Database"
-    }, {
-      "id" : "_zOLv4EPMEfG9ndm8B-jwTQ",
-      "name" : "connection_IDEFI_DB_Password"
-    }, {
-      "id" : "_zOLv3UPMEfG9ndm8B-jwTQ",
-      "name" : "connection_IDEFI_DB_Login"
-    }, {
-      "id" : "_zOLv3kPMEfG9ndm8B-jwTQ",
-      "name" : "connection_IDEFI_DB_AdditionalParams"
-    } ]
-  }, {
-    "contextName" : "RECETTE",
     "repoId" : "_v_AqQEhPEfG9ndm8B-jwTQ",
     "parameterList" : [ {
       "id" : "_zOLv3UPMEfG9ndm8B-jwTQ",
@@ -150,25 +112,6 @@
     }, {
       "id" : "_ZysXeUPNEfG9ndm8B-jwTQ",
       "name" : "connection_BASWARE_DB_Login"
-    } ]
-  }, {
-    "contextName" : "PRODUCTION",
-    "repoId" : "_zN404EPMEfG9ndm8B-jwTQ",
-    "parameterList" : [ {
-      "id" : "_zOLv2UPMEfG9ndm8B-jwTQ",
-      "name" : "connection_IDEFI_DB_Server"
-    }, {
-      "id" : "_zOLv20PMEfG9ndm8B-jwTQ",
-      "name" : "connection_IDEFI_DB_Database"
-    }, {
-      "id" : "_zOLv2kPMEfG9ndm8B-jwTQ",
-      "name" : "connection_IDEFI_DB_Password"
-    }, {
-      "id" : "_zOLv10PMEfG9ndm8B-jwTQ",
-      "name" : "connection_IDEFI_DB_Login"
-    }, {
-      "id" : "_zOLv2EPMEfG9ndm8B-jwTQ",
-      "name" : "connection_IDEFI_DB_AdditionalParams"
     } ]
   }, {
     "contextName" : "PRODUCTION",
