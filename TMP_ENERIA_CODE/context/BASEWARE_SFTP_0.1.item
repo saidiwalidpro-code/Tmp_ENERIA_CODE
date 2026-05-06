@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_0FnYkEkmEfG9ndm8B-jwTQ" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_0FnYkUkmEfG9ndm8B-jwTQ" comment="" name="Baseware_SFTP_Login" prompt="Baseware_SFTP_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="voflubmtest"/>
+    <contextParameter xmi:id="_0FnYkkkmEfG9ndm8B-jwTQ" comment="" name="Baseware_SFTP_Adresse" prompt="Baseware_SFTP_Adresse?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="sftp-dub.p2p.basware.com"/>
+    <contextParameter xmi:id="_0FnYk0kmEfG9ndm8B-jwTQ" comment="" name="Baseware_SFTP_MDP" prompt="Baseware_SFTP_MDP?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:tGjv9gIFbhdX2K9JSqGOc4oxW73wHBYj/dVNfQ1kcCoT2jCEegvePI+PsA=="/>
+    <contextParameter xmi:id="_0FnYlEkmEfG9ndm8B-jwTQ" comment="" name="Baseware_SFTP_repertoire" prompt="Baseware_SFTP_repertoire?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/files/in"/>
+    <contextParameter xmi:id="_0FnYlUkmEfG9ndm8B-jwTQ" comment="" name="Baseware_SFTP_Port" prompt="Baseware_SFTP_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="22"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_0FnYlkkmEfG9ndm8B-jwTQ" confirmationNeeded="false" hide="false" name="RECETTE">
+    <contextParameter xmi:id="_0FnYl0kmEfG9ndm8B-jwTQ" comment="" name="Baseware_SFTP_Login" prompt="Baseware_SFTP_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="voflubmtest"/>
+    <contextParameter xmi:id="_0FnYmEkmEfG9ndm8B-jwTQ" comment="" name="Baseware_SFTP_Adresse" prompt="Baseware_SFTP_Adresse?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="sftp-dub.p2p.basware.com"/>
+    <contextParameter xmi:id="_0FnYmUkmEfG9ndm8B-jwTQ" comment="" name="Baseware_SFTP_MDP" prompt="Baseware_SFTP_MDP?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:yCDUekzojT4QwJb/xCU1plZEK06N24K2r7hqg+SQyPgaZ+PfhKjb9K18Nw=="/>
+    <contextParameter xmi:id="_0FnYmkkmEfG9ndm8B-jwTQ" comment="" name="Baseware_SFTP_repertoire" prompt="Baseware_SFTP_repertoire?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/files/in"/>
+    <contextParameter xmi:id="_0FnYm0kmEfG9ndm8B-jwTQ" comment="" name="Baseware_SFTP_Port" prompt="Baseware_SFTP_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="22"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_0FnYnEkmEfG9ndm8B-jwTQ" confirmationNeeded="false" hide="false" name="PRODUCTION">
+    <contextParameter xmi:id="_0FnYnUkmEfG9ndm8B-jwTQ" comment="" name="Baseware_SFTP_Login" prompt="Baseware_SFTP_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_0FnYnkkmEfG9ndm8B-jwTQ" comment="" name="Baseware_SFTP_Adresse" prompt="Baseware_SFTP_Adresse?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_0FnYn0kmEfG9ndm8B-jwTQ" comment="" name="Baseware_SFTP_MDP" prompt="Baseware_SFTP_MDP?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+    <contextParameter xmi:id="_0FnYoEkmEfG9ndm8B-jwTQ" comment="" name="Baseware_SFTP_repertoire" prompt="Baseware_SFTP_repertoire?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_0FnYoUkmEfG9ndm8B-jwTQ" comment="" name="Baseware_SFTP_Port" prompt="Baseware_SFTP_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>
