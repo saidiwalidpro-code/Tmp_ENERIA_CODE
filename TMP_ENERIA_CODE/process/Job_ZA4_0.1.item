@@ -8,13 +8,19 @@
     <contextParameter comment="" name="DB_SAVOIR_Password" prompt="DB_SAVOIR_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:oaphmvXIghSCAgIDLxMeIAHHHWpL9dGLnNcAhSWzNw7ZYto=" internalId="_Ka2OREPOEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="DB_SAVOIR_Schema" prompt="DB_SAVOIR_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="savoir" internalId="_Ka2ORUPOEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="DB_SAVOIR_Database" prompt="DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres" internalId="_Ka2ORkPOEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_DB_SAVOIR_AdditionalParams" prompt="connection_DB_SAVOIR_AdditionalParams?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_9rtB0EehEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_DB_SAVOIR_Server" prompt="connection_DB_SAVOIR_Server?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_9rtB0UehEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_DB_SAVOIR_Port" prompt="connection_DB_SAVOIR_Port?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_9rtB0kehEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_DB_SAVOIR_Database" prompt="connection_DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="postgres" internalId="_9rtB00ehEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_DB_SAVOIR_Password" prompt="connection_DB_SAVOIR_Password?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:SbHSpLQMmdAadP5SD+UutT2L3tt74wUE0t49Qjj/u3a2mtQ=" internalId="_9rtB1EehEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_DB_SAVOIR_Login" prompt="connection_DB_SAVOIR_Login?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="savoir" internalId="_9rtB1UehEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_DB_SAVOIR_Schema" prompt="connection_DB_SAVOIR_Schema?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_9rtB1kehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_SAVOIR_AdditionalParams" prompt="connection_DB_SAVOIR_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9rtB0EehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_SAVOIR_Server" prompt="connection_DB_SAVOIR_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FRMLYDAT02TEST" internalId="_9rtB0UehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_SAVOIR_Port" prompt="connection_DB_SAVOIR_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432" internalId="_9rtB0kehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_SAVOIR_Database" prompt="connection_DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_9rtB00ehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_SAVOIR_Password" prompt="connection_DB_SAVOIR_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:SbHSpLQMmdAadP5SD+UutT2L3tt74wUE0t49Qjj/u3a2mtQ=" internalId="_9rtB1EehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_SAVOIR_Login" prompt="connection_DB_SAVOIR_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="savoir" internalId="_9rtB1UehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_SAVOIR_Schema" prompt="connection_DB_SAVOIR_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9rtB1kehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Password" prompt="connection_SAVOIR_DB_Password?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:H+Ir5DpuWSpI06w5+Qk4pOgC4BFLSJ4fg3cSzrkr8AIm6g==" internalId="_oStRkEkuEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Server" prompt="connection_SAVOIR_DB_Server?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_oStRkUkuEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Port" prompt="connection_SAVOIR_DB_Port?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_oStRkkkuEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Login" prompt="connection_SAVOIR_DB_Login?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="savoir" internalId="_oStRk0kuEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_AdditionalParams" prompt="connection_SAVOIR_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_oStRlEkuEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Schema" prompt="connection_SAVOIR_DB_Schema?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="savoir" internalId="_oStRlUkuEfG9ndm8B-jwTQ"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="RECETTE">
     <contextParameter comment="" name="DB_SAVOIR_Login" prompt="DB_SAVOIR_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="basware" internalId="_Ka2OR0POEfG9ndm8B-jwTQ"/>
@@ -24,13 +30,19 @@
     <contextParameter comment="" name="DB_SAVOIR_Password" prompt="DB_SAVOIR_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:56eoS+ndW1QKKFMIPuw7yZVKq5d8weVOuZ0T5SxrEvm4HZY=" internalId="_Ka2OS0POEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="DB_SAVOIR_Schema" prompt="DB_SAVOIR_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="savoir" internalId="_Ka2OTEPOEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="DB_SAVOIR_Database" prompt="DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres" internalId="_Ka2OTUPOEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_DB_SAVOIR_AdditionalParams" prompt="connection_DB_SAVOIR_AdditionalParams?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_9rtB10ehEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_DB_SAVOIR_Server" prompt="connection_DB_SAVOIR_Server?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_9rtB2EehEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_DB_SAVOIR_Port" prompt="connection_DB_SAVOIR_Port?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_9rtB2UehEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_DB_SAVOIR_Database" prompt="connection_DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="postgres" internalId="_9rtB2kehEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_DB_SAVOIR_Password" prompt="connection_DB_SAVOIR_Password?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:fEolda/GPjUGQCOpGttnsjfZ8yGXPsjbaukVx95vjGoT+h8=" internalId="_9rtB20ehEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_DB_SAVOIR_Login" prompt="connection_DB_SAVOIR_Login?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="savoir" internalId="_9rtB3EehEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_DB_SAVOIR_Schema" prompt="connection_DB_SAVOIR_Schema?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="savoir" internalId="_9rtB3UehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_SAVOIR_AdditionalParams" prompt="connection_DB_SAVOIR_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9rtB10ehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_SAVOIR_Server" prompt="connection_DB_SAVOIR_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FRMLYDAT02TEST" internalId="_9rtB2EehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_SAVOIR_Port" prompt="connection_DB_SAVOIR_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432" internalId="_9rtB2UehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_SAVOIR_Database" prompt="connection_DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_9rtB2kehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_SAVOIR_Password" prompt="connection_DB_SAVOIR_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:fEolda/GPjUGQCOpGttnsjfZ8yGXPsjbaukVx95vjGoT+h8=" internalId="_9rtB20ehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_SAVOIR_Login" prompt="connection_DB_SAVOIR_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="savoir" internalId="_9rtB3EehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_SAVOIR_Schema" prompt="connection_DB_SAVOIR_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="savoir" internalId="_9rtB3UehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Password" prompt="connection_SAVOIR_DB_Password?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:Hs88Sa18TvGNyKepi9Qd7ATEt1A9y+Dgv0p5FI7DLIvhoA==" internalId="_oStRlkkuEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Server" prompt="connection_SAVOIR_DB_Server?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_oStRl0kuEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Port" prompt="connection_SAVOIR_DB_Port?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_oStRmEkuEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Login" prompt="connection_SAVOIR_DB_Login?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="savoir" internalId="_oStRmUkuEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_AdditionalParams" prompt="connection_SAVOIR_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_oStRmkkuEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Schema" prompt="connection_SAVOIR_DB_Schema?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="savoir" internalId="_oStRm0kuEfG9ndm8B-jwTQ"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="PRODUCTION">
     <contextParameter comment="" name="DB_SAVOIR_Login" prompt="DB_SAVOIR_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="basware" internalId="_Ka2OTkPOEfG9ndm8B-jwTQ"/>
@@ -40,13 +52,19 @@
     <contextParameter comment="" name="DB_SAVOIR_Password" prompt="DB_SAVOIR_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:/sm7CWrWNmusJnduKfKXYt09COnsW85Ew0GzL0pUf8IU7wg=" internalId="_Ka2OUkPOEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="DB_SAVOIR_Schema" prompt="DB_SAVOIR_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="savoir" internalId="_Ka2OU0POEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="DB_SAVOIR_Database" prompt="DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres" internalId="_Ka2OVEPOEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_DB_SAVOIR_AdditionalParams" prompt="connection_DB_SAVOIR_AdditionalParams?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_9rtB3kehEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_DB_SAVOIR_Server" prompt="connection_DB_SAVOIR_Server?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_9rtB30ehEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_DB_SAVOIR_Port" prompt="connection_DB_SAVOIR_Port?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_9rtB4EehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_SAVOIR_AdditionalParams" prompt="connection_DB_SAVOIR_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9rtB3kehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_SAVOIR_Server" prompt="connection_DB_SAVOIR_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9rtB30ehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_SAVOIR_Port" prompt="connection_DB_SAVOIR_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9rtB4EehEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_DB_SAVOIR_Database" prompt="connection_DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_9rtB4UehEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_DB_SAVOIR_Password" prompt="connection_DB_SAVOIR_Password?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_Password" value="" internalId="_9rtB4kehEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_DB_SAVOIR_Login" prompt="connection_DB_SAVOIR_Login?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_9rtB40ehEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_DB_SAVOIR_Schema" prompt="connection_DB_SAVOIR_Schema?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_9rtB5EehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_SAVOIR_Password" prompt="connection_DB_SAVOIR_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" internalId="_9rtB4kehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_SAVOIR_Login" prompt="connection_DB_SAVOIR_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9rtB40ehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_SAVOIR_Schema" prompt="connection_DB_SAVOIR_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9rtB5EehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Password" prompt="connection_SAVOIR_DB_Password?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_Password" value="" internalId="_oStRnEkuEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Server" prompt="connection_SAVOIR_DB_Server?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_oStRnUkuEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Port" prompt="connection_SAVOIR_DB_Port?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_oStRnkkuEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Login" prompt="connection_SAVOIR_DB_Login?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_oStRn0kuEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_AdditionalParams" prompt="connection_SAVOIR_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_oStRoEkuEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Schema" prompt="connection_SAVOIR_DB_Schema?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_oStRoUkuEfG9ndm8B-jwTQ"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -840,13 +858,13 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="context.connection_DB_SAVOIR_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.connection_DB_SAVOIR_Port"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_SAVOIR_DB_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_SAVOIR_DB_Port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_DB_SAVOIR_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_DB_SAVOIR_Schema"/>
-    <elementParameter field="TEXT" name="USER" value="context.connection_DB_SAVOIR_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ZV3uV7/VfmIWW52DO8Ki5SJmEvYVDlIZZsUL+KhdWDBjuQF/xhTTxXG0lsTQBHyYTVUANw+RBR8J+rGZ/7yTOoA="/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_SAVOIR_DB_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_SAVOIR_DB_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:n+am7fuomMWT2T1NpkbHPiIEa0vEYZQb/6qhdm1KG7OnQjhTJldVsAZnDKmVRkuWPWrTjYhzf27Qm7ZoVZncZ18="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;annuaire_new&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -860,7 +878,7 @@
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
     <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false" show="false"/>
     <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_DB_SAVOIR_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_SAVOIR_DB_AdditionalParams"/>
     <elementParameter field="CHECK" name="SAVE_POINT" value="false" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -1192,13 +1210,13 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="context.connection_DB_SAVOIR_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.connection_DB_SAVOIR_Port"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_SAVOIR_DB_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_SAVOIR_DB_Port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_DB_SAVOIR_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_DB_SAVOIR_Schema"/>
-    <elementParameter field="TEXT" name="USER" value="context.connection_DB_SAVOIR_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:mGdIoe9JzTIDIKS1JAeB18GprRqoCjyWW5l2k5DnYAYJZHlY/NqScihxlysG0YuoV9/t01BJ+tuta8MGR3r/2tg="/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_SAVOIR_DB_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_SAVOIR_DB_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:8H77DvVRjazW3CoTJpxNJ3tGhSquhs30TD84OTKbP3tXb+CZanlEfjQG54Ex0EK03zqeKqMI2pAkX5bZYMihcC0="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;annuaire_new_PRD&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -1212,7 +1230,7 @@
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
     <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false" show="false"/>
     <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_DB_SAVOIR_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_SAVOIR_DB_AdditionalParams"/>
     <elementParameter field="CHECK" name="SAVE_POINT" value="false" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -1999,13 +2017,13 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="context.connection_DB_SAVOIR_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.connection_DB_SAVOIR_Port"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_SAVOIR_DB_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_SAVOIR_DB_Port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_DB_SAVOIR_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_DB_SAVOIR_Schema"/>
-    <elementParameter field="TEXT" name="USER" value="context.connection_DB_SAVOIR_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:gXyDkmZ2IRQvBFzMmfau1/Sp8lOqXPiZJ8Y9AoskMVn4ceCrOTjKmYkJznlrbFU/JSkbJy3j6FfAwsVvycZGQe4="/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_SAVOIR_DB_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_SAVOIR_DB_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:dZ8zFN74pWRiqBe2C+HOw0SdNE5V9Gzp7rk/Nxb4RUE5K9X6qZSDPBatCbzMle2CqQvr7pqk9XAKwqc7uiUHVEc="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;personnel&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="UPSERT"/>
@@ -2019,7 +2037,7 @@
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
     <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false" show="false"/>
     <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_DB_SAVOIR_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_SAVOIR_DB_AdditionalParams"/>
     <elementParameter field="CHECK" name="SAVE_POINT" value="false" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -2658,13 +2676,13 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="context.connection_DB_SAVOIR_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.connection_DB_SAVOIR_Port"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_SAVOIR_DB_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_SAVOIR_DB_Port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_DB_SAVOIR_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_DB_SAVOIR_Schema"/>
-    <elementParameter field="TEXT" name="USER" value="context.connection_DB_SAVOIR_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:UkQznVl8rNZLQfpDRASuBW4ajRm70fx+L+MN4q9AWG9O+xvPARO2xCplmogjf3j97ZJMCCCUnivunxDpHHEBOJs="/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_SAVOIR_DB_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_SAVOIR_DB_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:8o5Yn1BAkuxBOS0gvct5t7THe7YbHToVhaYJ5hEWYvs0m8TkjvsxBc32c5aLFovj+AOi9MsV2I/IXVSfVKX/JLk="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;personnel_PRD&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -2678,7 +2696,7 @@
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
     <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false" show="false"/>
     <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_DB_SAVOIR_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_SAVOIR_DB_AdditionalParams"/>
     <elementParameter field="CHECK" name="SAVE_POINT" value="false" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>

@@ -1,0 +1,79 @@
+{
+  "itemId" : "_H9TF4DjaEfGEp6KsFjyTyg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_HvA6IEPOEfG9ndm8B-jwTQ",
+    "parameterList" : [ {
+      "id" : "_HvOVh0POEfG9ndm8B-jwTQ",
+      "name" : "connection_DB_SAVOIR_Database"
+    }, {
+      "id" : "_HvOVhUPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Password"
+    }, {
+      "id" : "_HvOVg0POEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Server"
+    }, {
+      "id" : "_HvOVhEPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Port"
+    }, {
+      "id" : "_HvOVgUPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Login"
+    }, {
+      "id" : "_HvOVgkPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_AdditionalParams"
+    }, {
+      "id" : "_HvOVhkPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Schema"
+    } ]
+  }, {
+    "contextName" : "RECETTE",
+    "repoId" : "_HvA6IEPOEfG9ndm8B-jwTQ",
+    "parameterList" : [ {
+      "id" : "_HvOVl0POEfG9ndm8B-jwTQ",
+      "name" : "connection_DB_SAVOIR_Database"
+    }, {
+      "id" : "_HvOVlUPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Password"
+    }, {
+      "id" : "_HvOVk0POEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Server"
+    }, {
+      "id" : "_HvOVlEPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Port"
+    }, {
+      "id" : "_HvOVkUPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Login"
+    }, {
+      "id" : "_HvOVkkPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_AdditionalParams"
+    }, {
+      "id" : "_HvOVlkPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Schema"
+    } ]
+  }, {
+    "contextName" : "PRODUCTION",
+    "repoId" : "_HvA6IEPOEfG9ndm8B-jwTQ",
+    "parameterList" : [ {
+      "id" : "_HvOVj0POEfG9ndm8B-jwTQ",
+      "name" : "connection_DB_SAVOIR_Database"
+    }, {
+      "id" : "_HvOVjUPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Password"
+    }, {
+      "id" : "_HvOVi0POEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Server"
+    }, {
+      "id" : "_HvOVjEPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Port"
+    }, {
+      "id" : "_HvOViUPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Login"
+    }, {
+      "id" : "_HvOVikPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_AdditionalParams"
+    }, {
+      "id" : "_HvOVjkPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Schema"
+    } ]
+  } ]
+}
