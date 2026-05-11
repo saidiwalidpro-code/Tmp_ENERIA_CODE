@@ -7,7 +7,7 @@
     <contextParameter xmi:id="_HvOVhEPOEfG9ndm8B-jwTQ" comment="" name="connection_SAVOIR_DB_Port" prompt="connection_SAVOIR_DB_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
     <contextParameter xmi:id="_HvOVhUPOEfG9ndm8B-jwTQ" comment="" name="connection_SAVOIR_DB_Password" prompt="connection_SAVOIR_DB_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:AKAr0uuUm3hVLMDQwmxvA5amSjkomel8EbFRml4xT24aog=="/>
     <contextParameter xmi:id="_HvOVhkPOEfG9ndm8B-jwTQ" comment="" name="connection_SAVOIR_DB_Schema" prompt="connection_SAVOIR_DB_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="savoir"/>
-    <contextParameter xmi:id="_HvOVh0POEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_Database" prompt="connection_DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbprod"/>
+    <contextParameter xmi:id="_HvOVh0POEfG9ndm8B-jwTQ" comment="" name="connection_SAVOIR_DB_Database" prompt="connection_SAVOIR_DB_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbprod"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_HvOViEPOEfG9ndm8B-jwTQ" confirmationNeeded="false" hide="false" name="PRODUCTION">
     <contextParameter xmi:id="_HvOViUPOEfG9ndm8B-jwTQ" comment="" name="connection_SAVOIR_DB_Login" prompt="connection_SAVOIR_DB_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
@@ -16,7 +16,7 @@
     <contextParameter xmi:id="_HvOVjEPOEfG9ndm8B-jwTQ" comment="" name="connection_SAVOIR_DB_Port" prompt="connection_SAVOIR_DB_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_HvOVjUPOEfG9ndm8B-jwTQ" comment="" name="connection_SAVOIR_DB_Password" prompt="connection_SAVOIR_DB_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
     <contextParameter xmi:id="_HvOVjkPOEfG9ndm8B-jwTQ" comment="" name="connection_SAVOIR_DB_Schema" prompt="connection_SAVOIR_DB_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_HvOVj0POEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_Database" prompt="connection_DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_HvOVj0POEfG9ndm8B-jwTQ" comment="" name="connection_SAVOIR_DB_Database" prompt="connection_SAVOIR_DB_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_HvOVkEPOEfG9ndm8B-jwTQ" confirmationNeeded="false" hide="false" name="RECETTE">
     <contextParameter xmi:id="_HvOVkUPOEfG9ndm8B-jwTQ" comment="" name="connection_SAVOIR_DB_Login" prompt="connection_SAVOIR_DB_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="savoir"/>
@@ -25,6 +25,6 @@
     <contextParameter xmi:id="_HvOVlEPOEfG9ndm8B-jwTQ" comment="" name="connection_SAVOIR_DB_Port" prompt="connection_SAVOIR_DB_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
     <contextParameter xmi:id="_HvOVlUPOEfG9ndm8B-jwTQ" comment="" name="connection_SAVOIR_DB_Password" prompt="connection_SAVOIR_DB_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:2EwxfRpGCCnxi56lL1GXmbhyr1ePwdjEA8PIRtk9zRk/Rw=="/>
     <contextParameter xmi:id="_HvOVlkPOEfG9ndm8B-jwTQ" comment="" name="connection_SAVOIR_DB_Schema" prompt="connection_SAVOIR_DB_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="savoir"/>
-    <contextParameter xmi:id="_HvOVl0POEfG9ndm8B-jwTQ" comment="" name="connection_DB_SAVOIR_Database" prompt="connection_DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbprod"/>
+    <contextParameter xmi:id="_HvOVl0POEfG9ndm8B-jwTQ" comment="" name="connection_SAVOIR_DB_Database" prompt="connection_SAVOIR_DB_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbprod"/>
   </talendfile:ContextType>
 </xmi:XMI>

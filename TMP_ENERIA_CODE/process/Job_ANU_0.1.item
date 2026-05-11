@@ -11,7 +11,7 @@
     <contextParameter comment="" name="connection_DB_SAVOIR_AdditionalParams" prompt="connection_DB_SAVOIR_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9yoJMEehEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_DB_SAVOIR_Server" prompt="connection_DB_SAVOIR_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FRMLYDAT02TEST" internalId="_9yoJMUehEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_DB_SAVOIR_Port" prompt="connection_DB_SAVOIR_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432" internalId="_9yoJMkehEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_DB_SAVOIR_Database" prompt="connection_DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="postgres" internalId="_9yoJM0ehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_SAVOIR_Database" prompt="connection_DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbprod" internalId="_9yoJM0ehEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_DB_SAVOIR_Password" prompt="connection_DB_SAVOIR_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:KEOfV771YxxYKMX5o+hlcHt7ORhfspLqluO53C0h0OAvfb8=" internalId="_9yoJNEehEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_DB_SAVOIR_Login" prompt="connection_DB_SAVOIR_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="savoir" internalId="_9yoJNUehEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_DB_SAVOIR_Schema" prompt="connection_DB_SAVOIR_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9yoJNkehEfG9ndm8B-jwTQ"/>
@@ -21,6 +21,7 @@
     <contextParameter comment="" name="connection_SAVOIR_DB_Login" prompt="connection_SAVOIR_DB_Login?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="savoir" internalId="_0GFec0h9EfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_SAVOIR_DB_AdditionalParams" prompt="connection_SAVOIR_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_0GFedEh9EfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_SAVOIR_DB_Schema" prompt="connection_SAVOIR_DB_Schema?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="savoir" internalId="_0GFedUh9EfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Database" prompt="connection_SAVOIR_DB_Database?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_aWcZoE0hEfG9ndm8B-jwTQ"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="RECETTE">
     <contextParameter comment="" name="DB_SAVOIR_Login" prompt="DB_SAVOIR_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="basware" internalId="_LGyHN0POEfG9ndm8B-jwTQ"/>
@@ -33,7 +34,7 @@
     <contextParameter comment="" name="connection_DB_SAVOIR_AdditionalParams" prompt="connection_DB_SAVOIR_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9yoJN0ehEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_DB_SAVOIR_Server" prompt="connection_DB_SAVOIR_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FRMLYDAT02TEST" internalId="_9yoJOEehEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_DB_SAVOIR_Port" prompt="connection_DB_SAVOIR_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432" internalId="_9yoJOUehEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_DB_SAVOIR_Database" prompt="connection_DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="postgres" internalId="_9yoJOkehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_SAVOIR_Database" prompt="connection_DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbprod" internalId="_9yoJOkehEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_DB_SAVOIR_Password" prompt="connection_DB_SAVOIR_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:3q9Mp7V9NHmR0uHrSAopJKoMn1goL5rgyTa8yUHL8AaplYU=" internalId="_9yoJO0ehEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_DB_SAVOIR_Login" prompt="connection_DB_SAVOIR_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="savoir" internalId="_9yoJPEehEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_DB_SAVOIR_Schema" prompt="connection_DB_SAVOIR_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="savoir" internalId="_9yoJPUehEfG9ndm8B-jwTQ"/>
@@ -43,6 +44,7 @@
     <contextParameter comment="" name="connection_SAVOIR_DB_Login" prompt="connection_SAVOIR_DB_Login?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="savoir" internalId="_0GFeeUh9EfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_SAVOIR_DB_AdditionalParams" prompt="connection_SAVOIR_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_0GFeekh9EfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_SAVOIR_DB_Schema" prompt="connection_SAVOIR_DB_Schema?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="savoir" internalId="_0GFee0h9EfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Database" prompt="connection_SAVOIR_DB_Database?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_aWcZoU0hEfG9ndm8B-jwTQ"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="PRODUCTION">
     <contextParameter comment="" name="DB_SAVOIR_Login" prompt="DB_SAVOIR_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="basware" internalId="_LGyuQ0POEfG9ndm8B-jwTQ"/>
@@ -55,7 +57,7 @@
     <contextParameter comment="" name="connection_DB_SAVOIR_AdditionalParams" prompt="connection_DB_SAVOIR_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9yoJPkehEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_DB_SAVOIR_Server" prompt="connection_DB_SAVOIR_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9yoJP0ehEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_DB_SAVOIR_Port" prompt="connection_DB_SAVOIR_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9yoJQEehEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_DB_SAVOIR_Database" prompt="connection_DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_9yoJQUehEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_DB_SAVOIR_Database" prompt="connection_DB_SAVOIR_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9yoJQUehEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_DB_SAVOIR_Password" prompt="connection_DB_SAVOIR_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" internalId="_9yoJQkehEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_DB_SAVOIR_Login" prompt="connection_DB_SAVOIR_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9yoJQ0ehEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_DB_SAVOIR_Schema" prompt="connection_DB_SAVOIR_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9yoJREehEfG9ndm8B-jwTQ"/>
@@ -65,6 +67,7 @@
     <contextParameter comment="" name="connection_SAVOIR_DB_Login" prompt="connection_SAVOIR_DB_Login?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_0GFef0h9EfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_SAVOIR_DB_AdditionalParams" prompt="connection_SAVOIR_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_0GFegEh9EfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_SAVOIR_DB_Schema" prompt="connection_SAVOIR_DB_Schema?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_0GFegUh9EfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Database" prompt="connection_SAVOIR_DB_Database?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_aWcZok0hEfG9ndm8B-jwTQ"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -880,7 +883,7 @@
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
     <elementParameter field="TEXT" name="HOST" value="context.connection_SAVOIR_DB_Server"/>
     <elementParameter field="TEXT" name="PORT" value="context.connection_SAVOIR_DB_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.connection_DB_SAVOIR_Database"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_SAVOIR_DB_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_SAVOIR_DB_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_SAVOIR_DB_Login"/>
@@ -1107,6 +1110,114 @@
       <elementValue elementRef="TRACE_COLUMN" value="MATRICULE" id="51"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="52"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="53"/>
+      <elementValue elementRef="TRACE_COLUMN" value="groupe_travail" id="54"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="55"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="56"/>
+      <elementValue elementRef="TRACE_COLUMN" value="matricule" id="57"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="58"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="59"/>
+      <elementValue elementRef="TRACE_COLUMN" value="coderegion" id="60"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="61"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="62"/>
+      <elementValue elementRef="TRACE_COLUMN" value="matricule_resph_reel" id="63"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="64"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="65"/>
+      <elementValue elementRef="TRACE_COLUMN" value="numportable" id="66"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="67"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="68"/>
+      <elementValue elementRef="TRACE_COLUMN" value="genrevehicule" id="69"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="70"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="71"/>
+      <elementValue elementRef="TRACE_COLUMN" value="datemisecirculation" id="72"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="73"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="74"/>
+      <elementValue elementRef="TRACE_COLUMN" value="typeconducteur" id="75"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="76"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="77"/>
+      <elementValue elementRef="TRACE_COLUMN" value="nom" id="78"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="79"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="80"/>
+      <elementValue elementRef="TRACE_COLUMN" value="nom_complet" id="81"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="82"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="83"/>
+      <elementValue elementRef="TRACE_COLUMN" value="modelevehicule" id="84"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="85"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="86"/>
+      <elementValue elementRef="TRACE_COLUMN" value="matricule_resph_adm" id="87"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="88"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="89"/>
+      <elementValue elementRef="TRACE_COLUMN" value="code_societe" id="90"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="91"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="92"/>
+      <elementValue elementRef="TRACE_COLUMN" value="matricule_connexion" id="93"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="94"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="95"/>
+      <elementValue elementRef="TRACE_COLUMN" value="tel" id="96"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="97"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="98"/>
+      <elementValue elementRef="TRACE_COLUMN" value="abregeport" id="99"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="100"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="101"/>
+      <elementValue elementRef="TRACE_COLUMN" value="fax" id="102"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="103"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="104"/>
+      <elementValue elementRef="TRACE_COLUMN" value="prenom" id="105"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="106"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="107"/>
+      <elementValue elementRef="TRACE_COLUMN" value="telabbrege" id="108"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="109"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="110"/>
+      <elementValue elementRef="TRACE_COLUMN" value="voiture_anc_sg" id="111"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="112"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="113"/>
+      <elementValue elementRef="TRACE_COLUMN" value="puissvehicule" id="114"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="115"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="116"/>
+      <elementValue elementRef="TRACE_COLUMN" value="matricule_resph_reel_n2" id="117"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="118"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="119"/>
+      <elementValue elementRef="TRACE_COLUMN" value="portable" id="120"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="121"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="122"/>
+      <elementValue elementRef="TRACE_COLUMN" value="code_categorie" id="123"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="124"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="125"/>
+      <elementValue elementRef="TRACE_COLUMN" value="matricule_ctl_ndf" id="126"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="127"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="128"/>
+      <elementValue elementRef="TRACE_COLUMN" value="societe" id="129"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="130"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="131"/>
+      <elementValue elementRef="TRACE_COLUMN" value="code_agence" id="132"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="133"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="134"/>
+      <elementValue elementRef="TRACE_COLUMN" value="adressemail" id="135"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="136"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="137"/>
+      <elementValue elementRef="TRACE_COLUMN" value="immatvehicule" id="138"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="139"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="140"/>
+      <elementValue elementRef="TRACE_COLUMN" value="service" id="141"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="142"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="143"/>
+      <elementValue elementRef="TRACE_COLUMN" value="typecarburant1" id="144"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="145"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="146"/>
+      <elementValue elementRef="TRACE_COLUMN" value="codeservice" id="147"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="148"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="149"/>
+      <elementValue elementRef="TRACE_COLUMN" value="tauxco2" id="150"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="151"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="152"/>
+      <elementValue elementRef="TRACE_COLUMN" value="region" id="153"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="154"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="155"/>
+      <elementValue elementRef="TRACE_COLUMN" value="voiture_sg" id="156"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="157"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="158"/>
+      <elementValue elementRef="TRACE_COLUMN" value="marquevehicule" id="159"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="160"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="161"/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="annuaire_new" show="false"/>
