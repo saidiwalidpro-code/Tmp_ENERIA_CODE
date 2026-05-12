@@ -21,31 +21,6 @@
     } ]
   }, {
     "contextName" : "Default",
-    "repoId" : "_ZyeVAEPNEfG9ndm8B-jwTQ",
-    "parameterList" : [ {
-      "id" : "_ZysXckPNEfG9ndm8B-jwTQ",
-      "name" : "connection_BASWARE_DB_AdditionalParams"
-    }, {
-      "id" : "_SSZuIEekEfG9ndm8B-jwTQ",
-      "name" : "connection_BASWARE_DB_Database"
-    }, {
-      "id" : "_ZysXcUPNEfG9ndm8B-jwTQ",
-      "name" : "connection_BASWARE_DB_Login"
-    }, {
-      "id" : "_ZysXdUPNEfG9ndm8B-jwTQ",
-      "name" : "connection_BASWARE_DB_Password"
-    }, {
-      "id" : "_ZysXdEPNEfG9ndm8B-jwTQ",
-      "name" : "connection_BASWARE_DB_Port"
-    }, {
-      "id" : "_ZysXdkPNEfG9ndm8B-jwTQ",
-      "name" : "connection_BASWARE_DB_Schema"
-    }, {
-      "id" : "_ZysXc0PNEfG9ndm8B-jwTQ",
-      "name" : "connection_BASWARE_DB_Server"
-    } ]
-  }, {
-    "contextName" : "Default",
     "repoId" : "_v_AqQEhPEfG9ndm8B-jwTQ",
     "parameterList" : [ {
       "id" : "_zOLv0kPMEfG9ndm8B-jwTQ",
@@ -84,31 +59,6 @@
     } ]
   }, {
     "contextName" : "RECETTE",
-    "repoId" : "_ZyeVAEPNEfG9ndm8B-jwTQ",
-    "parameterList" : [ {
-      "id" : "_ZysXgkPNEfG9ndm8B-jwTQ",
-      "name" : "connection_BASWARE_DB_AdditionalParams"
-    }, {
-      "id" : "_SSZuIkekEfG9ndm8B-jwTQ",
-      "name" : "connection_BASWARE_DB_Database"
-    }, {
-      "id" : "_ZysXgUPNEfG9ndm8B-jwTQ",
-      "name" : "connection_BASWARE_DB_Login"
-    }, {
-      "id" : "_ZysXhUPNEfG9ndm8B-jwTQ",
-      "name" : "connection_BASWARE_DB_Password"
-    }, {
-      "id" : "_ZysXhEPNEfG9ndm8B-jwTQ",
-      "name" : "connection_BASWARE_DB_Port"
-    }, {
-      "id" : "_ZysXhkPNEfG9ndm8B-jwTQ",
-      "name" : "connection_BASWARE_DB_Schema"
-    }, {
-      "id" : "_ZysXg0PNEfG9ndm8B-jwTQ",
-      "name" : "connection_BASWARE_DB_Server"
-    } ]
-  }, {
-    "contextName" : "RECETTE",
     "repoId" : "_v_AqQEhPEfG9ndm8B-jwTQ",
     "parameterList" : [ {
       "id" : "_zOLv3kPMEfG9ndm8B-jwTQ",
@@ -144,31 +94,6 @@
     }, {
       "id" : "_0FnYoEkmEfG9ndm8B-jwTQ",
       "name" : "Baseware_SFTP_repertoire"
-    } ]
-  }, {
-    "contextName" : "PRODUCTION",
-    "repoId" : "_ZyeVAEPNEfG9ndm8B-jwTQ",
-    "parameterList" : [ {
-      "id" : "_ZysXekPNEfG9ndm8B-jwTQ",
-      "name" : "connection_BASWARE_DB_AdditionalParams"
-    }, {
-      "id" : "_SSZuIUekEfG9ndm8B-jwTQ",
-      "name" : "connection_BASWARE_DB_Database"
-    }, {
-      "id" : "_ZysXeUPNEfG9ndm8B-jwTQ",
-      "name" : "connection_BASWARE_DB_Login"
-    }, {
-      "id" : "_ZysXfUPNEfG9ndm8B-jwTQ",
-      "name" : "connection_BASWARE_DB_Password"
-    }, {
-      "id" : "_ZysXfEPNEfG9ndm8B-jwTQ",
-      "name" : "connection_BASWARE_DB_Port"
-    }, {
-      "id" : "_ZysXfkPNEfG9ndm8B-jwTQ",
-      "name" : "connection_BASWARE_DB_Schema"
-    }, {
-      "id" : "_ZysXe0PNEfG9ndm8B-jwTQ",
-      "name" : "connection_BASWARE_DB_Server"
     } ]
   }, {
     "contextName" : "PRODUCTION",
