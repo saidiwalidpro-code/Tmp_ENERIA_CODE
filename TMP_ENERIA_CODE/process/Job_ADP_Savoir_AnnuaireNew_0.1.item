@@ -63,7 +63,7 @@
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="54" show="false"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="1094" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="1080" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
@@ -2240,7 +2240,7 @@
     <elementParameter field="CHECK" name="FONT_ITALIC" value="true"/>
     <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="0;0;0"/>
   </note>
-  <note opaque="true" posX="-40" posY="-520" sizeHeight="721" sizeWidth="1561" text="Recuperation du fichier annuaire_ad_complet.csv du SFTP ADP transformation &#xD;&#xA;et insertion dans table savoir.annuaire_new et savoir.personnel">
+  <note opaque="false" posX="-40" posY="-520" sizeHeight="721" sizeWidth="1561" text="Recuperation du fichier annuaire_ad_complet.csv du SFTP ADP transformation &#xD;&#xA;et insertion dans table savoir.annuaire_new et savoir.personnel">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="155;199;204"/>
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="0;0;0"/>
     <elementParameter field="RADIO" name="NOTETXT_RIGHT" value="true"/>
