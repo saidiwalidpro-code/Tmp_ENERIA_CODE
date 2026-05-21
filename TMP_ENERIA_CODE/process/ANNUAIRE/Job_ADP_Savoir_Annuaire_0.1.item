@@ -716,27 +716,27 @@
       <column comment="" key="false" length="-1" name="cout_export" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="copyOfannuaire_new" expressionFilter="(row3.C_Etablissement_St__Jur).startsWith(&quot;8&quot;)" activateExpressionFilter="true" columnNameFilter="">
         <mapperTableEntries name="matricule" expression="row3.Matricule " type="id_String" nullable="true"/>
         <mapperTableEntries name="societe" expression="StringHandling.LEFT(row3.C_Etablissement_St__Jur ,2).equals(&quot;80&quot;)? &quot;ENERIA&quot;: StringHandling.LEFT(row3.C_Etablissement_St__Jur ,2).equals(&quot;83&quot;)? &quot;ENERIAREN&quot; : &quot;&quot; " type="id_String" nullable="true"/>
         <mapperTableEntries name="region" expression="row3.L_Etablissement_St__Jur " type="id_String" nullable="true"/>
-        <mapperTableEntries name="coderegion" expression="&quot;38&quot;+row3.C_Etablissement_St__Jur.substring(3, 5) " type="id_String" nullable="true"/>
-        <mapperTableEntries name="service" expression="row3.L_Imputation " type="id_String" nullable="true"/>
+        <mapperTableEntries name="coderegion" expression="&quot;38&quot;+row3.C_Etablissement_St__Jur.substring(2, 5) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="service" expression="row3.L_Imputation.equals(&quot;&quot;)? null :row3.L_Imputation " type="id_String" nullable="true"/>
         <mapperTableEntries name="nom" expression="row3.Les_dossiers_Nom " type="id_String" nullable="true"/>
         <mapperTableEntries name="prenom" expression="row3.Les_dossiers_Prenom " type="id_String" nullable="true"/>
-        <mapperTableEntries name="codeservice" expression="row3.N__Imputation " type="id_String" nullable="true"/>
-        <mapperTableEntries name="nom_complet" expression="row3.Les_dossiers_Nom+&quot; &quot;+  row3.Les_dossiers_Prenom " type="id_String" nullable="true"/>
-        <mapperTableEntries name="matricule_connexion" expression="&quot;B&quot;+row3.Matricule.substring(3, 6) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="codeservice" expression="row3.N__Imputation.equals(&quot;&quot;)? null:row3.N__Imputation " type="id_String" nullable="true"/>
+        <mapperTableEntries name="nom_complet" expression=" row3.Les_dossiers_Prenom +row3.Les_dossiers_Nom" type="id_String" nullable="true"/>
+        <mapperTableEntries name="matricule_connexion" expression="&quot;B&quot;+StringHandling.RIGHT(row3.Matricule,6) " type="id_String" nullable="true"/>
         <mapperTableEntries name="code_societe" expression="StringHandling.LEFT(row3.C_Etablissement_St__Jur ,2).equals(&quot;80&quot;)? &quot;38&quot;:StringHandling.LEFT(row3.C_Etablissement_St__Jur ,2) " type="id_String" nullable="true"/>
         <mapperTableEntries name="code_agence" expression="row3.C_Etablissement_St__Jur.substring(3, 5) " type="id_String" nullable="true"/>
-        <mapperTableEntries name="matricule6" expression="row3.Matricule.substring(3, 6) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="matricule6" expression="StringHandling.RIGHT(row3.Matricule,6)" type="id_String" nullable="true"/>
         <mapperTableEntries name="adressemail" expression="row3.E_mail_professionnel " type="id_String" nullable="true"/>
         <mapperTableEntries name="code_langue" expression="&quot;FR&quot;" type="id_String" nullable="true"/>
         <mapperTableEntries name="ventile" expression="(&#xD;&#xA;    (&quot;1&quot;.equals(row3.Ventile_force__si_different) || &quot;2&quot;.equals(row3.Ventile_force__si_different))&#xD;&#xA;    ||&#xD;&#xA;    (&quot;1&quot;.equals(row3.Code_Ventile) || &quot;2&quot;.equals(row3.Code_Ventile))&#xD;&#xA;)&#xD;&#xA;? &quot;Oui&quot; : &quot;Non&quot; " type="id_String" nullable="true"/>
-        <mapperTableEntries name="cout_standard" expression="row1.cout " type="id_BigDecimal" nullable="true"/>
-        <mapperTableEntries name="cout_export" expression="row1.cout_export " type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="cout_standard" expression="(row1.cout == null) ? BigDecimal.ZERO : row1.cout " type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="cout_export" expression="(row1.cout_export == null) ? BigDecimal.ZERO : row1.cout_export " type="id_BigDecimal" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row3" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="Matricule" type="id_String" nullable="true"/>
