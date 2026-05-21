@@ -566,7 +566,7 @@
       <column comment="" key="false" length="-1" name="D_Entree_societe" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="C_Motif_entree_soc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="L_Motif_entree_soc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="D_Sortie_societe" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="D_Sortie_societe" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="-1" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="C_Motif_sortie_soc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="L_Motif_de_sortie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="C_Suspension_contrat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_String" usefulColumn="true"/>
@@ -639,7 +639,7 @@
       <column comment="" key="false" length="-1" name="D_Entree_societe" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="C_Motif_entree_soc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="L_Motif_entree_soc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="D_Sortie_societe" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="D_Sortie_societe" nullable="true" pattern="&quot;dd/MM/yyyy&quot;" precision="-1" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="C_Motif_sortie_soc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="L_Motif_de_sortie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="C_Suspension_contrat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_String" usefulColumn="true"/>
@@ -719,7 +719,7 @@
       <column comment="" key="false" length="-1" name="nom_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="prenom_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="date_entree_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="date_sortie_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="date_sortie_salarie" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="VARCHAR" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="etablissement_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="section_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="niveau_echelon_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -743,11 +743,11 @@
       <column comment="" key="false" length="-1" name="cout_export" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="PERSONNEL" expressionFilter="(row9.C_Etablissement_St__Jur).startsWith(&quot;8&quot;)&amp;&amp;&#xD;&#xA;(!(row9.Matricule).startsWith(&quot;8&quot;)||&#xD;&#xA;!(row9.Matricule).startsWith(&quot;9&quot;))" activateExpressionFilter="true">
-        <mapperTableEntries name="code_societe_salarie" expression="row9.C_Etablissement_St__Jur.substring(1, 2) " type="id_String" nullable="true"/>
-        <mapperTableEntries name="matricule_salarie" expression="row9.Matricule " type="id_String" nullable="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="PERSONNEL" expressionFilter="(row9.C_Etablissement_St__Jur).startsWith(&quot;8&quot;)" activateExpressionFilter="true">
+        <mapperTableEntries name="code_societe_salarie" expression="row9.C_Etablissement_St__Jur.substring(0, 2).equals(&quot;80&quot;)?&quot;38&quot;:row9.C_Etablissement_St__Jur.substring(0, 2) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="matricule_salarie" expression="StringHandling.RIGHT(row9.Matricule ,6) " type="id_String" nullable="true"/>
         <mapperTableEntries name="titre_salarie" type="id_String" nullable="true"/>
         <mapperTableEntries name="nom_salarie" type="id_String" nullable="true"/>
         <mapperTableEntries name="prenom_salarie" type="id_String" nullable="true"/>
@@ -866,7 +866,7 @@
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ao8QEHpUkdqw1BUKkOy7S9xkCfnU3HhCPv8XmSZ8GQic6FvW9OSE4B5Oeei5r2yEiKiQnZfWU/fl5hYJc9Tzarw=" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="context.Table_cible"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
-    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="UPSERT"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="UPDATE"/>
     <elementParameter field="CHECK" name="USE_SPATIAL_OPTIONS" value="false" show="false"/>
     <elementParameter field="CHECK" name="SPATIAL_INDEX" value="false" show="false"/>
     <elementParameter field="CHECK" name="GEOMETRY_COLUMNS" value="false" show="false"/>
@@ -886,12 +886,12 @@
     <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="true"/>
     <elementParameter field="TABLE" name="FIELD_OPTIONS">
       <elementValue elementRef="SCHEMA_COLUMN" value="code_societe_salarie" id="0"/>
-      <elementValue elementRef="UPDATE_KEY" value="false" id="1"/>
+      <elementValue elementRef="UPDATE_KEY" value="true" id="1"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="2"/>
       <elementValue elementRef="UPDATABLE" value="true" id="3"/>
       <elementValue elementRef="INSERTABLE" value="true" id="4"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="matricule_salarie" id="5"/>
-      <elementValue elementRef="UPDATE_KEY" value="false" id="6"/>
+      <elementValue elementRef="UPDATE_KEY" value="true" id="6"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="7"/>
       <elementValue elementRef="UPDATABLE" value="true" id="8"/>
       <elementValue elementRef="INSERTABLE" value="true" id="9"/>
@@ -958,13 +958,13 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="indicateur_ventile" id="70"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="71"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="72"/>
-      <elementValue elementRef="UPDATABLE" value="true" id="73"/>
-      <elementValue elementRef="INSERTABLE" value="true" id="74"/>
+      <elementValue elementRef="UPDATABLE" value="false" id="73"/>
+      <elementValue elementRef="INSERTABLE" value="false" id="74"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="cout_standard" id="75"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="76"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="77"/>
-      <elementValue elementRef="UPDATABLE" value="true" id="78"/>
-      <elementValue elementRef="INSERTABLE" value="true" id="79"/>
+      <elementValue elementRef="UPDATABLE" value="false" id="78"/>
+      <elementValue elementRef="INSERTABLE" value="false" id="79"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="type_imputation" id="80"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="81"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="82"/>
@@ -973,8 +973,8 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="code_agence" id="85"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="86"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="87"/>
-      <elementValue elementRef="UPDATABLE" value="true" id="88"/>
-      <elementValue elementRef="INSERTABLE" value="true" id="89"/>
+      <elementValue elementRef="UPDATABLE" value="false" id="88"/>
+      <elementValue elementRef="INSERTABLE" value="false" id="89"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="date_jour" id="90"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="91"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="92"/>
@@ -988,8 +988,8 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="jrn_dattim_personnel" id="100"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="101"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="102"/>
-      <elementValue elementRef="UPDATABLE" value="true" id="103"/>
-      <elementValue elementRef="INSERTABLE" value="true" id="104"/>
+      <elementValue elementRef="UPDATABLE" value="false" id="103"/>
+      <elementValue elementRef="INSERTABLE" value="false" id="104"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="date_modif_personnel" id="105"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="106"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="107"/>
@@ -998,8 +998,8 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="indic_marine" id="110"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="111"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="112"/>
-      <elementValue elementRef="UPDATABLE" value="true" id="113"/>
-      <elementValue elementRef="INSERTABLE" value="true" id="114"/>
+      <elementValue elementRef="UPDATABLE" value="false" id="113"/>
+      <elementValue elementRef="INSERTABLE" value="false" id="114"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="naissance_mois" id="115"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="116"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="117"/>
@@ -1013,13 +1013,13 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="code_destination" id="125"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="126"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="127"/>
-      <elementValue elementRef="UPDATABLE" value="true" id="128"/>
-      <elementValue elementRef="INSERTABLE" value="true" id="129"/>
+      <elementValue elementRef="UPDATABLE" value="false" id="128"/>
+      <elementValue elementRef="INSERTABLE" value="false" id="129"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="code_contrat" id="130"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="131"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="132"/>
-      <elementValue elementRef="UPDATABLE" value="true" id="133"/>
-      <elementValue elementRef="INSERTABLE" value="true" id="134"/>
+      <elementValue elementRef="UPDATABLE" value="false" id="133"/>
+      <elementValue elementRef="INSERTABLE" value="false" id="134"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="cout_export" id="135"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="136"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="137"/>
@@ -1040,7 +1040,7 @@
       <column comment="" key="false" length="-1" name="nom_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="prenom_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="date_entree_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="date_sortie_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="date_sortie_salarie" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="etablissement_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="section_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="niveau_echelon_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -1070,7 +1070,7 @@
       <column comment="" key="false" length="-1" name="nom_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="prenom_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="date_entree_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="date_sortie_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="date_sortie_salarie" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="etablissement_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="section_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="niveau_echelon_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -1132,6 +1132,7 @@
   </node>
   <node componentName="tFTPConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="40" posY="-480">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFTPConnection_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TEXT" name="HOST" value="context.ADP_SFTP_Adresse"/>
     <elementParameter field="TEXT" name="PORT" value="context.ADP_SFTP_Port"/>
     <elementParameter field="TEXT" name="FTPS_PORT" value="990" show="false"/>
@@ -1168,6 +1169,7 @@
   </node>
   <node componentName="tFTPFileList" componentVersion="0.100" offsetLabelX="0" offsetLabelY="0" posX="280" posY="-480">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFTPFileList_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tFTPConnection_1"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;" show="false"/>
@@ -1212,6 +1214,7 @@
   </node>
   <node componentName="tFTPGet" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="560" posY="-440">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFTPGet_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tFTPConnection_1"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;" show="false"/>
@@ -1234,7 +1237,7 @@
     <elementParameter field="CLOSED_LIST" name="MODE" value="ascii" show="false"/>
     <elementParameter field="CLOSED_LIST" name="OVERWRITE" value="never" show="false"/>
     <elementParameter field="CHECK" name="APPEND" value="false" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="SFTPOVERWRITE" value="append"/>
+    <elementParameter field="CLOSED_LIST" name="SFTPOVERWRITE" value="append" show="false"/>
     <elementParameter field="CHECK" name="PERL5_REGEX" value="false"/>
     <elementParameter field="TABLE" name="FILES">
       <elementValue elementRef="FILEMASK" value="context.ADP_SFTP_NomFichier" id="0"/>
@@ -1251,7 +1254,7 @@
     <elementParameter field="TEXT" name="PROXY_USERNAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="PROXY_PASSWORD" value="enc:system.encryption.key.v1:iI2z+woFTOrro5i6ZbNjN0zz3Ok9WRvE5NW9JBuv" show="false"/>
     <elementParameter field="CHECK" name="IGNORE_FAILURE_AT_QUIT" value="false" show="false"/>
-    <elementParameter field="CHECK" name="PRINT_MESSAGE" value="true"/>
+    <elementParameter field="CHECK" name="PRINT_MESSAGE" value="true" show="false"/>
     <elementParameter field="OPENED_LIST" name="FTPS_PROT" value="&quot;P&quot;" show="false"/>
     <elementParameter field="TEXT" name="FTPS_PROTECTION_BUFF_SIZE" value="0" show="false"/>
     <elementParameter field="CHECK" name="REMOTE_VERIFICATION" value="true" show="false"/>
@@ -1296,13 +1299,16 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row10" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFTPConnection_1" offsetLabelX="0" offsetLabelY="0" source="tFTPConnection_1" target="tFTPFileList_1">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
   </connection>
   <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tFTPFileList_1" offsetLabelX="0" offsetLabelY="0" source="tFTPFileList_1" target="tFTPGet_1">
     <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Integer)globalMap.get(&quot;tFTPFileList_1_NB_FILE&quot;))==1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="If1" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFTPGet_1" offsetLabelX="0" offsetLabelY="0" source="tFTPGet_1" target="tFileInputDelimited_4">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3" show="false"/>
   </connection>
   <note opaque="true" posX="-40" posY="-520" sizeHeight="161" sizeWidth="1321" text="Recuperation du fichier ANNUAIRE_AD_COMPLET.csv du SFTP &#xD;&#xA;*et depot en local pour utilisation">
