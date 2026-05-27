@@ -344,7 +344,7 @@
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT CSTE ,CORI ,DTPC, NPIE ,DCRE ,DTMJ ,DTLT ,CLET ,IDEX ,NCPT&#xD;&#xA; FROM ZZGEC&#xD;&#xA; WHERE &#xD;&#xA;DTMJ > 20260401  AND&#xD;&#xA; CORI IS not NULL &#xD;&#xA; AND SUBSTRING(CORI, 1, 3) = 'ACH'&#xD;&#xA; AND IDEX IS not NULL   AND TRIM(IDEX) &lt;> ''&#xD;&#xA; AND NCPT IS not NULL&#xD;&#xA; AND (NCPT LIKE 'F%' OR NCPT LIKE 'M%')&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT CSTE ,CORI ,DTPC, NPIE ,DCRE ,DTMJ ,DTLT ,CLET ,IDEX ,NCPT&#xD;&#xA; FROM ZZGEC&#xD;&#xA; WHERE &#xD;&#xA; CORI IS not NULL &#xD;&#xA; AND SUBSTRING(CORI, 1, 3) = 'ACH'&#xD;&#xA; AND IDEX IS not NULL   AND TRIM(IDEX) &lt;> ''&#xD;&#xA; AND NCPT IS not NULL&#xD;&#xA; AND (NCPT LIKE 'F%' OR NCPT LIKE 'M%')&quot;"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="as400_id" show="false"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_TALENTIA_DB_AdditionalParams" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
@@ -419,7 +419,7 @@
       <column comment="" key="false" length="-1" name="docid" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var"/>
       <outputTables sizeState="INTERMEDIATE" name="retourCompta" activateExpressionFilter="true">
         <mapperTableEntries name="code_societe" expression="row4.CSTE " type="id_String" nullable="true"/>
