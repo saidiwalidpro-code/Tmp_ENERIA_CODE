@@ -57,12 +57,12 @@
     <contextParameter comment="" name="Baseware_SFTP_Port" prompt="Baseware_SFTP_Port?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Integer" value="" internalId="_J7topUkvEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Baseware_SFTP_repertoire" prompt="Baseware_SFTP_repertoire?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_J7topkkvEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_BASWARE_DB_AdditionalParams" prompt="connection_BASWARE_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_J7top0kvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Database" prompt="connection_BASWARE_DB_Database?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_J7toqEkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Login" prompt="connection_BASWARE_DB_Login?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_J7uPkEkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Password" prompt="connection_BASWARE_DB_Password?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_Password" value="" internalId="_J7uPkUkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Port" prompt="connection_BASWARE_DB_Port?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_J7uPkkkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Schema" prompt="connection_BASWARE_DB_Schema?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_J7uPk0kvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Server" prompt="connection_BASWARE_DB_Server?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_J7uPlEkvEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Database" prompt="connection_BASWARE_DB_Database?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_J7toqEkvEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Login" prompt="connection_BASWARE_DB_Login?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_J7uPkEkvEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Password" prompt="connection_BASWARE_DB_Password?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:FiKiADMjgAmx3aTsce18IQnE9YHM/UnxyTyl4aDrhDYXkLI=" internalId="_J7uPkUkvEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Port" prompt="connection_BASWARE_DB_Port?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_J7uPkkkvEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Schema" prompt="connection_BASWARE_DB_Schema?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_J7uPk0kvEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Server" prompt="connection_BASWARE_DB_Server?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02" internalId="_J7uPlEkvEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_IDEFI_DB_AdditionalParams" prompt="connection_IDEFI_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_J7uPlUkvEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_IDEFI_DB_Database" prompt="connection_IDEFI_DB_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_J7uPlkkvEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_IDEFI_DB_Login" prompt="connection_IDEFI_DB_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_J7uPl0kvEfG9ndm8B-jwTQ"/>
@@ -358,7 +358,7 @@
       <column comment="" key="false" length="-1" name="code_devise_de" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="devise">
         <mapperTableEntries name="code_devise" expression="StringHandling.BTRIM(row1.TICODE) " type="id_String" nullable="true"/>
@@ -766,13 +766,13 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>

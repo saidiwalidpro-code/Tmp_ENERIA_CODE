@@ -11,7 +11,7 @@
     <contextParameter comment="" name="Baseware_SFTP_Port" prompt="Baseware_SFTP_Port?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Integer" value="22" internalId="_EGSl40kyEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Baseware_SFTP_repertoire" prompt="Baseware_SFTP_repertoire?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="/files/in" internalId="_EGSl5EkyEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_TALENTIA_DB_AdditionalParams" prompt="connection_TALENTIA_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_EGSl7EkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_TALENTIA_DB_Database" prompt="connection_TALENTIA_DB_Database?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="IR6_1FT38" internalId="_EGSl7UkyEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Database" prompt="connection_TALENTIA_DB_Database?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="IR6_1F038" internalId="_EGSl7UkyEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_TALENTIA_DB_Login" prompt="connection_TALENTIA_DB_Login?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_EGSl7kkyEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_TALENTIA_DB_Password" prompt="connection_TALENTIA_DB_Password?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:5ED5LpcszmsT4GnghiYXKaqJ6RSIsrcCfLhNZ5KvXBvpqJBk4lY=" internalId="_EGSl70kyEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="connection_TALENTIA_DB_Server" prompt="connection_TALENTIA_DB_Server?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_EGSl8EkyEfG9ndm8B-jwTQ"/>
@@ -596,7 +596,7 @@
     <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="0;0;0"/>
   </note>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
@@ -668,7 +668,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
