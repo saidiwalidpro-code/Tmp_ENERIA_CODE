@@ -16,9 +16,6 @@
       "id" : "_0FnYk0kmEfG9ndm8B-jwTQ",
       "name" : "ADP_SFTP_MDP"
     }, {
-      "id" : "_9RgVkE6mEfGMBaGXq0VANg",
-      "name" : "ADP_SFTP_NomFichier"
-    }, {
       "id" : "_0FnYlUkmEfG9ndm8B-jwTQ",
       "name" : "ADP_SFTP_Port"
     }, {
@@ -66,9 +63,6 @@
       "id" : "_0FnYmUkmEfG9ndm8B-jwTQ",
       "name" : "ADP_SFTP_MDP"
     }, {
-      "id" : "_9RgVkU6mEfGMBaGXq0VANg",
-      "name" : "ADP_SFTP_NomFichier"
-    }, {
       "id" : "_0FnYm0kmEfG9ndm8B-jwTQ",
       "name" : "ADP_SFTP_Port"
     }, {
@@ -115,9 +109,6 @@
     }, {
       "id" : "_0FnYn0kmEfG9ndm8B-jwTQ",
       "name" : "ADP_SFTP_MDP"
-    }, {
-      "id" : "_9RgVkk6mEfGMBaGXq0VANg",
-      "name" : "ADP_SFTP_NomFichier"
     }, {
       "id" : "_0FnYoUkmEfG9ndm8B-jwTQ",
       "name" : "ADP_SFTP_Port"
