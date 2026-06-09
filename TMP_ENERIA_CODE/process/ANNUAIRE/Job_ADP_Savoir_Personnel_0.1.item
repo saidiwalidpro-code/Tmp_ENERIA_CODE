@@ -4,58 +4,82 @@
     <contextParameter comment="" name="Table_cible" prompt="Table_cible?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="personnel" internalId="_WUTloEhaEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Repertoire_racine" prompt="Repertoire_racine?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="E:/Talend/data/" internalId="_WUTloUhaEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Repertoire_in" prompt="Repertoire_in?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/in/" internalId="_V8t9IE0dEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="ADP_SFTP_Adresse" prompt="ADP_SFTP_Adresse?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="FTS.SFG.ADP.COM" internalId="_9m354E6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="ADP_SFTP_Key" prompt="ADP_SFTP_Key?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="E:/Talend/sftp_key/monnoyeur.key" internalId="_9m354U6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="ADP_SFTP_Login" prompt="ADP_SFTP_Login?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="frac900639" internalId="_9m354k6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="ADP_SFTP_MDP" prompt="ADP_SFTP_MDP?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_Password" value="" internalId="_9m35406sEfGMBaGXq0VANg"/>
     <contextParameter comment="" name="ADP_SFTP_NomFichier" prompt="ADP_SFTP_NomFichier?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ANNUAIRE_AD.csv" internalId="_9m355E6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="ADP_SFTP_Port" prompt="ADP_SFTP_Port?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_Integer" value="11422" internalId="_9m355U6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="ADP_SFTP_Repertoire" prompt="ADP_SFTP_Repertoire?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="/in" internalId="_9m355k6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="connection_SAVOIR_DB_AdditionalParams" prompt="connection_SAVOIR_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_9m4g8E6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="connection_SAVOIR_DB_Database" prompt="connection_SAVOIR_DB_Database?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_9m4g8U6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="connection_SAVOIR_DB_Login" prompt="connection_SAVOIR_DB_Login?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="savoir" internalId="_9m4g8k6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="connection_SAVOIR_DB_Password" prompt="connection_SAVOIR_DB_Password?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:cYIPF7vzWCJHYzL2MVRcN14Z83gT7csJB+xt9oKOvELX0w==" internalId="_9m4g806sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="connection_SAVOIR_DB_Port" prompt="connection_SAVOIR_DB_Port?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_9m4g9E6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="connection_SAVOIR_DB_Schema" prompt="connection_SAVOIR_DB_Schema?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="savoir" internalId="_9m4g9U6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="connection_SAVOIR_DB_Server" prompt="connection_SAVOIR_DB_Server?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_9m4g9k6sEfGMBaGXq0VANg"/>
+    <contextParameter comment="" name="Repertoire_archive" prompt="Repertoire_archive?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/archive/" internalId="_inlJYGMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="environnement" prompt="environnement?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="recette" internalId="_inlJYWMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="ADP_SFTP_Adresse" prompt="ADP_SFTP_Adresse?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="FTS.SFG.ADP.COM" internalId="_inx9sGMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="ADP_SFTP_Key" prompt="ADP_SFTP_Key?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="E:/Talend/sftp_key/monnoyeur.key" internalId="_inx9sWMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="ADP_SFTP_Login" prompt="ADP_SFTP_Login?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="frac900639" internalId="_inx9smMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="ADP_SFTP_MDP" prompt="ADP_SFTP_MDP?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_Password" value="" internalId="_inx9s2MaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="ADP_SFTP_Port" prompt="ADP_SFTP_Port?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_Integer" value="11422" internalId="_inx9tGMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="ADP_SFTP_Repertoire" prompt="ADP_SFTP_Repertoire?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="/in" internalId="_inx9tWMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_cc" prompt="Mail_cc?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="&quot;&quot;" internalId="_inzy4GMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_destinataire" prompt="Mail_destinataire?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="lalliot@eneria.com" internalId="_inzy4WMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_expediteur" prompt="Mail_expediteur?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="lalliot@eneria.com" internalId="_inzy4mMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_SMTP_host" prompt="Mail_SMTP_host?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="172.17.12.20" internalId="_inzy42MaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_SMTP_port" prompt="Mail_SMTP_port?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_inzy5GMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_AdditionalParams" prompt="connection_SAVOIR_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_in7usGMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Database" prompt="connection_SAVOIR_DB_Database?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_in7usWMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Login" prompt="connection_SAVOIR_DB_Login?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="savoir" internalId="_in7usmMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Password" prompt="connection_SAVOIR_DB_Password?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:sEhIxpK+IX4aqd+QVrgIuFZPvxrd5cxu8R7OPf3p8y3fpA==" internalId="_in7us2MaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Port" prompt="connection_SAVOIR_DB_Port?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_in7utGMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Schema" prompt="connection_SAVOIR_DB_Schema?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="savoir" internalId="_in7utWMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Server" prompt="connection_SAVOIR_DB_Server?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_in7utmMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="timestamp" prompt="timestamp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_G3V4cGMhEfGkkq5kPO8l8g"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="RECETTE">
     <contextParameter comment="" name="Table_cible" prompt="Table_cible?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="personnel" internalId="_WUTlpEhaEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Repertoire_racine" prompt="Repertoire_racine?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="E:/Talend/data/" internalId="_WUTlpUhaEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Repertoire_in" prompt="Repertoire_in?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/in/" internalId="_V8t9IU0dEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="ADP_SFTP_Adresse" prompt="ADP_SFTP_Adresse?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="FTS.SFG.ADP.COM" internalId="_9m4g906sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="ADP_SFTP_Key" prompt="ADP_SFTP_Key?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="E:/Talend/sftp_key/monnoyeur.key" internalId="_9m4g-E6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="ADP_SFTP_Login" prompt="ADP_SFTP_Login?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="frac900639" internalId="_9m4g-U6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="ADP_SFTP_MDP" prompt="ADP_SFTP_MDP?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_Password" value="" internalId="_9m4g-k6sEfGMBaGXq0VANg"/>
     <contextParameter comment="" name="ADP_SFTP_NomFichier" prompt="ADP_SFTP_NomFichier?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ANNUAIRE_AD.csv" internalId="_9m4g-06sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="ADP_SFTP_Port" prompt="ADP_SFTP_Port?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_Integer" value="11422" internalId="_9m4g_E6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="ADP_SFTP_Repertoire" prompt="ADP_SFTP_Repertoire?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="/in" internalId="_9m4g_U6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="connection_SAVOIR_DB_AdditionalParams" prompt="connection_SAVOIR_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_9m4g_k6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="connection_SAVOIR_DB_Database" prompt="connection_SAVOIR_DB_Database?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_9m4g_06sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="connection_SAVOIR_DB_Login" prompt="connection_SAVOIR_DB_Login?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="savoir" internalId="_9m4hAE6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="connection_SAVOIR_DB_Password" prompt="connection_SAVOIR_DB_Password?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:eQnzOxLsNDo16RNvr40kcQc2SMAD6rxrGObI10lOH6DnVg==" internalId="_9m4hAU6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="connection_SAVOIR_DB_Port" prompt="connection_SAVOIR_DB_Port?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_9m4hAk6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="connection_SAVOIR_DB_Schema" prompt="connection_SAVOIR_DB_Schema?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="savoir" internalId="_9m4hA06sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="connection_SAVOIR_DB_Server" prompt="connection_SAVOIR_DB_Server?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_9m4hBE6sEfGMBaGXq0VANg"/>
+    <contextParameter comment="" name="Repertoire_archive" prompt="Repertoire_archive?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/archive/" internalId="_in7ut2MaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="environnement" prompt="environnement?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="recette" internalId="_in7uuGMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="ADP_SFTP_Adresse" prompt="ADP_SFTP_Adresse?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="FTS.SFG.ADP.COM" internalId="_in7uuWMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="ADP_SFTP_Key" prompt="ADP_SFTP_Key?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="E:/Talend/sftp_key/monnoyeur.key" internalId="_in7uumMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="ADP_SFTP_Login" prompt="ADP_SFTP_Login?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="frac900639" internalId="_in7uu2MaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="ADP_SFTP_MDP" prompt="ADP_SFTP_MDP?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_Password" value="" internalId="_in7uvGMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="ADP_SFTP_Port" prompt="ADP_SFTP_Port?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_Integer" value="11422" internalId="_in7uvWMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="ADP_SFTP_Repertoire" prompt="ADP_SFTP_Repertoire?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="/in" internalId="_in7uvmMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_cc" prompt="Mail_cc?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="&quot;&quot;" internalId="_in7uv2MaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_destinataire" prompt="Mail_destinataire?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="lalliot@eneria.com" internalId="_in7uwGMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_expediteur" prompt="Mail_expediteur?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="lalliot@eneria.com" internalId="_in7uwWMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_SMTP_host" prompt="Mail_SMTP_host?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="172.17.12.20" internalId="_in7uwmMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_SMTP_port" prompt="Mail_SMTP_port?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_in7uw2MaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_AdditionalParams" prompt="connection_SAVOIR_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_in7uxGMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Database" prompt="connection_SAVOIR_DB_Database?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_in7uxWMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Login" prompt="connection_SAVOIR_DB_Login?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="savoir" internalId="_in7uxmMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Password" prompt="connection_SAVOIR_DB_Password?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:6tG6uEBMScd6U9WvrvUN1UCPPuJ4LKmR4QqVPXOV7YmT/w==" internalId="_in7ux2MaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Port" prompt="connection_SAVOIR_DB_Port?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_in7uyGMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Schema" prompt="connection_SAVOIR_DB_Schema?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="savoir" internalId="_in7uyWMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Server" prompt="connection_SAVOIR_DB_Server?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_in7uymMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="timestamp" prompt="timestamp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_G3V4cWMhEfGkkq5kPO8l8g"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="PRODUCTION">
     <contextParameter comment="" name="Table_cible" prompt="Table_cible?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_WUTlqEhaEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Repertoire_racine" prompt="Repertoire_racine?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_WUTlqUhaEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Repertoire_in" prompt="Repertoire_in?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_V8t9Ik0dEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="ADP_SFTP_Adresse" prompt="ADP_SFTP_Adresse?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="" internalId="_9m4hBU6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="ADP_SFTP_Key" prompt="ADP_SFTP_Key?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="" internalId="_9m4hBk6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="ADP_SFTP_Login" prompt="ADP_SFTP_Login?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="" internalId="_9m4hB06sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="ADP_SFTP_MDP" prompt="ADP_SFTP_MDP?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_Password" value="" internalId="_9m4hCE6sEfGMBaGXq0VANg"/>
     <contextParameter comment="" name="ADP_SFTP_NomFichier" prompt="ADP_SFTP_NomFichier?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_9m4hCU6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="ADP_SFTP_Port" prompt="ADP_SFTP_Port?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_Integer" value="" internalId="_9m4hCk6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="ADP_SFTP_Repertoire" prompt="ADP_SFTP_Repertoire?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="" internalId="_9m4hC06sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="connection_SAVOIR_DB_AdditionalParams" prompt="connection_SAVOIR_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_9m4hDE6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="connection_SAVOIR_DB_Database" prompt="connection_SAVOIR_DB_Database?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_9m4hDU6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="connection_SAVOIR_DB_Login" prompt="connection_SAVOIR_DB_Login?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_9m4hDk6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="connection_SAVOIR_DB_Password" prompt="connection_SAVOIR_DB_Password?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_Password" value="" internalId="_9m4hD06sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="connection_SAVOIR_DB_Port" prompt="connection_SAVOIR_DB_Port?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_9m4hEE6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="connection_SAVOIR_DB_Schema" prompt="connection_SAVOIR_DB_Schema?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_9m4hEU6sEfGMBaGXq0VANg"/>
-    <contextParameter comment="" name="connection_SAVOIR_DB_Server" prompt="connection_SAVOIR_DB_Server?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_9m4hEk6sEfGMBaGXq0VANg"/>
+    <contextParameter comment="" name="Repertoire_archive" prompt="Repertoire_archive?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_in7uy2MaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="environnement" prompt="environnement?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_in7uzGMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="ADP_SFTP_Adresse" prompt="ADP_SFTP_Adresse?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="" internalId="_in7uzWMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="ADP_SFTP_Key" prompt="ADP_SFTP_Key?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="" internalId="_in7uzmMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="ADP_SFTP_Login" prompt="ADP_SFTP_Login?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="" internalId="_in7uz2MaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="ADP_SFTP_MDP" prompt="ADP_SFTP_MDP?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_Password" value="" internalId="_in7u0GMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="ADP_SFTP_Port" prompt="ADP_SFTP_Port?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_Integer" value="" internalId="_in7u0WMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="ADP_SFTP_Repertoire" prompt="ADP_SFTP_Repertoire?" promptNeeded="false" repositoryContextId="_asVRUE6mEfGMBaGXq0VANg" type="id_String" value="" internalId="_in7u0mMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_cc" prompt="Mail_cc?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_in7u02MaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_destinataire" prompt="Mail_destinataire?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_in7u1GMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_expediteur" prompt="Mail_expediteur?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_in7u1WMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_SMTP_host" prompt="Mail_SMTP_host?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_in7u1mMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_SMTP_port" prompt="Mail_SMTP_port?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_in7u12MaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_AdditionalParams" prompt="connection_SAVOIR_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_in7u2GMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Database" prompt="connection_SAVOIR_DB_Database?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_in7u2WMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Login" prompt="connection_SAVOIR_DB_Login?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_in7u2mMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Password" prompt="connection_SAVOIR_DB_Password?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_Password" value="" internalId="_in7u22MaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Port" prompt="connection_SAVOIR_DB_Port?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_in7u3GMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Schema" prompt="connection_SAVOIR_DB_Schema?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_in7u3WMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_SAVOIR_DB_Server" prompt="connection_SAVOIR_DB_Server?" promptNeeded="false" repositoryContextId="_HvA6IEPOEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_in7u3mMaEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="timestamp" prompt="timestamp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_G3V4cmMhEfGkkq5kPO8l8g"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -155,34 +179,10 @@
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
   </parameters>
-  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="-840">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_2" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connexion BD SAVOIR KO&quot;"/>
-    <elementParameter field="TEXT" name="CODE" value="4"/>
-    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
-    <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="Erreur connexion"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tDie_2"/>
-  </node>
-  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="40" posY="-680">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="Debut du job"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-  </node>
   <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="40" posY="80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="Fin du job"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-  </node>
-  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="-680">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_2" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connexion BD SAVOIR OK&quot;"/>
-    <elementParameter field="TEXT" name="CODE" value="1"/>
-    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
-    <elementParameter field="TEXT" name="LABEL" value="Connexion savoir"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tWarn_2"/>
   </node>
   <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="680" posY="80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_4" show="false"/>
@@ -192,30 +192,6 @@
     <elementParameter field="TEXT" name="LABEL" value="Deconnexion"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tWarn_4"/>
-  </node>
-  <node componentName="tPostgresqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="280" posY="-680">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_Lf1R4DlxEfG3PdBWJalhYA" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="context.connection_SAVOIR_DB_Server"/>
-    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="PORT" value="context.connection_SAVOIR_DB_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.connection_SAVOIR_DB_Database"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_SAVOIR_DB_Schema"/>
-    <elementParameter field="TEXT" name="USER" value="context.connection_SAVOIR_DB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:lCrV5GGYRh18IorKj5ji2dayBq2K5SVK3H8cW/BJk8aWLY7ISnj/3E4bnWMT4/GsK3LFKLGsu4B3yswBo+i0jdQ="/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="" show="false"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_SAVOIR_DB_AdditionalParams"/>
-    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="Connexion SAVOIR_DB"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <node componentName="tPostgresqlClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBClose_1" show="false"/>
@@ -228,7 +204,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.Repertoire_racine+jobName+context.Repertoire_in+context.ADP_SFTP_NomFichier"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.Repertoire_racine+jobName +&quot;/&quot;+context.environnement+&quot;/&quot;+context.Repertoire_in+context.ADP_SFTP_NomFichier"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="true"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;"/>
@@ -240,7 +216,7 @@
     <elementParameter field="TEXT" name="LIMIT" value=""/>
     <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="false"/>
     <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_l1rrwD85EfGiguL-kOB8Aw - metadata" show="false"/>
     <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Program Files (x86)/Talend-Studio/studio/workspace&quot;" show="false"/>
@@ -743,7 +719,7 @@
       <column comment="" key="false" length="-1" name="cout_export" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="PERSONNEL" expressionFilter="(row9.C_Etablissement_St__Jur).startsWith(&quot;8&quot;)" activateExpressionFilter="true">
         <mapperTableEntries name="code_societe_salarie" expression="row9.C_Etablissement_St__Jur.substring(0, 2).equals(&quot;80&quot;)?&quot;38&quot;:row9.C_Etablissement_St__Jur.substring(0, 2) " type="id_String" nullable="true"/>
@@ -1118,7 +1094,7 @@
   </node>
   <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="880" posY="-160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_6" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Nombre de ligne inseré dans la table savoir.personnel  :  &quot;+(((Integer)globalMap.get(&quot;tDBOutput_4_NB_LINE_INSERTED&quot;)))"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Nombre de ligne mis a jour dans la table savoir.personnel  :  &quot;+((Integer)globalMap.get(&quot;tDBOutput_4_NB_LINE_UPDATED&quot;))"/>
     <elementParameter field="TEXT" name="CODE" value="1"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1265,17 +1241,185 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFTPGet_1"/>
   </node>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tDBConnection_1">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
-  </connection>
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="40" posY="-760">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Debut du job"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="280" posY="-760">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="context.timestamp= TalendDate.formatDate(&quot;yyyyMMddHHmmss&quot;, TalendDate.getCurrentDate());&#xA;globalMap.put(&quot;MAIL_WARNINGS&quot;, new java.util.ArrayList&lt;java.util.Map&lt;String, String>>());&#xA;globalMap.put(&quot;MAIL_ERRORS&quot;, new java.util.ArrayList&lt;java.util.Map&lt;String, String>>());&#xA;globalMap.put(&quot;JOB_HAS_ERROR&quot;, false);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="initialisation"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tPostgresqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="600" posY="-760">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_Lf1R4DlxEfG3PdBWJalhYA" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_SAVOIR_DB_Server"/>
+    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_SAVOIR_DB_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_SAVOIR_DB_Database"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_SAVOIR_DB_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_SAVOIR_DB_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:xAunNOvKFFpKb1Jx97Poi7gFNbHsCTGhaAkf0/qo5cX/SSy8pgJsFsNBC02R1SofQvh703xqEovQFfx3dW1YG5o="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_SAVOIR_DB_AdditionalParams"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Connexion SAVOIR_DB"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="960" posY="-840">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_1" show="false"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connexion BD SAVOIR KO&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="4"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
+    <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Erreur connexion"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDie_1"/>
+  </node>
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="-640">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1" show="false"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connexion BD SAVOIR OK&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="1"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
+    <elementParameter field="TEXT" name="LABEL" value="Connexion savoir"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWarn_1"/>
+  </node>
+  <node componentName="tLogCatcher" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1280" posY="-720">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogCatcher_1" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_JAVA_EXCEPTION" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TDIE" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TWARN" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TACTIONFAILURE" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogCatcher_1">
+      <column defaultValue="" key="false" length="0" name="moment" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="root_pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="father_pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="project" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="job" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="context" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="priority" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="type" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="origin" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="message" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="code" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1480" posY="-720">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="java.util.List&lt;java.util.Map&lt;String, String>> warnings =&#xA;    (java.util.List&lt;java.util.Map&lt;String, String>>) globalMap.get(&quot;MAIL_WARNINGS&quot;);&#xA;&#xA;java.util.List&lt;java.util.Map&lt;String, String>> errors =&#xA;    (java.util.List&lt;java.util.Map&lt;String, String>>) globalMap.get(&quot;MAIL_ERRORS&quot;);&#xA;&#xA;String type = String.valueOf(input_row.type);&#xA;String priority = String.valueOf(input_row.priority);&#xA;String origin = String.valueOf(input_row.origin);&#xA;String message = String.valueOf(input_row.message);&#xA;String code = String.valueOf(input_row.code);&#xA;&#xA;java.util.Map&lt;String, String> log = new java.util.HashMap&lt;String, String>();&#xA;log.put(&quot;date&quot;, routines.TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;, input_row.moment));&#xA;log.put(&quot;type&quot;, type);&#xA;log.put(&quot;priority&quot;, priority);&#xA;log.put(&quot;origin&quot;, origin);&#xA;log.put(&quot;message&quot;, message);&#xA;log.put(&quot;code&quot;, code);&#xA;&#xA;// Cas tWarn&#xA;if (&quot;tWarn&quot;.equalsIgnoreCase(type)) {&#xA;    warnings.add(log);&#xA;}&#xA;&#xA;// Cas erreur technique ou tDie&#xA;String typeLower = type.toLowerCase();&#xA;String priorityLower = priority.toLowerCase();&#xA;&#xA;if (&#xA;    typeLower.contains(&quot;die&quot;)&#xA;    || typeLower.contains(&quot;exception&quot;)&#xA;    || typeLower.contains(&quot;error&quot;)&#xA;    || priorityLower.contains(&quot;error&quot;)&#xA;    || priorityLower.contains(&quot;fatal&quot;)&#xA;) {&#xA;    errors.add(log);&#xA;    globalMap.put(&quot;JOB_HAS_ERROR&quot;, true);&#xA;}&#xA;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJavaRow_1">
+      <column defaultValue="" key="false" length="0" name="moment" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="root_pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="father_pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="project" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="job" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="context" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="priority" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="type" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="origin" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="message" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="code" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileCopy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="40" posY="-320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_1" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.Repertoire_racine+jobName+&quot;/&quot;+context.environnement+&quot;/&quot;+context.Repertoire_in+context.ADP_SFTP_NomFichier"/>
+    <elementParameter field="CHECK" name="ENABLE_COPY_DIRECTORY" value="false"/>
+    <elementParameter field="DIRECTORY" name="SOURCE_DERECTORY" value="&quot;C:/Program Files (x86)/Talend-Studio/studio/workspace&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="DESTINATION" value="context.Repertoire_racine+jobName+&quot;/&quot;+context.environnement+&quot;/&quot;+context.Repertoire_archive"/>
+    <elementParameter field="CHECK" name="RENAME" value="true"/>
+    <elementParameter field="TEXT" name="DESTINATION_RENAME" value="&quot;1_&quot; + context.ADP_SFTP_NomFichier.replaceFirst(&quot;\\.csv$&quot;, &quot;&quot;) + &quot;_&quot; + context.timestamp + &quot;.csv&quot;"/>
+    <elementParameter field="CHECK" name="REMOVE_FILE" value="false"/>
+    <elementParameter field="CHECK" name="REPLACE_FILE" value="true"/>
+    <elementParameter field="CHECK" name="CREATE_DIRECTORY" value="true"/>
+    <elementParameter field="CHECK" name="FAILON" value="true"/>
+    <elementParameter field="CHECK" name="FORCE_COPY_DELETE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="PRESERVE_LAST_MODIFIED_TIME" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Archive"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileCopy_1"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="920" posY="80">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="java.util.List&lt;java.util.Map&lt;String, String>> warnings =&#xA;    (java.util.List&lt;java.util.Map&lt;String, String>>) globalMap.get(&quot;MAIL_WARNINGS&quot;);&#xA;&#xA;java.util.List&lt;java.util.Map&lt;String, String>> errors =&#xA;    (java.util.List&lt;java.util.Map&lt;String, String>>) globalMap.get(&quot;MAIL_ERRORS&quot;);&#xA;&#xA;boolean hasError = Boolean.TRUE.equals(globalMap.get(&quot;JOB_HAS_ERROR&quot;));&#xA;&#xA;String currentJobName = jobName;&#xA;String status = hasError ? &quot;ERREUR&quot; : &quot;SUCCÈS&quot;;&#xA;String color = hasError ? &quot;#c00000&quot; : &quot;#2e7d32&quot;;&#xA;&#xA;String subject = &quot;[&quot; + status + &quot;] [&quot; +context.environnement+ &quot;] Job Talend - &quot; + currentJobName;&#xA;&#xA;StringBuilder html = new StringBuilder();&#xA;&#xA;html.append(&quot;&lt;html>&lt;body style='font-family:Arial, sans-serif;'>&quot;);&#xA;&#xA;html.append(&quot;&lt;h2 style='color:&quot;)&#xA;    .append(color)&#xA;    .append(&quot;;'>Job Talend : &quot;)&#xA;    .append(jobName)&#xA;    .append(&quot; - &quot;)&#xA;    .append(status)&#xA;    .append(&quot;&lt;/h2>&quot;);&#xA;&#xA;html.append(&quot;&lt;p>&lt;b>Date d'exécution :&lt;/b> &quot;)&#xA;    .append(routines.TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;, new java.util.Date()))&#xA;    .append(&quot;&lt;/p>&quot;);&#xA;&#xA;html.append(&quot;&lt;p>&lt;b>Environnement :&lt;/b> &quot;)&#xA;    .append(context.environnement)&#xA;    .append(&quot;&lt;/p>&quot;);&#xA;&#xA;html.append(&quot;&lt;hr/>&quot;);&#xA;&#xA;// Section tWarn&#xA;html.append(&quot;&lt;h3>Messages tWarn&lt;/h3>&quot;);&#xA;&#xA;html.append(&quot;&lt;table border='1' cellspacing='0' cellpadding='6' style='border-collapse:collapse;width:100%;'>&quot;);&#xA;html.append(&quot;&lt;tr style='background-color:#f2f2f2;'>&quot;);&#xA;html.append(&quot;&lt;th>Date&lt;/th>&lt;th>Composant&lt;/th>&lt;th>Message&lt;/th>&quot;);&#xA;html.append(&quot;&lt;/tr>&quot;);&#xA;&#xA;if (warnings == null || warnings.isEmpty()) {&#xA;    html.append(&quot;&lt;tr>&lt;td colspan='3'>Aucun tWarn détecté.&lt;/td>&lt;/tr>&quot;);&#xA;} else {&#xA;    for (java.util.Map&lt;String, String> w : warnings) {&#xA;        String msg = w.get(&quot;message&quot;)&#xA;            .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;            .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;            .replace(&quot;>&quot;, &quot;&amp;gt;&quot;);&#xA;&#xA;        html.append(&quot;&lt;tr>&quot;);&#xA;        html.append(&quot;&lt;td>&quot;).append(w.get(&quot;date&quot;)).append(&quot;&lt;/td>&quot;);&#xA;        html.append(&quot;&lt;td>&quot;).append(w.get(&quot;origin&quot;)).append(&quot;&lt;/td>&quot;);&#xA;        html.append(&quot;&lt;td>&quot;).append(msg).append(&quot;&lt;/td>&quot;);&#xA;        html.append(&quot;&lt;/tr>&quot;);&#xA;    }&#xA;}&#xA;&#xA;html.append(&quot;&lt;/table>&quot;);&#xA;&#xA;// Section erreurs uniquement si erreur&#xA;if (hasError) {&#xA;    html.append(&quot;&lt;br/>&quot;);&#xA;    html.append(&quot;&lt;h3 style='color:#c00000;'>Erreur détectée&lt;/h3>&quot;);&#xA;&#xA;    html.append(&quot;&lt;table border='1' cellspacing='0' cellpadding='6' style='border-collapse:collapse;width:100%;'>&quot;);&#xA;    html.append(&quot;&lt;tr style='background-color:#c00000;color:white;'>&quot;);&#xA;    html.append(&quot;&lt;th>Date&lt;/th>&lt;th>Type&lt;/th>&lt;th>Composant&lt;/th>&lt;th>Code&lt;/th>&lt;th>Message&lt;/th>&quot;);&#xA;    html.append(&quot;&lt;/tr>&quot;);&#xA;&#xA;    if (errors == null || errors.isEmpty()) {&#xA;        html.append(&quot;&lt;tr>&lt;td colspan='5'>Erreur détectée mais aucun détail récupéré par tLogCatcher.&lt;/td>&lt;/tr>&quot;);&#xA;    } else {&#xA;        for (java.util.Map&lt;String, String> e : errors) {&#xA;            String msg = e.get(&quot;message&quot;)&#xA;                .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;                .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;                .replace(&quot;>&quot;, &quot;&amp;gt;&quot;);&#xA;&#xA;            html.append(&quot;&lt;tr>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(e.get(&quot;date&quot;)).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(e.get(&quot;type&quot;)).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(e.get(&quot;origin&quot;)).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(e.get(&quot;code&quot;)).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(msg).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;/tr>&quot;);&#xA;        }&#xA;    }&#xA;&#xA;    html.append(&quot;&lt;/table>&quot;);&#xA;}&#xA;&#xA;html.append(&quot;&lt;/body>&lt;/html>&quot;);&#xA;&#xA;globalMap.put(&quot;MAIL_SUBJECT&quot;, subject);&#xA;globalMap.put(&quot;MAIL_BODY&quot;, html.toString());"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="Construire le mail"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_2"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1080" posY="80">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="String html = (String) globalMap.get(&quot;MAIL_BODY&quot;);&#xA;&#xA;java.nio.file.Files.write(&#xA;    java.nio.file.Paths.get(&quot;C:/temp/test_mail_talend.html&quot;),&#xA;    html.getBytes(java.nio.charset.StandardCharsets.UTF_8)&#xA;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_3"/>
+  </node>
+  <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1200" posY="80">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSendMail_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="TEXT" name="TO" value="&quot;lalliot@eneria.com&quot;"/>
+    <elementParameter field="TEXT" name="FROM" value="&quot;lalliot@eneria.com&quot;"/>
+    <elementParameter field="CHECK" name="NEED_PERSONAL_NAME" value="false"/>
+    <elementParameter field="TEXT" name="PERSONAL_NAME" value="&quot;sender&quot;" show="false"/>
+    <elementParameter field="TEXT" name="CC" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="BCC" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SUBJECT" value="(String) globalMap.get(&quot;MAIL_SUBJECT&quot;)"/>
+    <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="(String) globalMap.get(&quot;MAIL_BODY&quot;)"/>
+    <elementParameter field="CHECK" name="CHECK_ATTACHMENT" value="true"/>
+    <elementParameter field="TABLE" name="ATTACHMENTS"/>
+    <elementParameter field="TABLE" name="HEADERS"/>
+    <elementParameter field="TEXT" name="SMTP_HOST" value="context.Mail_SMTP_host"/>
+    <elementParameter field="TEXT" name="SMTP_PORT" value="context.Mail_SMTP_port"/>
+    <elementParameter field="CHECK" name="SSL" value="false"/>
+    <elementParameter field="CHECK" name="STARTTLS" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="NO_AUTH"/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;username&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:yrL+sz1dcg5eq//9Q4a8z60fDN9vOiYbyOmRe+VDmqVBlsNq0Rg=" show="false"/>
+    <elementParameter field="PASSWORD" name="TOKEN" value="enc:system.encryption.key.v1:TTQ6fDRiNaxGwFj9X/HoISqhRDcNMvEdILgHmCjQteDoIbUvIjE=" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="html"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="SET_LOCALHOST" value="false"/>
+    <elementParameter field="TEXT" name="LOCALHOST" value="&quot;localhost&quot;" show="false"/>
+    <elementParameter field="CHECK" name="USE_TWO_LINE_TOKEN" value="false" show="false"/>
+    <elementParameter field="TABLE" name="CONFIGS"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tSendMail_1"/>
+  </node>
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="880" posY="-280">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_2" show="false"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Rollback effectué , erreur lors de l'insertion&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="4"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
+    <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDie_2"/>
+  </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tDBClose_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk3" show="false"/>
   </connection>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tWarn_2">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk2" show="false"/>
-  </connection>
-  <connection connectorName="SUBJOB_ERROR" label="OnSubjobError" lineStyle="4" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tDie_2">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobError1" show="false"/>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tWarn_4" offsetLabelX="0" offsetLabelY="0" source="tWarn_4" target="tJava_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk7" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBClose_1" offsetLabelX="0" offsetLabelY="0" source="tDBClose_1" target="tWarn_4">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
@@ -1294,6 +1438,9 @@
   <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tDBOutput_4" offsetLabelX="0" offsetLabelY="0" source="tDBOutput_4" target="tDBRollback_4">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentError5" show="false"/>
   </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBRollback_4" offsetLabelX="0" offsetLabelY="0" source="tDBRollback_4" target="tDie_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk9" show="false"/>
+  </connection>
   <connection connectorName="FLOW" label="row10" lineStyle="0" metaname="tDBCommit_4" offsetLabelX="0" offsetLabelY="0" source="tDBCommit_4" target="tWarn_6">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row10" show="false"/>
@@ -1307,9 +1454,35 @@
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="If1" show="false"/>
   </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFTPGet_1" offsetLabelX="0" offsetLabelY="0" source="tFTPGet_1" target="tFileInputDelimited_4">
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFTPGet_1" offsetLabelX="0" offsetLabelY="0" source="tFTPGet_1" target="tFileCopy_1">
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tJava_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tDBConnection_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk2" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tWarn_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk6" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_ERROR" label="OnSubjobError" lineStyle="4" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tDie_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobError1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tLogCatcher_1" offsetLabelX="0" offsetLabelY="0" source="tLogCatcher_1" target="tJavaRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileCopy_1" offsetLabelX="0" offsetLabelY="0" source="tFileCopy_1" target="tFileInputDelimited_4">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk4" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_2" offsetLabelX="0" offsetLabelY="0" source="tJava_2" target="tJava_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk5" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_3" offsetLabelX="0" offsetLabelY="0" source="tJava_3" target="tSendMail_1">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk6" show="false"/>
   </connection>
   <note opaque="true" posX="-40" posY="-520" sizeHeight="161" sizeWidth="1321" text="Recuperation du fichier ANNUAIRE_AD_COMPLET.csv du SFTP &#xD;&#xA;*et depot en local pour utilisation">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="237;201;122"/>
@@ -1325,36 +1498,28 @@
     <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
     <elementParameter field="CHECK" name="FONT_ITALIC" value="true"/>
   </note>
-  <note opaque="true" posX="-40" posY="0" sizeHeight="201" sizeWidth="1281" text="Fermeture de la onnexion a la base de données &#xD;&#xA;SAVOIR">
+  <note opaque="true" posX="-40" posY="0" sizeHeight="201" sizeWidth="1361" text="Fermeture de la onnexion a la base de données &#xD;&#xA;SAVOIR">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="166;193;152"/>
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="0;0;0"/>
     <elementParameter field="RADIO" name="NOTETXT_RIGHT" value="true"/>
     <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
+    <elementParameter field="RADIO" name="NOTELABEL_CENTER" value="false"/>
+    <elementParameter field="RADIO" name="NOTETXT_TOP" value="true"/>
     <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
     <elementParameter field="CHECK" name="FONT_ITALIC" value="true"/>
     <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="0;0;0"/>
   </note>
-  <note opaque="true" posX="-40" posY="-880" sizeHeight="361" sizeWidth="1281" text="Connexion a la base de données &#xD;&#xA;SAVOIR">
+  <note opaque="true" posX="-40" posY="-880" sizeHeight="361" sizeWidth="1601" text="Connexion a la base de données &#xD;&#xA;SAVOIR">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="166;193;152"/>
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="0;0;0"/>
     <elementParameter field="RADIO" name="NOTETXT_RIGHT" value="true"/>
     <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
+    <elementParameter field="RADIO" name="NOTELABEL_CENTER" value="false"/>
+    <elementParameter field="RADIO" name="NOTETXT_TOP" value="true"/>
     <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
     <elementParameter field="CHECK" name="FONT_ITALIC" value="true"/>
     <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="0;0;0"/>
   </note>
-  <subjob>
-    <elementParameter field="CHECK" name="COLLAPSED" value="true" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_2" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
-  </subjob>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
@@ -1362,17 +1527,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_2" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
-  </subjob>
-  <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_4" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
@@ -1408,6 +1563,63 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFTPGet_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="COLLAPSED" value="true" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogCatcher_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSendMail_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_2" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>

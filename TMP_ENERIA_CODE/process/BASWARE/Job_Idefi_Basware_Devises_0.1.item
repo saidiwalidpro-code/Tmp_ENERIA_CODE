@@ -5,69 +5,90 @@
     <contextParameter comment="" name="Repertoire_out" prompt="Repertoire_out?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/out/" internalId="_AeSguEPdEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Nom_fichier_sortie" prompt="Nom_fichier_sortie?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="tauxchange.csv" internalId="_AeSguUPdEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Table_cible" prompt="Table_cible?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="devises" internalId="_c3DmcER0EfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_Adresse" prompt="Baseware_SFTP_Adresse?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="sftp-dub.p2p.basware.com" internalId="_J7togEkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_Login" prompt="Baseware_SFTP_Login?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="voflubmtest" internalId="_J7togUkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_MDP" prompt="Baseware_SFTP_MDP?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:08AXurBi2q++kzu3AZo8WfrJNAGGD9lgAJSw+W3e7KN9xfq6ySn/JK3d+g==" internalId="_J7togkkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_Port" prompt="Baseware_SFTP_Port?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Integer" value="22" internalId="_J7tog0kvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_repertoire" prompt="Baseware_SFTP_repertoire?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="/files/in" internalId="_J7tohEkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_AdditionalParams" prompt="connection_BASWARE_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_J7tohUkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Database" prompt="connection_BASWARE_DB_Database?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_J7tohkkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Login" prompt="connection_BASWARE_DB_Login?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_J7toh0kvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Password" prompt="connection_BASWARE_DB_Password?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:J6a8LO9Mbil3qrk38/WHwylGJSjA+NwQNt1I18ZCy3O8JNk=" internalId="_J7toiEkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Port" prompt="connection_BASWARE_DB_Port?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_J7toiUkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Schema" prompt="connection_BASWARE_DB_Schema?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_J7toikkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Server" prompt="connection_BASWARE_DB_Server?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_J7toi0kvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_AdditionalParams" prompt="connection_IDEFI_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_J7tojEkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Database" prompt="connection_IDEFI_DB_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="DBTESTFR2" internalId="_J7tojUkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Login" prompt="connection_IDEFI_DB_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_J7tojkkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Password" prompt="connection_IDEFI_DB_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:W/niFOfMEi620eteT8et50HDn4d+g4SQORhgUlLdGEpObUn527w=" internalId="_J7toj0kvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Server" prompt="connection_IDEFI_DB_Server?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_J7tokEkvEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="timestamp" prompt="timestamp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_W7GqMGPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_Adresse" prompt="Baseware_SFTP_Adresse?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="sftp-dub.p2p.basware.com" internalId="_Z-Dd0GPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_Login" prompt="Baseware_SFTP_Login?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="voflubmtest" internalId="_Z-Dd0WPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_MDP" prompt="Baseware_SFTP_MDP?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:Aeh6gFk6CAyZMRAsXSywwVLhtztgETX0h8CngjkUKw0EPnvFqeTt1Wl55w==" internalId="_Z-Dd0mPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_Port" prompt="Baseware_SFTP_Port?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Integer" value="22" internalId="_Z-Dd02PVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_repertoire" prompt="Baseware_SFTP_repertoire?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="/files/in" internalId="_Z-Dd1GPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_AdditionalParams" prompt="connection_BASWARE_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_Z-Dd1WPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Database" prompt="connection_BASWARE_DB_Database?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_Z-Dd1mPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Login" prompt="connection_BASWARE_DB_Login?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_Z-Dd12PVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Password" prompt="connection_BASWARE_DB_Password?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:5Az1yas4OiEx7TIf/iL4sCPwDP0lZF8OolJZtFcKO9QyQPs=" internalId="_Z-Dd2GPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Port" prompt="connection_BASWARE_DB_Port?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_Z-Dd2WPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Schema" prompt="connection_BASWARE_DB_Schema?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_Z-Dd2mPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Server" prompt="connection_BASWARE_DB_Server?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_Z-Dd22PVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_AdditionalParams" prompt="connection_IDEFI_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_Z-Dd3GPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Database" prompt="connection_IDEFI_DB_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="DBTESTFR2" internalId="_Z-Dd3WPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Login" prompt="connection_IDEFI_DB_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_Z-Dd3mPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Password" prompt="connection_IDEFI_DB_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:Iq+bjPFWYFGmDs0EmusRXy9QAYDkycKUPCE7JxviOTu5glAgvkQ=" internalId="_Z-Dd32PVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Server" prompt="connection_IDEFI_DB_Server?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_Z-Dd4GPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_cc" prompt="Mail_cc?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="&quot;&quot;" internalId="_Z-Dd4WPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_destinataire" prompt="Mail_destinataire?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="lalliot@eneria.com" internalId="_Z-Dd4mPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_expediteur" prompt="Mail_expediteur?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="lalliot@eneria.com" internalId="_Z-Dd42PVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_SMTP_host" prompt="Mail_SMTP_host?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="172.17.12.20" internalId="_Z-Dd5GPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_SMTP_port" prompt="Mail_SMTP_port?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_Z-Dd5WPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="environnement" prompt="environnement?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="recette" internalId="_exTKYGPVEfGkkq5kPO8l8g"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="RECETTE">
     <contextParameter comment="" name="Repertoire_racine" prompt="Repertoire_racine?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="E:/Talend/data/" internalId="_AeTHyUPdEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Repertoire_out" prompt="Repertoire_out?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/out/" internalId="_AeTHykPdEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Nom_fichier_sortie" prompt="Nom_fichier_sortie?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="tauxchange.csv" internalId="_AeTHy0PdEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Table_cible" prompt="Table_cible?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="devises" internalId="_c3DmcUR0EfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_Adresse" prompt="Baseware_SFTP_Adresse?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="sftp-dub.p2p.basware.com" internalId="_J7tokUkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_Login" prompt="Baseware_SFTP_Login?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="voflubmtest" internalId="_J7tokkkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_MDP" prompt="Baseware_SFTP_MDP?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:+/v6LtiMBSIatsKUXuwZF3aF7ESuvn08ACUEvu0RJwK1U4mzJHE2b+IPug==" internalId="_J7tok0kvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_Port" prompt="Baseware_SFTP_Port?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Integer" value="22" internalId="_J7tolEkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_repertoire" prompt="Baseware_SFTP_repertoire?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="/files/in" internalId="_J7tolUkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_AdditionalParams" prompt="connection_BASWARE_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_J7tolkkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Database" prompt="connection_BASWARE_DB_Database?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_J7tol0kvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Login" prompt="connection_BASWARE_DB_Login?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_J7tomEkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Password" prompt="connection_BASWARE_DB_Password?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:1QskDX8XJDRq3NKvMJY89gXe+QpsIsOstQnavyrciFowI9k=" internalId="_J7tomUkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Port" prompt="connection_BASWARE_DB_Port?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_J7tomkkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Schema" prompt="connection_BASWARE_DB_Schema?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_J7tom0kvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Server" prompt="connection_BASWARE_DB_Server?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_J7tonEkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_AdditionalParams" prompt="connection_IDEFI_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_J7tonUkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Database" prompt="connection_IDEFI_DB_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="DBTESTFR2" internalId="_J7tonkkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Login" prompt="connection_IDEFI_DB_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_J7ton0kvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Password" prompt="connection_IDEFI_DB_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:WW1Hg0mYwLURiauiRlrhEKW7oy6dA9KH1804uxvRt5v8Z3SpHLg=" internalId="_J7tooEkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Server" prompt="connection_IDEFI_DB_Server?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_J7tooUkvEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="timestamp" prompt="timestamp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_W7GqMWPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_Adresse" prompt="Baseware_SFTP_Adresse?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="sftp-dub.p2p.basware.com" internalId="_Z-Dd5mPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_Login" prompt="Baseware_SFTP_Login?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="voflubmtest" internalId="_Z-Dd52PVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_MDP" prompt="Baseware_SFTP_MDP?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:17/Jt9+aHnkXA6q7OgND+ZzqFwiRjEWANvZdu8PHlevekzxv9T+p5WxBtg==" internalId="_Z-Dd6GPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_Port" prompt="Baseware_SFTP_Port?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Integer" value="22" internalId="_Z-Dd6WPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_repertoire" prompt="Baseware_SFTP_repertoire?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="/files/in" internalId="_Z-Dd6mPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_AdditionalParams" prompt="connection_BASWARE_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_Z-Dd62PVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Database" prompt="connection_BASWARE_DB_Database?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_Z-Dd7GPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Login" prompt="connection_BASWARE_DB_Login?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_Z-Dd7WPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Password" prompt="connection_BASWARE_DB_Password?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:fMil6WhpJeNDaxcYUTS9lC/i8y1ApNvENVPidNfvsJ0uLE8=" internalId="_Z-Dd7mPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Port" prompt="connection_BASWARE_DB_Port?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_Z-Dd72PVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Schema" prompt="connection_BASWARE_DB_Schema?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_Z-Dd8GPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Server" prompt="connection_BASWARE_DB_Server?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_Z-Dd8WPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_AdditionalParams" prompt="connection_IDEFI_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_Z-Dd8mPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Database" prompt="connection_IDEFI_DB_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="DBTESTFR2" internalId="_Z-Dd82PVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Login" prompt="connection_IDEFI_DB_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_Z-Dd9GPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Password" prompt="connection_IDEFI_DB_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:G/JfblOvjOBs52tmBrdcx/9YaAqm0+Me2VgaI8wmGMZjPVbO7+k=" internalId="_Z-Dd9WPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Server" prompt="connection_IDEFI_DB_Server?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_Z-Dd9mPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_cc" prompt="Mail_cc?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="&quot;&quot;" internalId="_Z-Dd92PVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_destinataire" prompt="Mail_destinataire?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="lalliot@eneria.com" internalId="_Z-Dd-GPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_expediteur" prompt="Mail_expediteur?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="lalliot@eneria.com" internalId="_Z-Dd-WPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_SMTP_host" prompt="Mail_SMTP_host?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="172.17.12.20" internalId="_Z-Dd-mPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_SMTP_port" prompt="Mail_SMTP_port?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_Z-Dd-2PVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="environnement" prompt="environnement?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="recette" internalId="_exTKYWPVEfGkkq5kPO8l8g"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="PRODUCTION">
     <contextParameter comment="" name="Repertoire_racine" prompt="Repertoire_racine?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_AeTH2EPdEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Repertoire_out" prompt="Repertoire_out?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_AeTH2UPdEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Nom_fichier_sortie" prompt="Nom_fichier_sortie?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_AeTH2kPdEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Table_cible" prompt="Table_cible?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_c3DmckR0EfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_Adresse" prompt="Baseware_SFTP_Adresse?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_J7tookkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_Login" prompt="Baseware_SFTP_Login?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_J7too0kvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_MDP" prompt="Baseware_SFTP_MDP?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Password" value="" internalId="_J7topEkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_Port" prompt="Baseware_SFTP_Port?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Integer" value="" internalId="_J7topUkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_repertoire" prompt="Baseware_SFTP_repertoire?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_J7topkkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_AdditionalParams" prompt="connection_BASWARE_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_J7top0kvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Database" prompt="connection_BASWARE_DB_Database?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_J7toqEkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Login" prompt="connection_BASWARE_DB_Login?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_J7uPkEkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Password" prompt="connection_BASWARE_DB_Password?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:FiKiADMjgAmx3aTsce18IQnE9YHM/UnxyTyl4aDrhDYXkLI=" internalId="_J7uPkUkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Port" prompt="connection_BASWARE_DB_Port?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_J7uPkkkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Schema" prompt="connection_BASWARE_DB_Schema?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_J7uPk0kvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Server" prompt="connection_BASWARE_DB_Server?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02" internalId="_J7uPlEkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_AdditionalParams" prompt="connection_IDEFI_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_J7uPlUkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Database" prompt="connection_IDEFI_DB_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_J7uPlkkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Login" prompt="connection_IDEFI_DB_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_J7uPl0kvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Password" prompt="connection_IDEFI_DB_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="" internalId="_J7uPmEkvEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Server" prompt="connection_IDEFI_DB_Server?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_J7uPmUkvEfG9ndm8B-jwTQ"/>
+    <contextParameter comment="" name="timestamp" prompt="timestamp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_W7GqMmPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_Adresse" prompt="Baseware_SFTP_Adresse?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_Z-Dd_GPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_Login" prompt="Baseware_SFTP_Login?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_Z-Dd_WPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_MDP" prompt="Baseware_SFTP_MDP?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Password" value="" internalId="_Z-Dd_mPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_Port" prompt="Baseware_SFTP_Port?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Integer" value="" internalId="_Z-Dd_2PVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_repertoire" prompt="Baseware_SFTP_repertoire?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_Z-DeAGPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_AdditionalParams" prompt="connection_BASWARE_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_Z-DeAWPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Database" prompt="connection_BASWARE_DB_Database?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_Z-DeAmPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Login" prompt="connection_BASWARE_DB_Login?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_Z-DeA2PVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Password" prompt="connection_BASWARE_DB_Password?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:RgCljBkhv9pTYJxN4sMdNu/tNVkGfmo3StBD22mlV5i2ReQ=" internalId="_Z-DeBGPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Port" prompt="connection_BASWARE_DB_Port?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_Z-DeBWPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Schema" prompt="connection_BASWARE_DB_Schema?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_Z-DeBmPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Server" prompt="connection_BASWARE_DB_Server?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02" internalId="_Z-DeB2PVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_AdditionalParams" prompt="connection_IDEFI_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_Z-DeCGPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Database" prompt="connection_IDEFI_DB_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_Z-DeCWPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Login" prompt="connection_IDEFI_DB_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_Z-DeCmPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Password" prompt="connection_IDEFI_DB_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="" internalId="_Z-DeC2PVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Server" prompt="connection_IDEFI_DB_Server?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_Z-DeDGPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_cc" prompt="Mail_cc?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_Z-DeDWPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_destinataire" prompt="Mail_destinataire?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_Z-DeDmPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_expediteur" prompt="Mail_expediteur?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_Z-DeD2PVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_SMTP_host" prompt="Mail_SMTP_host?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_Z-DeEGPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_SMTP_port" prompt="Mail_SMTP_port?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_Z-DeEWPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="environnement" prompt="environnement?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_exTKYmPVEfGkkq5kPO8l8g"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -167,7 +188,7 @@
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
   </parameters>
-  <node componentName="tAS400Connection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="240" posY="-40">
+  <node componentName="tAS400Connection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="440" posY="-40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_NL7HMEOsEfGHjcSPz0OCDw" show="false"/>
@@ -202,7 +223,7 @@
     <elementParameter field="TEXT" name="LABEL" value="Deconnexion IDEFI"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tPostgresqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="680" posY="-40">
+  <node componentName="tPostgresqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="880" posY="-40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_2" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_GkTP8EPNEfG9ndm8B-jwTQ" show="false"/>
@@ -226,7 +247,7 @@
     <elementParameter field="TEXT" name="LABEL" value="Connexion baseware"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="-40">
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="680" posY="-40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1" show="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connexion BD  IDEFI OK&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="1"/>
@@ -235,7 +256,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tWarn_1"/>
   </node>
-  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="920" posY="-40">
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="-40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_2" show="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connexion BD BASWARE OK&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="1"/>
@@ -244,7 +265,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tWarn_2"/>
   </node>
-  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="400" posY="-200">
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="600" posY="-200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_1" show="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connexion BD IDEFI KO&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="4"/>
@@ -254,7 +275,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDie_1"/>
   </node>
-  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="840" posY="-200">
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1040" posY="-200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_2" show="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connexion BD BASWARE KO&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="4"/>
@@ -388,7 +409,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_1" show="false"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.Repertoire_racine+jobName+context.Repertoire_out+context.Nom_fichier_sortie"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.Repertoire_racine+jobName+&quot;/&quot;+context.environnement+&quot;/&quot;+context.Repertoire_out+context.Nom_fichier_sortie"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\r\n&quot;"/>
     <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
@@ -608,7 +629,7 @@
     <elementParameter field="CLOSED_LIST" name="AUTH_METHOD" value="PASSWORD" show="false"/>
     <elementParameter field="FILE" name="PRIVATEKEY" value="&quot;/.ssh/id_dsa&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="PASSPHRASE" value="enc:system.encryption.key.v1:9LznIdsD2gVCil/SbV+KPnvIzcyiGIoYdPlfSvug4mpf/Tdf" show="false"/>
-    <elementParameter field="DIRECTORY" name="LOCALDIR" value="context.Repertoire_racine+jobName+context.Repertoire_out"/>
+    <elementParameter field="DIRECTORY" name="LOCALDIR" value="context.Repertoire_racine+jobName+&quot;/&quot;+context.environnement+&quot;/&quot;+context.Repertoire_out"/>
     <elementParameter field="TEXT" name="REMOTEDIR" value="context.Baseware_SFTP_repertoire"/>
     <elementParameter field="CHECK" name="CREATE_DIR_IF_NOT_EXIST" value="false"/>
     <elementParameter field="CHECK" name="MOVE_TO_THE_CURRENT_DIRECTORY" value="true" show="false"/>
@@ -668,13 +689,111 @@
       <column comment="" key="false" length="-1" name="code_devise_de" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="240" posY="-40">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="context.timestamp= TalendDate.formatDate(&quot;yyyyMMddHHmmss&quot;, TalendDate.getCurrentDate());&#xA;globalMap.put(&quot;MAIL_WARNINGS&quot;, new java.util.ArrayList&lt;java.util.Map&lt;String, String>>());&#xA;globalMap.put(&quot;MAIL_ERRORS&quot;, new java.util.ArrayList&lt;java.util.Map&lt;String, String>>());&#xA;globalMap.put(&quot;JOB_HAS_ERROR&quot;, false);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="initialisation"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tLogCatcher" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1280" posY="-120">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogCatcher_1" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_JAVA_EXCEPTION" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TDIE" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TWARN" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TACTIONFAILURE" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogCatcher_1">
+      <column defaultValue="" key="false" length="0" name="moment" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="root_pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="father_pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="project" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="job" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="context" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="priority" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="type" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="origin" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="message" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="code" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1480" posY="-120">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="java.util.List&lt;java.util.Map&lt;String, String>> warnings =&#xA;    (java.util.List&lt;java.util.Map&lt;String, String>>) globalMap.get(&quot;MAIL_WARNINGS&quot;);&#xA;&#xA;java.util.List&lt;java.util.Map&lt;String, String>> errors =&#xA;    (java.util.List&lt;java.util.Map&lt;String, String>>) globalMap.get(&quot;MAIL_ERRORS&quot;);&#xA;&#xA;String type = String.valueOf(input_row.type);&#xA;String priority = String.valueOf(input_row.priority);&#xA;String origin = String.valueOf(input_row.origin);&#xA;String message = String.valueOf(input_row.message);&#xA;String code = String.valueOf(input_row.code);&#xA;&#xA;java.util.Map&lt;String, String> log = new java.util.HashMap&lt;String, String>();&#xA;log.put(&quot;date&quot;, routines.TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;, input_row.moment));&#xA;log.put(&quot;type&quot;, type);&#xA;log.put(&quot;priority&quot;, priority);&#xA;log.put(&quot;origin&quot;, origin);&#xA;log.put(&quot;message&quot;, message);&#xA;log.put(&quot;code&quot;, code);&#xA;&#xA;// Cas tWarn&#xA;if (&quot;tWarn&quot;.equalsIgnoreCase(type)) {&#xA;    warnings.add(log);&#xA;}&#xA;&#xA;// Cas erreur technique ou tDie&#xA;String typeLower = type.toLowerCase();&#xA;String priorityLower = priority.toLowerCase();&#xA;&#xA;if (&#xA;    typeLower.contains(&quot;die&quot;)&#xA;    || typeLower.contains(&quot;exception&quot;)&#xA;    || typeLower.contains(&quot;error&quot;)&#xA;    || priorityLower.contains(&quot;error&quot;)&#xA;    || priorityLower.contains(&quot;fatal&quot;)&#xA;) {&#xA;    errors.add(log);&#xA;    globalMap.put(&quot;JOB_HAS_ERROR&quot;, true);&#xA;}&#xA;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJavaRow_1">
+      <column defaultValue="" key="false" length="0" name="moment" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="root_pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="father_pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="project" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="job" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="context" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="priority" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="type" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="origin" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="message" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="code" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="800">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="java.util.List&lt;java.util.Map&lt;String, String>> warnings =&#xA;    (java.util.List&lt;java.util.Map&lt;String, String>>) globalMap.get(&quot;MAIL_WARNINGS&quot;);&#xA;&#xA;java.util.List&lt;java.util.Map&lt;String, String>> errors =&#xA;    (java.util.List&lt;java.util.Map&lt;String, String>>) globalMap.get(&quot;MAIL_ERRORS&quot;);&#xA;&#xA;boolean hasError = Boolean.TRUE.equals(globalMap.get(&quot;JOB_HAS_ERROR&quot;));&#xA;&#xA;String currentJobName = jobName;&#xA;String status = hasError ? &quot;ERREUR&quot; : &quot;SUCCÈS&quot;;&#xA;String color = hasError ? &quot;#c00000&quot; : &quot;#2e7d32&quot;;&#xA;&#xA;String subject = &quot;[&quot; + status + &quot;] [&quot; +context.environnement+ &quot;] Job Talend - &quot; + currentJobName;&#xA;&#xA;StringBuilder html = new StringBuilder();&#xA;&#xA;html.append(&quot;&lt;html>&lt;body style='font-family:Arial, sans-serif;'>&quot;);&#xA;&#xA;html.append(&quot;&lt;h2 style='color:&quot;)&#xA;    .append(color)&#xA;    .append(&quot;;'>Job Talend : &quot;)&#xA;    .append(jobName)&#xA;    .append(&quot; - &quot;)&#xA;    .append(status)&#xA;    .append(&quot;&lt;/h2>&quot;);&#xA;&#xA;html.append(&quot;&lt;p>&lt;b>Date d'exécution :&lt;/b> &quot;)&#xA;    .append(routines.TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;, new java.util.Date()))&#xA;    .append(&quot;&lt;/p>&quot;);&#xA;&#xA;html.append(&quot;&lt;p>&lt;b>Environnement :&lt;/b> &quot;)&#xA;    .append(context.environnement)&#xA;    .append(&quot;&lt;/p>&quot;);&#xA;&#xA;html.append(&quot;&lt;hr/>&quot;);&#xA;&#xA;// Section tWarn&#xA;html.append(&quot;&lt;h3>Messages tWarn&lt;/h3>&quot;);&#xA;&#xA;html.append(&quot;&lt;table border='1' cellspacing='0' cellpadding='6' style='border-collapse:collapse;width:100%;'>&quot;);&#xA;html.append(&quot;&lt;tr style='background-color:#f2f2f2;'>&quot;);&#xA;html.append(&quot;&lt;th>Date&lt;/th>&lt;th>Composant&lt;/th>&lt;th>Message&lt;/th>&quot;);&#xA;html.append(&quot;&lt;/tr>&quot;);&#xA;&#xA;if (warnings == null || warnings.isEmpty()) {&#xA;    html.append(&quot;&lt;tr>&lt;td colspan='3'>Aucun tWarn détecté.&lt;/td>&lt;/tr>&quot;);&#xA;} else {&#xA;    for (java.util.Map&lt;String, String> w : warnings) {&#xA;        String msg = w.get(&quot;message&quot;)&#xA;            .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;            .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;            .replace(&quot;>&quot;, &quot;&amp;gt;&quot;);&#xA;&#xA;        html.append(&quot;&lt;tr>&quot;);&#xA;        html.append(&quot;&lt;td>&quot;).append(w.get(&quot;date&quot;)).append(&quot;&lt;/td>&quot;);&#xA;        html.append(&quot;&lt;td>&quot;).append(w.get(&quot;origin&quot;)).append(&quot;&lt;/td>&quot;);&#xA;        html.append(&quot;&lt;td>&quot;).append(msg).append(&quot;&lt;/td>&quot;);&#xA;        html.append(&quot;&lt;/tr>&quot;);&#xA;    }&#xA;}&#xA;&#xA;html.append(&quot;&lt;/table>&quot;);&#xA;&#xA;// Section erreurs uniquement si erreur&#xA;if (hasError) {&#xA;    html.append(&quot;&lt;br/>&quot;);&#xA;    html.append(&quot;&lt;h3 style='color:#c00000;'>Erreur détectée&lt;/h3>&quot;);&#xA;&#xA;    html.append(&quot;&lt;table border='1' cellspacing='0' cellpadding='6' style='border-collapse:collapse;width:100%;'>&quot;);&#xA;    html.append(&quot;&lt;tr style='background-color:#c00000;color:white;'>&quot;);&#xA;    html.append(&quot;&lt;th>Date&lt;/th>&lt;th>Type&lt;/th>&lt;th>Composant&lt;/th>&lt;th>Code&lt;/th>&lt;th>Message&lt;/th>&quot;);&#xA;    html.append(&quot;&lt;/tr>&quot;);&#xA;&#xA;    if (errors == null || errors.isEmpty()) {&#xA;        html.append(&quot;&lt;tr>&lt;td colspan='5'>Erreur détectée mais aucun détail récupéré par tLogCatcher.&lt;/td>&lt;/tr>&quot;);&#xA;    } else {&#xA;        for (java.util.Map&lt;String, String> e : errors) {&#xA;            String msg = e.get(&quot;message&quot;)&#xA;                .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;                .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;                .replace(&quot;>&quot;, &quot;&amp;gt;&quot;);&#xA;&#xA;            html.append(&quot;&lt;tr>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(e.get(&quot;date&quot;)).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(e.get(&quot;type&quot;)).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(e.get(&quot;origin&quot;)).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(e.get(&quot;code&quot;)).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(msg).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;/tr>&quot;);&#xA;        }&#xA;    }&#xA;&#xA;    html.append(&quot;&lt;/table>&quot;);&#xA;}&#xA;&#xA;html.append(&quot;&lt;/body>&lt;/html>&quot;);&#xA;&#xA;globalMap.put(&quot;MAIL_SUBJECT&quot;, subject);&#xA;globalMap.put(&quot;MAIL_BODY&quot;, html.toString());"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="Construire le mail"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_2"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="800">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="String html = (String) globalMap.get(&quot;MAIL_BODY&quot;);&#xA;&#xA;java.nio.file.Files.write(&#xA;    java.nio.file.Paths.get(&quot;C:/temp/test_mail_talend.html&quot;),&#xA;    html.getBytes(java.nio.charset.StandardCharsets.UTF_8)&#xA;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_3"/>
+  </node>
+  <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1280" posY="800">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSendMail_1" show="false"/>
+    <elementParameter field="TEXT" name="TO" value="&quot;lalliot@eneria.com&quot;"/>
+    <elementParameter field="TEXT" name="FROM" value="&quot;lalliot@eneria.com&quot;"/>
+    <elementParameter field="CHECK" name="NEED_PERSONAL_NAME" value="false"/>
+    <elementParameter field="TEXT" name="PERSONAL_NAME" value="&quot;sender&quot;" show="false"/>
+    <elementParameter field="TEXT" name="CC" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="BCC" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SUBJECT" value="(String) globalMap.get(&quot;MAIL_SUBJECT&quot;)"/>
+    <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="(String) globalMap.get(&quot;MAIL_BODY&quot;)"/>
+    <elementParameter field="CHECK" name="CHECK_ATTACHMENT" value="true"/>
+    <elementParameter field="TABLE" name="ATTACHMENTS"/>
+    <elementParameter field="TABLE" name="HEADERS"/>
+    <elementParameter field="TEXT" name="SMTP_HOST" value="context.Mail_SMTP_host"/>
+    <elementParameter field="TEXT" name="SMTP_PORT" value="context.Mail_SMTP_port"/>
+    <elementParameter field="CHECK" name="SSL" value="false"/>
+    <elementParameter field="CHECK" name="STARTTLS" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="NO_AUTH"/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;username&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:IuTHuLQrS8QR3mYCfe21vOFR/IlO/Ib8SSd670vgf/JWqWt4HbU=" show="false"/>
+    <elementParameter field="PASSWORD" name="TOKEN" value="enc:system.encryption.key.v1:l4J1FfObenFVaM7InGjeAt4HfifEvI5eZUNJfRQ6gCMoSzCjtRM=" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="html"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="SET_LOCALHOST" value="false"/>
+    <elementParameter field="TEXT" name="LOCALHOST" value="&quot;localhost&quot;" show="false"/>
+    <elementParameter field="CHECK" name="USE_TWO_LINE_TOKEN" value="false" show="false"/>
+    <elementParameter field="TABLE" name="CONFIGS"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tSendMail_1"/>
+  </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tWarn_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk3" show="false"/>
   </connection>
   <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tDie_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentError1" show="false"/>
   </connection>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tDBConnection_1">
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tJava_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tDBClose_1">
@@ -694,6 +813,9 @@
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBClose_2" offsetLabelX="0" offsetLabelY="0" source="tDBClose_2" target="tWarn_3">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk7" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tWarn_3" offsetLabelX="0" offsetLabelY="0" source="tWarn_3" target="tJava_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk15" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -733,6 +855,19 @@
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFTPClose_1" offsetLabelX="0" offsetLabelY="0" source="tFTPClose_1" target="tWarn_6">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk14" show="false"/>
   </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tDBConnection_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk4" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tLogCatcher_1" offsetLabelX="0" offsetLabelY="0" source="tLogCatcher_1" target="tJavaRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_2" offsetLabelX="0" offsetLabelY="0" source="tJava_2" target="tJava_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk5" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_3" offsetLabelX="0" offsetLabelY="0" source="tJava_3" target="tSendMail_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk6" show="false"/>
+  </connection>
   <note opaque="true" posX="-40" posY="160" sizeHeight="481" sizeWidth="1481" text="Extraction IDEFI puis insertion dans &#xD;&#xA;la table baseware.devise (Datawarehouse) &#xD;&#xA;et alimentation du fichier tauxchage.csv &#xD;&#xA;pour integration Baseware">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="155;199;204"/>
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="0;0;0"/>
@@ -742,20 +877,24 @@
     <elementParameter field="CHECK" name="FONT_ITALIC" value="true"/>
     <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="0;0;0"/>
   </note>
-  <note opaque="true" posX="-40" posY="720" sizeHeight="201" sizeWidth="1281" text="Fermeture desonnexions aux bases de données &#xD;&#xA; IDEFI et BASEWARE">
+  <note opaque="true" posX="-40" posY="720" sizeHeight="201" sizeWidth="1401" text="Fermeture desonnexions aux bases de données &#xD;&#xA; IDEFI et BASEWARE">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="166;193;152"/>
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="0;0;0"/>
     <elementParameter field="RADIO" name="NOTETXT_RIGHT" value="true"/>
     <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
+    <elementParameter field="RADIO" name="NOTELABEL_CENTER" value="false"/>
+    <elementParameter field="RADIO" name="NOTETXT_TOP" value="true"/>
     <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
     <elementParameter field="CHECK" name="FONT_ITALIC" value="true"/>
     <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="0;0;0"/>
   </note>
-  <note opaque="true" posX="-40" posY="-240" sizeHeight="361" sizeWidth="1281" text="Connexion aux bases de données &#xD;&#xA; IDEFI et BASEWARE">
+  <note opaque="true" posX="-40" posY="-240" sizeHeight="361" sizeWidth="1641" text="Connexion aux bases de données &#xD;&#xA; IDEFI et BASEWARE">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="166;193;152"/>
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="0;0;0"/>
     <elementParameter field="RADIO" name="NOTETXT_RIGHT" value="true"/>
     <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
+    <elementParameter field="RADIO" name="NOTELABEL_CENTER" value="false"/>
+    <elementParameter field="RADIO" name="NOTETXT_TOP" value="true"/>
     <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
     <elementParameter field="CHECK" name="FONT_ITALIC" value="true"/>
     <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="0;0;0"/>
@@ -766,13 +905,13 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
@@ -855,6 +994,31 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_6" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogCatcher_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSendMail_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>

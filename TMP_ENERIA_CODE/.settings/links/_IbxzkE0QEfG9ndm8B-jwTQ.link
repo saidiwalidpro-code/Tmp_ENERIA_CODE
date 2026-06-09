@@ -2,78 +2,135 @@
   "itemId" : "_IbxzkE0QEfG9ndm8B-jwTQ",
   "contextList" : [ {
     "contextName" : "Default",
+    "repoId" : "_M3YwUGMWEfGkkq5kPO8l8g",
+    "parameterList" : [ {
+      "id" : "_M4BpgmMWEfGkkq5kPO8l8g",
+      "name" : "Mail_cc"
+    }, {
+      "id" : "_M4BpgGMWEfGkkq5kPO8l8g",
+      "name" : "Mail_destinataire"
+    }, {
+      "id" : "_M4BpgWMWEfGkkq5kPO8l8g",
+      "name" : "Mail_expediteur"
+    }, {
+      "id" : "_M4Bpg2MWEfGkkq5kPO8l8g",
+      "name" : "Mail_SMTP_host"
+    }, {
+      "id" : "_M4BphGMWEfGkkq5kPO8l8g",
+      "name" : "Mail_SMTP_port"
+    } ]
+  }, {
+    "contextName" : "Default",
     "repoId" : "_HvA6IEPOEfG9ndm8B-jwTQ",
     "parameterList" : [ {
+      "id" : "_HvOVgkPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_AdditionalParams"
+    }, {
       "id" : "_HvOVh0POEfG9ndm8B-jwTQ",
       "name" : "connection_SAVOIR_DB_Database"
-    }, {
-      "id" : "_HvOVhUPOEfG9ndm8B-jwTQ",
-      "name" : "connection_SAVOIR_DB_Password"
-    }, {
-      "id" : "_HvOVg0POEfG9ndm8B-jwTQ",
-      "name" : "connection_SAVOIR_DB_Server"
-    }, {
-      "id" : "_HvOVhEPOEfG9ndm8B-jwTQ",
-      "name" : "connection_SAVOIR_DB_Port"
     }, {
       "id" : "_HvOVgUPOEfG9ndm8B-jwTQ",
       "name" : "connection_SAVOIR_DB_Login"
     }, {
-      "id" : "_HvOVgkPOEfG9ndm8B-jwTQ",
-      "name" : "connection_SAVOIR_DB_AdditionalParams"
+      "id" : "_HvOVhUPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Password"
+    }, {
+      "id" : "_HvOVhEPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Port"
     }, {
       "id" : "_HvOVhkPOEfG9ndm8B-jwTQ",
       "name" : "connection_SAVOIR_DB_Schema"
+    }, {
+      "id" : "_HvOVg0POEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Server"
+    } ]
+  }, {
+    "contextName" : "RECETTE",
+    "repoId" : "_M3YwUGMWEfGkkq5kPO8l8g",
+    "parameterList" : [ {
+      "id" : "_M4Bph2MWEfGkkq5kPO8l8g",
+      "name" : "Mail_cc"
+    }, {
+      "id" : "_M4BphWMWEfGkkq5kPO8l8g",
+      "name" : "Mail_destinataire"
+    }, {
+      "id" : "_M4BphmMWEfGkkq5kPO8l8g",
+      "name" : "Mail_expediteur"
+    }, {
+      "id" : "_M4BpiGMWEfGkkq5kPO8l8g",
+      "name" : "Mail_SMTP_host"
+    }, {
+      "id" : "_M4BpiWMWEfGkkq5kPO8l8g",
+      "name" : "Mail_SMTP_port"
     } ]
   }, {
     "contextName" : "RECETTE",
     "repoId" : "_HvA6IEPOEfG9ndm8B-jwTQ",
     "parameterList" : [ {
+      "id" : "_HvOVkkPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_AdditionalParams"
+    }, {
       "id" : "_HvOVl0POEfG9ndm8B-jwTQ",
       "name" : "connection_SAVOIR_DB_Database"
-    }, {
-      "id" : "_HvOVlUPOEfG9ndm8B-jwTQ",
-      "name" : "connection_SAVOIR_DB_Password"
-    }, {
-      "id" : "_HvOVk0POEfG9ndm8B-jwTQ",
-      "name" : "connection_SAVOIR_DB_Server"
-    }, {
-      "id" : "_HvOVlEPOEfG9ndm8B-jwTQ",
-      "name" : "connection_SAVOIR_DB_Port"
     }, {
       "id" : "_HvOVkUPOEfG9ndm8B-jwTQ",
       "name" : "connection_SAVOIR_DB_Login"
     }, {
-      "id" : "_HvOVkkPOEfG9ndm8B-jwTQ",
-      "name" : "connection_SAVOIR_DB_AdditionalParams"
+      "id" : "_HvOVlUPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Password"
+    }, {
+      "id" : "_HvOVlEPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Port"
     }, {
       "id" : "_HvOVlkPOEfG9ndm8B-jwTQ",
       "name" : "connection_SAVOIR_DB_Schema"
+    }, {
+      "id" : "_HvOVk0POEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Server"
+    } ]
+  }, {
+    "contextName" : "PRODUCTION",
+    "repoId" : "_M3YwUGMWEfGkkq5kPO8l8g",
+    "parameterList" : [ {
+      "id" : "_M4BpjGMWEfGkkq5kPO8l8g",
+      "name" : "Mail_cc"
+    }, {
+      "id" : "_M4BpimMWEfGkkq5kPO8l8g",
+      "name" : "Mail_destinataire"
+    }, {
+      "id" : "_M4Bpi2MWEfGkkq5kPO8l8g",
+      "name" : "Mail_expediteur"
+    }, {
+      "id" : "_M4BpjWMWEfGkkq5kPO8l8g",
+      "name" : "Mail_SMTP_host"
+    }, {
+      "id" : "_M4BpjmMWEfGkkq5kPO8l8g",
+      "name" : "Mail_SMTP_port"
     } ]
   }, {
     "contextName" : "PRODUCTION",
     "repoId" : "_HvA6IEPOEfG9ndm8B-jwTQ",
     "parameterList" : [ {
+      "id" : "_HvOVikPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_AdditionalParams"
+    }, {
       "id" : "_HvOVj0POEfG9ndm8B-jwTQ",
       "name" : "connection_SAVOIR_DB_Database"
-    }, {
-      "id" : "_HvOVjUPOEfG9ndm8B-jwTQ",
-      "name" : "connection_SAVOIR_DB_Password"
-    }, {
-      "id" : "_HvOVi0POEfG9ndm8B-jwTQ",
-      "name" : "connection_SAVOIR_DB_Server"
-    }, {
-      "id" : "_HvOVjEPOEfG9ndm8B-jwTQ",
-      "name" : "connection_SAVOIR_DB_Port"
     }, {
       "id" : "_HvOViUPOEfG9ndm8B-jwTQ",
       "name" : "connection_SAVOIR_DB_Login"
     }, {
-      "id" : "_HvOVikPOEfG9ndm8B-jwTQ",
-      "name" : "connection_SAVOIR_DB_AdditionalParams"
+      "id" : "_HvOVjUPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Password"
+    }, {
+      "id" : "_HvOVjEPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Port"
     }, {
       "id" : "_HvOVjkPOEfG9ndm8B-jwTQ",
       "name" : "connection_SAVOIR_DB_Schema"
+    }, {
+      "id" : "_HvOVi0POEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Server"
     } ]
   } ]
 }

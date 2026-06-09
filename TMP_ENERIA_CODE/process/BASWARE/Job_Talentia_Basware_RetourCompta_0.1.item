@@ -5,75 +5,93 @@
     <contextParameter comment="" name="Repertoire_racine" prompt="Repertoire_racine?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="E:/Talend/data/" internalId="_WUTloUhaEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Repertoire_out" prompt="Repertoire_out?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/out/" internalId="_WUTlokhaEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Nom_fichier_sortie" prompt="Nom_fichier_sortie?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="retourcompta.csv" internalId="_WUTlo0haEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_Adresse" prompt="Baseware_SFTP_Adresse?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="sftp-dub.p2p.basware.com" internalId="_EGSl4EkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_Login" prompt="Baseware_SFTP_Login?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="voflubmtest" internalId="_EGSl4UkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_MDP" prompt="Baseware_SFTP_MDP?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:YUwS5JjXKh9VLqNCa+sbMTuo3U1/QSjSdoVT8whX/OyMtmGp6zbJlN8DqQ==" internalId="_EGSl4kkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_Port" prompt="Baseware_SFTP_Port?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Integer" value="22" internalId="_EGSl40kyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_repertoire" prompt="Baseware_SFTP_repertoire?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="/files/in" internalId="_EGSl5EkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_AdditionalParams" prompt="connection_BASWARE_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_EGSl5UkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Database" prompt="connection_BASWARE_DB_Database?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_EGSl5kkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Login" prompt="connection_BASWARE_DB_Login?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_EGSl50kyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Password" prompt="connection_BASWARE_DB_Password?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:CLjPSMM8yXjvIt/RmRoVmM//73lhXAZvFO4onBJj8HKEvYQ=" internalId="_EGSl6EkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Port" prompt="connection_BASWARE_DB_Port?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_EGSl6UkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Schema" prompt="connection_BASWARE_DB_Schema?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_EGSl6kkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Server" prompt="connection_BASWARE_DB_Server?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_EGSl60kyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_TALENTIA_DB_AdditionalParams" prompt="connection_TALENTIA_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_EGSl7EkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_TALENTIA_DB_Database" prompt="connection_TALENTIA_DB_Database?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="IR6_1F038" internalId="_EGSl7UkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_TALENTIA_DB_Login" prompt="connection_TALENTIA_DB_Login?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_EGSl7kkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_TALENTIA_DB_Password" prompt="connection_TALENTIA_DB_Password?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:5ED5LpcszmsT4GnghiYXKaqJ6RSIsrcCfLhNZ5KvXBvpqJBk4lY=" internalId="_EGSl70kyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_TALENTIA_DB_Server" prompt="connection_TALENTIA_DB_Server?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_EGSl8EkyEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="timestamp" prompt="timestamp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_8LDyAFkGEfGUKOluWJIhaA"/>
     <contextParameter comment="" name="Repertoire_archive" prompt="Repertoire_archive?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/archive/" internalId="_8LDyAVkGEfGUKOluWJIhaA"/>
+    <contextParameter comment="" name="Baseware_SFTP_Adresse" prompt="Baseware_SFTP_Adresse?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="sftp-dub.p2p.basware.com" internalId="_OXXM8GMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_Login" prompt="Baseware_SFTP_Login?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="voflubmtest" internalId="_OXXM8WMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_MDP" prompt="Baseware_SFTP_MDP?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:+qUX05SNPoB9XMWfW3ru5I7xqcABGX4mz+MfN78NHhuicPRRFBuFPRiPNA==" internalId="_OXXM8mMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_Port" prompt="Baseware_SFTP_Port?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Integer" value="22" internalId="_OXXM82MkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_repertoire" prompt="Baseware_SFTP_repertoire?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="/files/in" internalId="_OXXM9GMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_AdditionalParams" prompt="connection_BASWARE_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_OXZCIGMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Database" prompt="connection_BASWARE_DB_Database?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_OXZCIWMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Login" prompt="connection_BASWARE_DB_Login?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_OXZCImMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Password" prompt="connection_BASWARE_DB_Password?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:d0uk/TbZu4JSQubPyuvbCCPciDGObzxZMBPOgopY7UGeZD0=" internalId="_OXZCI2MkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Port" prompt="connection_BASWARE_DB_Port?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_OXZCJGMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Schema" prompt="connection_BASWARE_DB_Schema?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_OXZCJWMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Server" prompt="connection_BASWARE_DB_Server?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_OXZCJmMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_cc" prompt="Mail_cc?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="&quot;&quot;" internalId="_OXaQQGMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_destinataire" prompt="Mail_destinataire?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="lalliot@eneria.com" internalId="_OXaQQWMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_expediteur" prompt="Mail_expediteur?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="lalliot@eneria.com" internalId="_OXaQQmMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_SMTP_host" prompt="Mail_SMTP_host?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="172.17.12.20" internalId="_OXaQQ2MkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_SMTP_port" prompt="Mail_SMTP_port?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_OXaQRGMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_AdditionalParams" prompt="connection_TALENTIA_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_OXa3UGMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Database" prompt="connection_TALENTIA_DB_Database?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="IR6_1F038" internalId="_OXa3UWMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Login" prompt="connection_TALENTIA_DB_Login?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_OXa3UmMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Password" prompt="connection_TALENTIA_DB_Password?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:Y9hjcgtaPaxtHx2XZ+3tppg9N/r5p642LFhMq8+uHIckIK5i/Qs=" internalId="_OXa3U2MkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Server" prompt="connection_TALENTIA_DB_Server?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_OXa3VGMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="envireonnement" prompt="envireonnement?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="recette" internalId="_OXa3VWMkEfGkkq5kPO8l8g"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="RECETTE">
     <contextParameter comment="" name="Table_cible" prompt="Table_cible?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="comptabilisation" internalId="_WUTlpEhaEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Repertoire_racine" prompt="Repertoire_racine?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="E:/Talend/data/" internalId="_WUTlpUhaEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Repertoire_out" prompt="Repertoire_out?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/out/" internalId="_WUTlpkhaEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Nom_fichier_sortie" prompt="Nom_fichier_sortie?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="retourcompta.csv" internalId="_WUTlp0haEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_Adresse" prompt="Baseware_SFTP_Adresse?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="sftp-dub.p2p.basware.com" internalId="_EGSl8UkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_Login" prompt="Baseware_SFTP_Login?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="voflubmtest" internalId="_EGSl8kkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_MDP" prompt="Baseware_SFTP_MDP?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:vYQ3Znmys4dOQvs9jMBNZWoU+RoV/XHT77/O7yLpO8/zVzmpU9BvuAXSnA==" internalId="_EGSl80kyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_Port" prompt="Baseware_SFTP_Port?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Integer" value="22" internalId="_EGSl9EkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_repertoire" prompt="Baseware_SFTP_repertoire?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="/files/in" internalId="_EGSl9UkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_AdditionalParams" prompt="connection_BASWARE_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_EGSl9kkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Database" prompt="connection_BASWARE_DB_Database?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_EGSl90kyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Login" prompt="connection_BASWARE_DB_Login?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_EGSl-EkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Password" prompt="connection_BASWARE_DB_Password?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:uZxgWm7SQN9TXSRCBxsAuUlE7bzokmWlKrSSWgPEZU06+/E=" internalId="_EGSl-UkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Port" prompt="connection_BASWARE_DB_Port?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_EGSl-kkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Schema" prompt="connection_BASWARE_DB_Schema?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_EGSl-0kyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Server" prompt="connection_BASWARE_DB_Server?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_EGSl_EkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_TALENTIA_DB_AdditionalParams" prompt="connection_TALENTIA_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_EGSl_UkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_TALENTIA_DB_Database" prompt="connection_TALENTIA_DB_Database?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="IR6_1FT38" internalId="_EGSl_kkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_TALENTIA_DB_Login" prompt="connection_TALENTIA_DB_Login?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_EGSl_0kyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_TALENTIA_DB_Password" prompt="connection_TALENTIA_DB_Password?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:uFMla1TYePAXUE7wg3lb4Zu+apOFOk24+HDZe/7tcIXK4fZo2B0=" internalId="_EGSmAEkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_TALENTIA_DB_Server" prompt="connection_TALENTIA_DB_Server?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_EGSmAUkyEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="timestamp" prompt="timestamp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_8LDyAlkGEfGUKOluWJIhaA"/>
     <contextParameter comment="" name="Repertoire_archive" prompt="Repertoire_archive?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_8LDyA1kGEfGUKOluWJIhaA"/>
+    <contextParameter comment="" name="Baseware_SFTP_Adresse" prompt="Baseware_SFTP_Adresse?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="sftp-dub.p2p.basware.com" internalId="_OXa3VmMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_Login" prompt="Baseware_SFTP_Login?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="voflubmtest" internalId="_OXa3V2MkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_MDP" prompt="Baseware_SFTP_MDP?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:+ZEn80TbMx/Ntcd5jxc1Ejtd5IEpjIIHMxZ//YJZ9IvN38UaQUR4ssWsvw==" internalId="_OXa3WGMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_Port" prompt="Baseware_SFTP_Port?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Integer" value="22" internalId="_OXa3WWMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_repertoire" prompt="Baseware_SFTP_repertoire?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="/files/in" internalId="_OXa3WmMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_AdditionalParams" prompt="connection_BASWARE_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_OXa3W2MkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Database" prompt="connection_BASWARE_DB_Database?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_OXa3XGMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Login" prompt="connection_BASWARE_DB_Login?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_OXa3XWMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Password" prompt="connection_BASWARE_DB_Password?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:RPZmP0RBwGzDtvjH6VvaIn+207nqASiRzdUBs6r2FJXY3lA=" internalId="_OXa3XmMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Port" prompt="connection_BASWARE_DB_Port?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_OXa3X2MkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Schema" prompt="connection_BASWARE_DB_Schema?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_OXa3YGMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Server" prompt="connection_BASWARE_DB_Server?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02TEST" internalId="_OXa3YWMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_cc" prompt="Mail_cc?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="&quot;&quot;" internalId="_OXa3YmMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_destinataire" prompt="Mail_destinataire?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="lalliot@eneria.com" internalId="_OXa3Y2MkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_expediteur" prompt="Mail_expediteur?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="lalliot@eneria.com" internalId="_OXa3ZGMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_SMTP_host" prompt="Mail_SMTP_host?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="172.17.12.20" internalId="_OXa3ZWMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_SMTP_port" prompt="Mail_SMTP_port?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_OXa3ZmMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_AdditionalParams" prompt="connection_TALENTIA_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_OXa3Z2MkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Database" prompt="connection_TALENTIA_DB_Database?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="IR6_1FT38" internalId="_OXa3aGMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Login" prompt="connection_TALENTIA_DB_Login?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_OXa3aWMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Password" prompt="connection_TALENTIA_DB_Password?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:HP0reHsiGOOZ2/3zTsJTdi9ZeyZ1RMFdl0HrMR5o/A/w5BeivlY=" internalId="_OXa3amMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Server" prompt="connection_TALENTIA_DB_Server?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_OXa3a2MkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="envireonnement" prompt="envireonnement?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="recette" internalId="_OXa3bGMkEfGkkq5kPO8l8g"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="PRODUCTION">
     <contextParameter comment="" name="Table_cible" prompt="Table_cible?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_WUTlqEhaEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Repertoire_racine" prompt="Repertoire_racine?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_WUTlqUhaEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Repertoire_out" prompt="Repertoire_out?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_WUTlqkhaEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="Nom_fichier_sortie" prompt="Nom_fichier_sortie?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_WUTlq0haEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_Adresse" prompt="Baseware_SFTP_Adresse?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_EGSmAkkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_Login" prompt="Baseware_SFTP_Login?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_EGSmA0kyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_MDP" prompt="Baseware_SFTP_MDP?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Password" value="" internalId="_EGSmBEkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_Port" prompt="Baseware_SFTP_Port?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Integer" value="" internalId="_EGSmBUkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="Baseware_SFTP_repertoire" prompt="Baseware_SFTP_repertoire?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_EGSmBkkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_AdditionalParams" prompt="connection_BASWARE_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_EGSmB0kyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Database" prompt="connection_BASWARE_DB_Database?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_EGSmCEkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Login" prompt="connection_BASWARE_DB_Login?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_EGSmCUkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Password" prompt="connection_BASWARE_DB_Password?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:LDtvFX/RlYEtvI7mnG+JOvdTkWKLF7gLrISeYiW+dEE14eI=" internalId="_EGSmCkkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Port" prompt="connection_BASWARE_DB_Port?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_EGSmC0kyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Schema" prompt="connection_BASWARE_DB_Schema?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_EGSmDEkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_BASWARE_DB_Server" prompt="connection_BASWARE_DB_Server?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02" internalId="_EGSmDUkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_TALENTIA_DB_AdditionalParams" prompt="connection_TALENTIA_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_EGSmDkkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_TALENTIA_DB_Database" prompt="connection_TALENTIA_DB_Database?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_EGSmD0kyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_TALENTIA_DB_Login" prompt="connection_TALENTIA_DB_Login?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_EGSmEEkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_TALENTIA_DB_Password" prompt="connection_TALENTIA_DB_Password?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_Password" value="" internalId="_EGSmEUkyEfG9ndm8B-jwTQ"/>
-    <contextParameter comment="" name="connection_TALENTIA_DB_Server" prompt="connection_TALENTIA_DB_Server?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_EGSmEkkyEfG9ndm8B-jwTQ"/>
     <contextParameter comment="" name="timestamp" prompt="timestamp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_8LDyBFkGEfGUKOluWJIhaA"/>
     <contextParameter comment="" name="Repertoire_archive" prompt="Repertoire_archive?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_8LDyBVkGEfGUKOluWJIhaA"/>
+    <contextParameter comment="" name="Baseware_SFTP_Adresse" prompt="Baseware_SFTP_Adresse?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_OXa3bWMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_Login" prompt="Baseware_SFTP_Login?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_OXa3bmMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_MDP" prompt="Baseware_SFTP_MDP?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Password" value="" internalId="_OXa3b2MkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_Port" prompt="Baseware_SFTP_Port?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_Integer" value="" internalId="_OXa3cGMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Baseware_SFTP_repertoire" prompt="Baseware_SFTP_repertoire?" promptNeeded="false" repositoryContextId="_0FVrwEkmEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_OXa3cWMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_AdditionalParams" prompt="connection_BASWARE_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_OXa3cmMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Database" prompt="connection_BASWARE_DB_Database?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="dbprod" internalId="_OXa3c2MkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Login" prompt="connection_BASWARE_DB_Login?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_OXa3dGMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Password" prompt="connection_BASWARE_DB_Password?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:HoVWRbeLJa1roGFcqMMGSiR81sEAl3CN5ctI8Xaead+ujjs=" internalId="_OXa3dWMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Port" prompt="connection_BASWARE_DB_Port?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="5432" internalId="_OXa3dmMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Schema" prompt="connection_BASWARE_DB_Schema?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="basware" internalId="_OXa3d2MkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_BASWARE_DB_Server" prompt="connection_BASWARE_DB_Server?" promptNeeded="false" repositoryContextId="_ZyeVAEPNEfG9ndm8B-jwTQ" type="id_String" value="FRMLYDAT02" internalId="_OXa3eGMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_cc" prompt="Mail_cc?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_OXa3eWMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_destinataire" prompt="Mail_destinataire?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_OXa3emMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_expediteur" prompt="Mail_expediteur?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_OXa3e2MkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_SMTP_host" prompt="Mail_SMTP_host?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_OXa3fGMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="Mail_SMTP_port" prompt="Mail_SMTP_port?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_OXa3fWMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_AdditionalParams" prompt="connection_TALENTIA_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_OXa3fmMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Database" prompt="connection_TALENTIA_DB_Database?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_OXa3f2MkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Login" prompt="connection_TALENTIA_DB_Login?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_OXa3gGMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Password" prompt="connection_TALENTIA_DB_Password?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_Password" value="" internalId="_OXa3gWMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_TALENTIA_DB_Server" prompt="connection_TALENTIA_DB_Server?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_OXa3gmMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="envireonnement" prompt="envireonnement?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_OXa3g2MkEfGkkq5kPO8l8g"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -613,7 +631,7 @@
     <elementParameter field="CLOSED_LIST" name="AUTH_METHOD" value="PASSWORD" show="false"/>
     <elementParameter field="FILE" name="PRIVATEKEY" value="&quot;/.ssh/id_dsa&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="PASSPHRASE" value="enc:system.encryption.key.v1:PteS7k5IMIlx9BST1OQ5qtQLcXqBnSz2IwVaeUrP2iFFheG2" show="false"/>
-    <elementParameter field="DIRECTORY" name="LOCALDIR" value="context.Repertoire_racine+jobName+context.Repertoire_out"/>
+    <elementParameter field="DIRECTORY" name="LOCALDIR" value="context.Repertoire_racine+jobName+&quot;/&quot;+context.environnement+&quot;/&quot;+context.Repertoire_out"/>
     <elementParameter field="TEXT" name="REMOTEDIR" value="context.Baseware_SFTP_repertoire"/>
     <elementParameter field="CHECK" name="CREATE_DIR_IF_NOT_EXIST" value="false"/>
     <elementParameter field="CHECK" name="MOVE_TO_THE_CURRENT_DIRECTORY" value="true" show="false"/>
@@ -720,7 +738,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_2" show="false"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.Repertoire_racine+jobName+context.Repertoire_out+context.Nom_fichier_sortie"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.Repertoire_racine+jobName+&quot;/&quot;+context.environnement+&quot;/&quot;+context.Repertoire_out+context.Nom_fichier_sortie"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\r\n&quot;"/>
     <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
@@ -754,10 +772,10 @@
   </node>
   <node componentName="tFileCopy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="760" posY="440">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_1" show="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.Repertoire_racine+jobName+context.Repertoire_out+context.Nom_fichier_sortie"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.Repertoire_racine+jobName+&quot;/&quot;+context.environnement+&quot;/&quot;+context.Repertoire_out+context.Nom_fichier_sortie"/>
     <elementParameter field="CHECK" name="ENABLE_COPY_DIRECTORY" value="false"/>
     <elementParameter field="DIRECTORY" name="SOURCE_DERECTORY" value="&quot;C:/Program Files (x86)/Talend-Studio/studio/workspace&quot;" show="false"/>
-    <elementParameter field="DIRECTORY" name="DESTINATION" value="context.Repertoire_racine+jobName+context.Repertoire_archive"/>
+    <elementParameter field="DIRECTORY" name="DESTINATION" value="context.Repertoire_racine+jobName+&quot;/&quot;+context.environnement+&quot;/&quot;+context.Repertoire_archive"/>
     <elementParameter field="CHECK" name="RENAME" value="true"/>
     <elementParameter field="TEXT" name="DESTINATION_RENAME" value="&quot;1_&quot; + context.Nom_fichier_sortie.replaceFirst(&quot;\\.csv$&quot;, &quot;&quot;) + &quot;_&quot; + context.timestamp + &quot;.csv&quot;"/>
     <elementParameter field="CHECK" name="REMOVE_FILE" value="false"/>
@@ -769,13 +787,6 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileCopy_1"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="120" posY="-40">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="context.timestamp= TalendDate.formatDate(&quot;yyyyMMddHHmmss&quot;, TalendDate.getCurrentDate());"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tJava_1"/>
-  </node>
   <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1080" posY="200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_3" show="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;erreur rollback&quot;"/>
@@ -785,7 +796,120 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDie_3"/>
   </node>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="50" offsetLabelY="-50" source="tPrejob_1" target="tJava_1">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="120" posY="-40">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="context.timestamp= TalendDate.formatDate(&quot;yyyyMMddHHmmss&quot;, TalendDate.getCurrentDate());&#xA;globalMap.put(&quot;MAIL_WARNINGS&quot;, new java.util.ArrayList&lt;java.util.Map&lt;String, String>>());&#xA;globalMap.put(&quot;MAIL_ERRORS&quot;, new java.util.ArrayList&lt;java.util.Map&lt;String, String>>());&#xA;globalMap.put(&quot;JOB_HAS_ERROR&quot;, false);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="initialisation"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_2"/>
+  </node>
+  <node componentName="tLogCatcher" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="-40">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogCatcher_1" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_JAVA_EXCEPTION" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TDIE" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TWARN" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TACTIONFAILURE" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogCatcher_1">
+      <column defaultValue="" key="false" length="0" name="moment" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="root_pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="father_pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="project" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="job" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="context" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="priority" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="type" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="origin" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="message" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="code" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1320" posY="-40">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="java.util.List&lt;java.util.Map&lt;String, String>> warnings =&#xA;    (java.util.List&lt;java.util.Map&lt;String, String>>) globalMap.get(&quot;MAIL_WARNINGS&quot;);&#xA;&#xA;java.util.List&lt;java.util.Map&lt;String, String>> errors =&#xA;    (java.util.List&lt;java.util.Map&lt;String, String>>) globalMap.get(&quot;MAIL_ERRORS&quot;);&#xA;&#xA;String type = String.valueOf(input_row.type);&#xA;String priority = String.valueOf(input_row.priority);&#xA;String origin = String.valueOf(input_row.origin);&#xA;String message = String.valueOf(input_row.message);&#xA;String code = String.valueOf(input_row.code);&#xA;&#xA;java.util.Map&lt;String, String> log = new java.util.HashMap&lt;String, String>();&#xA;log.put(&quot;date&quot;, routines.TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;, input_row.moment));&#xA;log.put(&quot;type&quot;, type);&#xA;log.put(&quot;priority&quot;, priority);&#xA;log.put(&quot;origin&quot;, origin);&#xA;log.put(&quot;message&quot;, message);&#xA;log.put(&quot;code&quot;, code);&#xA;&#xA;// Cas tWarn&#xA;if (&quot;tWarn&quot;.equalsIgnoreCase(type)) {&#xA;    warnings.add(log);&#xA;}&#xA;&#xA;// Cas erreur technique ou tDie&#xA;String typeLower = type.toLowerCase();&#xA;String priorityLower = priority.toLowerCase();&#xA;&#xA;if (&#xA;    typeLower.contains(&quot;die&quot;)&#xA;    || typeLower.contains(&quot;exception&quot;)&#xA;    || typeLower.contains(&quot;error&quot;)&#xA;    || priorityLower.contains(&quot;error&quot;)&#xA;    || priorityLower.contains(&quot;fatal&quot;)&#xA;) {&#xA;    errors.add(log);&#xA;    globalMap.put(&quot;JOB_HAS_ERROR&quot;, true);&#xA;}&#xA;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJavaRow_1">
+      <column defaultValue="" key="false" length="0" name="moment" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="root_pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="father_pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="project" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="job" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="context" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="priority" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="type" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="origin" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="message" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="code" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1080" posY="440">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_7" show="false"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Nombre de ligne mis a jour  dans la table basware.comptabilisation  :  &quot;+((Integer)globalMap.get(&quot;tDBOutput_3_NB_LINE_UPDATED&quot;))"/>
+    <elementParameter field="TEXT" name="CODE" value="1"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWarn_7">
+      <column comment="" key="false" length="10" name="code_devise" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="10" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="taux_devise" nullable="true" pattern="" precision="7" sourceType="" type="id_BigDecimal" originalLength="17" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="date_application" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="taux_devise_inverse" nullable="true" pattern="" precision="7" sourceType="" type="id_BigDecimal" originalLength="17" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="code_devise_de" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="10" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="800">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="java.util.List&lt;java.util.Map&lt;String, String>> warnings =&#xA;    (java.util.List&lt;java.util.Map&lt;String, String>>) globalMap.get(&quot;MAIL_WARNINGS&quot;);&#xA;&#xA;java.util.List&lt;java.util.Map&lt;String, String>> errors =&#xA;    (java.util.List&lt;java.util.Map&lt;String, String>>) globalMap.get(&quot;MAIL_ERRORS&quot;);&#xA;&#xA;boolean hasError = Boolean.TRUE.equals(globalMap.get(&quot;JOB_HAS_ERROR&quot;));&#xA;&#xA;String currentJobName = jobName;&#xA;String status = hasError ? &quot;ERREUR&quot; : &quot;SUCCÈS&quot;;&#xA;String color = hasError ? &quot;#c00000&quot; : &quot;#2e7d32&quot;;&#xA;&#xA;String subject = &quot;[&quot; + status + &quot;] [&quot; +context.environnement+ &quot;] Job Talend - &quot; + currentJobName;&#xA;&#xA;StringBuilder html = new StringBuilder();&#xA;&#xA;html.append(&quot;&lt;html>&lt;body style='font-family:Arial, sans-serif;'>&quot;);&#xA;&#xA;html.append(&quot;&lt;h2 style='color:&quot;)&#xA;    .append(color)&#xA;    .append(&quot;;'>Job Talend : &quot;)&#xA;    .append(jobName)&#xA;    .append(&quot; - &quot;)&#xA;    .append(status)&#xA;    .append(&quot;&lt;/h2>&quot;);&#xA;&#xA;html.append(&quot;&lt;p>&lt;b>Date d'exécution :&lt;/b> &quot;)&#xA;    .append(routines.TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;, new java.util.Date()))&#xA;    .append(&quot;&lt;/p>&quot;);&#xA;&#xA;html.append(&quot;&lt;p>&lt;b>Environnement :&lt;/b> &quot;)&#xA;    .append(context.environnement)&#xA;    .append(&quot;&lt;/p>&quot;);&#xA;&#xA;html.append(&quot;&lt;hr/>&quot;);&#xA;&#xA;// Section tWarn&#xA;html.append(&quot;&lt;h3>Messages tWarn&lt;/h3>&quot;);&#xA;&#xA;html.append(&quot;&lt;table border='1' cellspacing='0' cellpadding='6' style='border-collapse:collapse;width:100%;'>&quot;);&#xA;html.append(&quot;&lt;tr style='background-color:#f2f2f2;'>&quot;);&#xA;html.append(&quot;&lt;th>Date&lt;/th>&lt;th>Composant&lt;/th>&lt;th>Message&lt;/th>&quot;);&#xA;html.append(&quot;&lt;/tr>&quot;);&#xA;&#xA;if (warnings == null || warnings.isEmpty()) {&#xA;    html.append(&quot;&lt;tr>&lt;td colspan='3'>Aucun tWarn détecté.&lt;/td>&lt;/tr>&quot;);&#xA;} else {&#xA;    for (java.util.Map&lt;String, String> w : warnings) {&#xA;        String msg = w.get(&quot;message&quot;)&#xA;            .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;            .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;            .replace(&quot;>&quot;, &quot;&amp;gt;&quot;);&#xA;&#xA;        html.append(&quot;&lt;tr>&quot;);&#xA;        html.append(&quot;&lt;td>&quot;).append(w.get(&quot;date&quot;)).append(&quot;&lt;/td>&quot;);&#xA;        html.append(&quot;&lt;td>&quot;).append(w.get(&quot;origin&quot;)).append(&quot;&lt;/td>&quot;);&#xA;        html.append(&quot;&lt;td>&quot;).append(msg).append(&quot;&lt;/td>&quot;);&#xA;        html.append(&quot;&lt;/tr>&quot;);&#xA;    }&#xA;}&#xA;&#xA;html.append(&quot;&lt;/table>&quot;);&#xA;&#xA;// Section erreurs uniquement si erreur&#xA;if (hasError) {&#xA;    html.append(&quot;&lt;br/>&quot;);&#xA;    html.append(&quot;&lt;h3 style='color:#c00000;'>Erreur détectée&lt;/h3>&quot;);&#xA;&#xA;    html.append(&quot;&lt;table border='1' cellspacing='0' cellpadding='6' style='border-collapse:collapse;width:100%;'>&quot;);&#xA;    html.append(&quot;&lt;tr style='background-color:#c00000;color:white;'>&quot;);&#xA;    html.append(&quot;&lt;th>Date&lt;/th>&lt;th>Type&lt;/th>&lt;th>Composant&lt;/th>&lt;th>Code&lt;/th>&lt;th>Message&lt;/th>&quot;);&#xA;    html.append(&quot;&lt;/tr>&quot;);&#xA;&#xA;    if (errors == null || errors.isEmpty()) {&#xA;        html.append(&quot;&lt;tr>&lt;td colspan='5'>Erreur détectée mais aucun détail récupéré par tLogCatcher.&lt;/td>&lt;/tr>&quot;);&#xA;    } else {&#xA;        for (java.util.Map&lt;String, String> e : errors) {&#xA;            String msg = e.get(&quot;message&quot;)&#xA;                .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;                .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;                .replace(&quot;>&quot;, &quot;&amp;gt;&quot;);&#xA;&#xA;            html.append(&quot;&lt;tr>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(e.get(&quot;date&quot;)).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(e.get(&quot;type&quot;)).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(e.get(&quot;origin&quot;)).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(e.get(&quot;code&quot;)).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(msg).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;/tr>&quot;);&#xA;        }&#xA;    }&#xA;&#xA;    html.append(&quot;&lt;/table>&quot;);&#xA;}&#xA;&#xA;html.append(&quot;&lt;/body>&lt;/html>&quot;);&#xA;&#xA;globalMap.put(&quot;MAIL_SUBJECT&quot;, subject);&#xA;globalMap.put(&quot;MAIL_BODY&quot;, html.toString());"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="Construire le mail"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="800">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="String html = (String) globalMap.get(&quot;MAIL_BODY&quot;);&#xA;&#xA;java.nio.file.Files.write(&#xA;    java.nio.file.Paths.get(&quot;C:/temp/test_mail_talend.html&quot;),&#xA;    html.getBytes(java.nio.charset.StandardCharsets.UTF_8)&#xA;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_3"/>
+  </node>
+  <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1240" posY="800">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSendMail_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="TEXT" name="TO" value="&quot;lalliot@eneria.com&quot;"/>
+    <elementParameter field="TEXT" name="FROM" value="&quot;lalliot@eneria.com&quot;"/>
+    <elementParameter field="CHECK" name="NEED_PERSONAL_NAME" value="false"/>
+    <elementParameter field="TEXT" name="PERSONAL_NAME" value="&quot;sender&quot;" show="false"/>
+    <elementParameter field="TEXT" name="CC" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="BCC" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SUBJECT" value="(String) globalMap.get(&quot;MAIL_SUBJECT&quot;)"/>
+    <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="(String) globalMap.get(&quot;MAIL_BODY&quot;)"/>
+    <elementParameter field="CHECK" name="CHECK_ATTACHMENT" value="true"/>
+    <elementParameter field="TABLE" name="ATTACHMENTS"/>
+    <elementParameter field="TABLE" name="HEADERS"/>
+    <elementParameter field="TEXT" name="SMTP_HOST" value="context.Mail_SMTP_host"/>
+    <elementParameter field="TEXT" name="SMTP_PORT" value="context.Mail_SMTP_port"/>
+    <elementParameter field="CHECK" name="SSL" value="false"/>
+    <elementParameter field="CHECK" name="STARTTLS" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="NO_AUTH"/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;username&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:w/VSFQXWrgc6Mv988OIfTsd3gCME2GUrtW2bLVGYjEA52rYOo1A=" show="false"/>
+    <elementParameter field="PASSWORD" name="TOKEN" value="enc:system.encryption.key.v1:T8oeQF4dG6D7j792DfqEnCIshex7U6VUrmTg2ukEZC8mb3LTYNg=" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="html"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="SET_LOCALHOST" value="false"/>
+    <elementParameter field="TEXT" name="LOCALHOST" value="&quot;localhost&quot;" show="false"/>
+    <elementParameter field="CHECK" name="USE_TWO_LINE_TOKEN" value="false" show="false"/>
+    <elementParameter field="TABLE" name="CONFIGS"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tSendMail_1"/>
+  </node>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="50" offsetLabelY="-50" source="tPrejob_1" target="tJava_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tDBClose_1">
@@ -803,12 +927,18 @@
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBClose_2" offsetLabelX="0" offsetLabelY="0" source="tDBClose_2" target="tWarn_4">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk7" show="false"/>
   </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tWarn_4" offsetLabelX="0" offsetLabelY="0" source="tWarn_4" target="tJava_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk9" show="false"/>
+  </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBRollback_1" offsetLabelX="0" offsetLabelY="0" source="tDBRollback_1" target="tDie_3">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk15" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tDBCommit_1" offsetLabelX="0" offsetLabelY="0" source="tDBCommit_1" target="tWarn_5">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row5" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBCommit_1" offsetLabelX="0" offsetLabelY="0" source="tDBCommit_1" target="tWarn_7">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk16" show="false"/>
   </connection>
   <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tDBConnection_3" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_3" target="tDie_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentError1" show="false"/>
@@ -903,23 +1033,38 @@
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileOutputDelimited_2" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tFileOutputDelimited_2" target="tFileCopy_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk13" show="false"/>
   </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tDBConnection_3">
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_2" offsetLabelX="0" offsetLabelY="0" source="tJava_2" target="tDBConnection_3">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk6" show="false"/>
   </connection>
-  <note opaque="true" posX="-40" posY="720" sizeHeight="201" sizeWidth="1281" text="Fermeture desonnexions aux bases de données &#xD;&#xA;TALENTIA et BASEWARE">
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tLogCatcher_1" offsetLabelX="0" offsetLabelY="0" source="tLogCatcher_1" target="tJavaRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tJava_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk7" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_3" offsetLabelX="0" offsetLabelY="0" source="tJava_3" target="tSendMail_1">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk8" show="false"/>
+  </connection>
+  <note opaque="true" posX="-40" posY="720" sizeHeight="201" sizeWidth="1361" text="Fermeture desonnexions aux bases de données &#xD;&#xA;TALENTIA et BASEWARE">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="166;193;152"/>
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="0;0;0"/>
     <elementParameter field="RADIO" name="NOTETXT_RIGHT" value="true"/>
     <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
+    <elementParameter field="RADIO" name="NOTELABEL_CENTER" value="false"/>
+    <elementParameter field="RADIO" name="NOTETXT_TOP" value="true"/>
     <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
     <elementParameter field="CHECK" name="FONT_ITALIC" value="true"/>
     <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="0;0;0"/>
   </note>
-  <note opaque="true" posX="-40" posY="-240" sizeHeight="361" sizeWidth="1281" text="Connexion aux bases de données &#xD;&#xA;TALENTIA et BASEWARE">
+  <note opaque="true" posX="-40" posY="-240" sizeHeight="361" sizeWidth="1481" text="Connexion aux bases de données &#xD;&#xA;TALENTIA et BASEWARE">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="166;193;152"/>
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="0;0;0"/>
     <elementParameter field="RADIO" name="NOTETXT_RIGHT" value="true"/>
     <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
+    <elementParameter field="RADIO" name="NOTELABEL_CENTER" value="false"/>
+    <elementParameter field="RADIO" name="NOTETXT_TOP" value="true"/>
     <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
     <elementParameter field="CHECK" name="FONT_ITALIC" value="true"/>
     <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="0;0;0"/>
@@ -1042,12 +1187,37 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_3" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogCatcher_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_7" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_3" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSendMail_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>

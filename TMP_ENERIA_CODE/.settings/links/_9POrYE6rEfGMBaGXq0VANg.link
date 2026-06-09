@@ -24,6 +24,25 @@
     } ]
   }, {
     "contextName" : "Default",
+    "repoId" : "_M3YwUGMWEfGkkq5kPO8l8g",
+    "parameterList" : [ {
+      "id" : "_M4BpgmMWEfGkkq5kPO8l8g",
+      "name" : "Mail_cc"
+    }, {
+      "id" : "_M4BpgGMWEfGkkq5kPO8l8g",
+      "name" : "Mail_destinataire"
+    }, {
+      "id" : "_M4BpgWMWEfGkkq5kPO8l8g",
+      "name" : "Mail_expediteur"
+    }, {
+      "id" : "_M4Bpg2MWEfGkkq5kPO8l8g",
+      "name" : "Mail_SMTP_host"
+    }, {
+      "id" : "_M4BphGMWEfGkkq5kPO8l8g",
+      "name" : "Mail_SMTP_port"
+    } ]
+  }, {
+    "contextName" : "Default",
     "repoId" : "_HvA6IEPOEfG9ndm8B-jwTQ",
     "parameterList" : [ {
       "id" : "_HvOVgkPOEfG9ndm8B-jwTQ",
@@ -71,6 +90,25 @@
     } ]
   }, {
     "contextName" : "RECETTE",
+    "repoId" : "_M3YwUGMWEfGkkq5kPO8l8g",
+    "parameterList" : [ {
+      "id" : "_M4Bph2MWEfGkkq5kPO8l8g",
+      "name" : "Mail_cc"
+    }, {
+      "id" : "_M4BphWMWEfGkkq5kPO8l8g",
+      "name" : "Mail_destinataire"
+    }, {
+      "id" : "_M4BphmMWEfGkkq5kPO8l8g",
+      "name" : "Mail_expediteur"
+    }, {
+      "id" : "_M4BpiGMWEfGkkq5kPO8l8g",
+      "name" : "Mail_SMTP_host"
+    }, {
+      "id" : "_M4BpiWMWEfGkkq5kPO8l8g",
+      "name" : "Mail_SMTP_port"
+    } ]
+  }, {
+    "contextName" : "RECETTE",
     "repoId" : "_HvA6IEPOEfG9ndm8B-jwTQ",
     "parameterList" : [ {
       "id" : "_HvOVkkPOEfG9ndm8B-jwTQ",
@@ -115,6 +153,25 @@
     }, {
       "id" : "_7GYsYk6nEfGMBaGXq0VANg",
       "name" : "ADP_SFTP_Repertoire"
+    } ]
+  }, {
+    "contextName" : "PRODUCTION",
+    "repoId" : "_M3YwUGMWEfGkkq5kPO8l8g",
+    "parameterList" : [ {
+      "id" : "_M4BpjGMWEfGkkq5kPO8l8g",
+      "name" : "Mail_cc"
+    }, {
+      "id" : "_M4BpimMWEfGkkq5kPO8l8g",
+      "name" : "Mail_destinataire"
+    }, {
+      "id" : "_M4Bpi2MWEfGkkq5kPO8l8g",
+      "name" : "Mail_expediteur"
+    }, {
+      "id" : "_M4BpjWMWEfGkkq5kPO8l8g",
+      "name" : "Mail_SMTP_host"
+    }, {
+      "id" : "_M4BpjmMWEfGkkq5kPO8l8g",
+      "name" : "Mail_SMTP_port"
     } ]
   }, {
     "contextName" : "PRODUCTION",

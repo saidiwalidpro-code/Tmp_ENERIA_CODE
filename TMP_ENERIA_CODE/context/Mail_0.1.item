@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_M3Z-cGMWEfGkkq5kPO8l8g" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_M4BpgGMWEfGkkq5kPO8l8g" comment="" name="Mail_destinataire" prompt="Mail_destinataire?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="lalliot@eneria.com"/>
+    <contextParameter xmi:id="_M4BpgWMWEfGkkq5kPO8l8g" comment="" name="Mail_expediteur" prompt="Mail_expediteur?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="lalliot@eneria.com"/>
+    <contextParameter xmi:id="_M4BpgmMWEfGkkq5kPO8l8g" comment="" name="Mail_cc" prompt="Mail_cc?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;&quot;"/>
+    <contextParameter xmi:id="_M4Bpg2MWEfGkkq5kPO8l8g" comment="" name="Mail_SMTP_host" prompt="Mail_SMTP_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="172.17.12.20"/>
+    <contextParameter xmi:id="_M4BphGMWEfGkkq5kPO8l8g" comment="" name="Mail_SMTP_port" prompt="Mail_SMTP_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_M3Z-cWMWEfGkkq5kPO8l8g" confirmationNeeded="false" hide="false" name="RECETTE">
+    <contextParameter xmi:id="_M4BphWMWEfGkkq5kPO8l8g" comment="" name="Mail_destinataire" prompt="Mail_destinataire?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="lalliot@eneria.com"/>
+    <contextParameter xmi:id="_M4BphmMWEfGkkq5kPO8l8g" comment="" name="Mail_expediteur" prompt="Mail_expediteur?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="lalliot@eneria.com"/>
+    <contextParameter xmi:id="_M4Bph2MWEfGkkq5kPO8l8g" comment="" name="Mail_cc" prompt="Mail_cc?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;&quot;"/>
+    <contextParameter xmi:id="_M4BpiGMWEfGkkq5kPO8l8g" comment="" name="Mail_SMTP_host" prompt="Mail_SMTP_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="172.17.12.20"/>
+    <contextParameter xmi:id="_M4BpiWMWEfGkkq5kPO8l8g" comment="" name="Mail_SMTP_port" prompt="Mail_SMTP_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_M3Z-cmMWEfGkkq5kPO8l8g" confirmationNeeded="false" hide="false" name="PRODUCTION">
+    <contextParameter xmi:id="_M4BpimMWEfGkkq5kPO8l8g" comment="" name="Mail_destinataire" prompt="Mail_destinataire?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_M4Bpi2MWEfGkkq5kPO8l8g" comment="" name="Mail_expediteur" prompt="Mail_expediteur?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_M4BpjGMWEfGkkq5kPO8l8g" comment="" name="Mail_cc" prompt="Mail_cc?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_M4BpjWMWEfGkkq5kPO8l8g" comment="" name="Mail_SMTP_host" prompt="Mail_SMTP_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_M4BpjmMWEfGkkq5kPO8l8g" comment="" name="Mail_SMTP_port" prompt="Mail_SMTP_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>
