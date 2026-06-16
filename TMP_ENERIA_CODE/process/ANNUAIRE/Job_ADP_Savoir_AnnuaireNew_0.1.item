@@ -313,7 +313,7 @@
     <elementParameter field="CLOSED_LIST" name="MODE" value="ascii" show="false"/>
     <elementParameter field="CLOSED_LIST" name="OVERWRITE" value="never" show="false"/>
     <elementParameter field="CHECK" name="APPEND" value="false" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="SFTPOVERWRITE" value="append"/>
+    <elementParameter field="CLOSED_LIST" name="SFTPOVERWRITE" value="overwrite"/>
     <elementParameter field="CHECK" name="PERL5_REGEX" value="false"/>
     <elementParameter field="TABLE" name="FILES">
       <elementValue elementRef="FILEMASK" value="context.ADP_SFTP_NomFichier" id="0"/>
