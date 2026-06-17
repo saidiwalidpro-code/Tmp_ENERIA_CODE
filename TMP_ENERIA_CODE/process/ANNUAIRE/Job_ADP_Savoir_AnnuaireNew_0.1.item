@@ -28,6 +28,7 @@
     <contextParameter comment="" name="Mail_SMTP_host" prompt="Mail_SMTP_host?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="172.17.12.20" internalId="_N0i8IGMWEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="Mail_SMTP_port" prompt="Mail_SMTP_port?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_N0i8IWMWEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="Repertoire_archive_FYL01" prompt="Repertoire_archive_FYL01?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_E1j78GjJEfG52YjVHoB4VQ"/>
+    <contextParameter comment="" name="archive" prompt="archive?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="true" internalId="_SxvU4GonEfG52YjVHoB4VQ"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="RECETTE">
     <contextParameter comment="" name="Table_cible_annuaireNew" prompt="Table_cible_annuaireNew?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="annuaire_new" internalId="_WUTlpEhaEfG9ndm8B-jwTQ"/>
@@ -57,6 +58,7 @@
     <contextParameter comment="" name="Mail_SMTP_host" prompt="Mail_SMTP_host?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="172.17.12.20" internalId="_N0jjMGMWEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="Mail_SMTP_port" prompt="Mail_SMTP_port?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_N0jjMWMWEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="Repertoire_archive_FYL01" prompt="Repertoire_archive_FYL01?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_E1j78WjJEfG52YjVHoB4VQ"/>
+    <contextParameter comment="" name="archive" prompt="archive?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="true" internalId="_SxvU4WonEfG52YjVHoB4VQ"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="PRODUCTION">
     <contextParameter comment="" name="Table_cible_annuaireNew" prompt="Table_cible_annuaireNew?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_WUTlqEhaEfG9ndm8B-jwTQ"/>
@@ -86,6 +88,7 @@
     <contextParameter comment="" name="Mail_SMTP_host" prompt="Mail_SMTP_host?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_N0jjMmMWEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="Mail_SMTP_port" prompt="Mail_SMTP_port?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_N0jjM2MWEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="Repertoire_archive_FYL01" prompt="Repertoire_archive_FYL01?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_E1j78mjJEfG52YjVHoB4VQ"/>
+    <contextParameter comment="" name="archive" prompt="archive?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="" internalId="_SxvU4monEfG52YjVHoB4VQ"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -187,7 +190,7 @@
   </parameters>
   <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="920" posY="-1000">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_2" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connexion BD SAVOIR KO&quot;"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connexion à la base de données SAVOIR KO&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="4"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
     <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
@@ -207,7 +210,7 @@
   </node>
   <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="920" posY="-840">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_2" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connexion BD SAVOIR OK&quot;"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connexion à la base de données SAVOIR OK&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="1"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
     <elementParameter field="TEXT" name="LABEL" value="Connexion savoir"/>
@@ -216,7 +219,7 @@
   </node>
   <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="680" posY="280">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_4" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Deconnexion base de données&quot;"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Déconnexion de la base de données&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="1"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
     <elementParameter field="TEXT" name="LABEL" value="Deconnexion"/>
@@ -363,7 +366,7 @@
   </node>
   <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1040" posY="0">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_3" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Nombre de ligne inseré dans la table savoir.personnel  :  &quot;+(((Integer)globalMap.get(&quot;tDBOutput_3_NB_LINE_INSERTED&quot;)))"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Nombre de lignes insérées dans la table savoir.personnel  :  &quot;+(((Integer)globalMap.get(&quot;tDBOutput_3_NB_LINE_INSERTED&quot;)))"/>
     <elementParameter field="TEXT" name="CODE" value="1"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -2118,7 +2121,7 @@
   </node>
   <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1040" posY="-280">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_5" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Nombre de ligne inséré dans la table savoir.annuaire_complet : &quot;&#xD;&#xA;+ ((Integer)globalMap.get(&quot;tDBOutput_2_NB_LINE_INSERTED&quot;))&#xD;&#xA;"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Nombre de lignes insérées dans la table savoir.annuaire_new : &quot;&#xD;&#xA;+ ((Integer)globalMap.get(&quot;tDBOutput_2_NB_LINE_INSERTED&quot;))&#xD;&#xA;"/>
     <elementParameter field="TEXT" name="CODE" value="1"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -2182,7 +2185,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
   </node>
-  <node componentName="tFileCopy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="40" posY="-480">
+  <node componentName="tFileCopy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="440" posY="-480">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_2" show="false"/>
     <elementParameter field="FILE" name="FILENAME" value="context.Repertoire_racine+jobName+&quot;/&quot;+context.environnement+&quot;/&quot;+context.Repertoire_in+context.ADP_SFTP_NomFichier"/>
     <elementParameter field="CHECK" name="ENABLE_COPY_DIRECTORY" value="false"/>
@@ -2250,7 +2253,7 @@
   </node>
   <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1040" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Nombre de ligne mis a jour dans la table savoir.personnel  :  &quot;+((Integer)globalMap.get(&quot;tDBOutput_3_NB_LINE_UPDATED&quot;))"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Nombre de lignes mises à jour dans la table savoir.personnel  :  &quot;+((Integer)globalMap.get(&quot;tDBOutput_3_NB_LINE_UPDATED&quot;))"/>
     <elementParameter field="TEXT" name="CODE" value="1"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -2306,7 +2309,7 @@
   </node>
   <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1000" posY="-120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_1" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Rollback effectué , erreur lors de l'insertion&quot;"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Rollback effectué suite à une erreur lors de l'insertion&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="4"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
     <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
@@ -2315,7 +2318,7 @@
   </node>
   <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1040" posY="-440">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_3" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Rollback effectué , erreur lors de l'insertion&quot;"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Rollback effectué suite à une erreur lors de l'insertion&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="4"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
     <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
@@ -2331,7 +2334,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDie_4"/>
   </node>
-  <node componentName="tFileCopy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="40" posY="-360">
+  <node componentName="tFileCopy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="200" posY="-400">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_1" show="false"/>
     <elementParameter field="FILE" name="FILENAME" value="context.Repertoire_racine+jobName+&quot;/&quot;+context.environnement+&quot;/&quot;+context.Repertoire_in+context.ADP_SFTP_NomFichier"/>
     <elementParameter field="CHECK" name="ENABLE_COPY_DIRECTORY" value="false"/>
@@ -2348,6 +2351,14 @@
     <elementParameter field="TEXT" name="LABEL" value="Archive fylO1"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileCopy_1"/>
+  </node>
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="600" posY="-600">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_6" show="false"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Le fichier &quot; + context.ADP_SFTP_NomFichier + &quot; a été récupéré depuis le serveur SFTP&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="1"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWarn_6"/>
   </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tJava_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
@@ -2370,7 +2381,7 @@
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBClose_1" offsetLabelX="0" offsetLabelY="0" source="tDBClose_1" target="tWarn_4">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
   </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFTPGet_1" offsetLabelX="0" offsetLabelY="0" source="tFTPGet_1" target="tFileCopy_2">
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFTPGet_1" offsetLabelX="0" offsetLabelY="0" source="tFTPGet_1" target="tWarn_6">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk5" show="false"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBRollback_2" offsetLabelX="0" offsetLabelY="0" source="tDBRollback_2" target="tDie_1">
@@ -2436,8 +2447,12 @@
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tDBConnection_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk8" show="false"/>
   </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileCopy_2" offsetLabelX="0" offsetLabelY="0" source="tFileCopy_2" target="tFileCopy_1">
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileCopy_2" offsetLabelX="0" offsetLabelY="0" source="tFileCopy_2" target="tFileInputDelimited_3">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk8" show="false"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tFileCopy_2" offsetLabelX="0" offsetLabelY="0" source="tFileCopy_2" target="tFileCopy_1">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="context.archive=true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="If3" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_2" offsetLabelX="0" offsetLabelY="0" source="tJava_2" target="tJava_3">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk9" show="false"/>
@@ -2449,7 +2464,7 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileCopy_1" offsetLabelX="0" offsetLabelY="0" source="tFileCopy_1" target="tFileInputDelimited_3">
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tWarn_6" offsetLabelX="0" offsetLabelY="0" source="tWarn_6" target="tFileCopy_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk12" show="false"/>
   </connection>
   <note opaque="true" posX="-40" posY="-720" sizeHeight="200" sizeWidth="1561" text="Recuperation du fichier ANNUAIRE_AD_COMPLET.csv du SFTP &#xD;&#xA;*et depot en local pour utilisation">
@@ -2623,6 +2638,11 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_6" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
