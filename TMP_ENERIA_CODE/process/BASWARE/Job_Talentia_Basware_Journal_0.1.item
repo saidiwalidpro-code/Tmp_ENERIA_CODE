@@ -268,7 +268,7 @@
   </node>
   <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="760" posY="400">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_3" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Nombre de ligne inseré dans le fichier : &quot;+context.Nom_fichier_sortie +&quot; - &quot;+((Integer)globalMap.get(&quot;tFileOutputDelimited_2_NB_LINE&quot;))"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Nombre de lignes inserées dans le fichier : &quot;+context.Nom_fichier_sortie +&quot; - &quot;+((Integer)globalMap.get(&quot;tFileOutputDelimited_2_NB_LINE&quot;))"/>
     <elementParameter field="TEXT" name="CODE" value="1"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -311,7 +311,7 @@
   </node>
   <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1080" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_5" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Nombre de ligne inseré dans la table basware.origines  :  &quot;+((Integer)globalMap.get(&quot;tDBOutput_3_NB_LINE_INSERTED&quot;))"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Nombre de lignes inserées dans la table basware.origines  :  &quot;+((Integer)globalMap.get(&quot;tDBOutput_3_NB_LINE_INSERTED&quot;))"/>
     <elementParameter field="TEXT" name="CODE" value="1"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -589,7 +589,7 @@
   </node>
   <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="840" posY="560">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_6" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Fichier &quot;+ &quot;1_&quot; &#xA;+ context.Nom_fichier_sortie.replaceFirst(&quot;\\.csv$&quot;, &quot;&quot;) &#xA;+ &quot;_&quot; &#xA;+ TalendDate.formatDate(&quot;yyyyMMddHHmmss&quot;, TalendDate.getCurrentDate()) &#xA;+ &quot;.csv déposé sur le SFTP Basware&quot; "/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Fichier renommé en&quot;+ &quot;1_&quot; &#xD;&#xA;+ context.Nom_fichier_sortie.replaceFirst(&quot;\\.csv$&quot;, &quot;&quot;) &#xD;&#xA;+ &quot;_&quot; &#xD;&#xA;+ TalendDate.formatDate(&quot;yyyyMMddHHmmss&quot;, TalendDate.getCurrentDate()) &#xD;&#xA;+ &quot;.csv et déposé sur le SFTP Basware&quot; "/>
     <elementParameter field="TEXT" name="CODE" value="1"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -732,7 +732,7 @@
   </node>
   <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1080" posY="440">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_7" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Nombre de ligne mis a jour dans la table basware.origines  :  &quot;+((Integer)globalMap.get(&quot;tDBOutput_3_NB_LINE_UPDATED&quot;))"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Nombre de lignes mises à jour dans la table basware.origines  :  &quot;+((Integer)globalMap.get(&quot;tDBOutput_3_NB_LINE_UPDATED&quot;))"/>
     <elementParameter field="TEXT" name="CODE" value="1"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
