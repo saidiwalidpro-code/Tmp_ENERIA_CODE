@@ -98,7 +98,7 @@
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="54" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="40" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="280" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
@@ -924,7 +924,7 @@
   </node>
   <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1160" posY="440">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_8" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Le fichier &quot; + &quot;1_&quot; + context.Nom_fichier_sortie.replaceFirst(&quot;\\.csv$&quot;, &quot;&quot;) + &quot;_&quot; + context.timestamp + &quot;.csv&quot;+ &quot; a été mis en archive dans le repertoire \\\\frmlyfil01.energie.grp\\APP\\APPLIS\\ZADIG\\inarchive\\ANNUAIRE&quot;"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Le fichier &quot; + &quot;1_&quot; + context.Nom_fichier_sortie.replaceFirst(&quot;\\.csv$&quot;, &quot;&quot;) + &quot;_&quot; + context.timestamp + &quot;.csv&quot;+ &quot; a été mis en archive dans le repertoire \\\\frmlyfil01.energie.grp\\APP\\APPLIS\\BASWARE\\Archives\\RETOUR_COMPTA&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="1"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
