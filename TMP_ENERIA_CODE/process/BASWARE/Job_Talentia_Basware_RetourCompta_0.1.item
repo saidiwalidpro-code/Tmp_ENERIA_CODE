@@ -29,7 +29,7 @@
     <contextParameter comment="" name="connection_TALENTIA_DB_Login" prompt="connection_TALENTIA_DB_Login?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_OXa3UmMkEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="connection_TALENTIA_DB_Password" prompt="connection_TALENTIA_DB_Password?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:Y9hjcgtaPaxtHx2XZ+3tppg9N/r5p642LFhMq8+uHIckIK5i/Qs=" internalId="_OXa3U2MkEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="connection_TALENTIA_DB_Server" prompt="connection_TALENTIA_DB_Server?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_OXa3VGMkEfGkkq5kPO8l8g"/>
-    <contextParameter comment="" name="envireonnement" prompt="envireonnement?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="recette" internalId="_OXa3VWMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="environnement" prompt="environnement?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="recette" internalId="_OXa3VWMkEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="Repertoire_archive_FYL01" prompt="Repertoire_archive_FYL01?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_jDJ7UHBxEfG52YjVHoB4VQ"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="RECETTE">
@@ -61,7 +61,7 @@
     <contextParameter comment="" name="connection_TALENTIA_DB_Login" prompt="connection_TALENTIA_DB_Login?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_OXa3aWMkEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="connection_TALENTIA_DB_Password" prompt="connection_TALENTIA_DB_Password?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:HP0reHsiGOOZ2/3zTsJTdi9ZeyZ1RMFdl0HrMR5o/A/w5BeivlY=" internalId="_OXa3amMkEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="connection_TALENTIA_DB_Server" prompt="connection_TALENTIA_DB_Server?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_OXa3a2MkEfGkkq5kPO8l8g"/>
-    <contextParameter comment="" name="envireonnement" prompt="envireonnement?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="recette" internalId="_OXa3bGMkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="environnement" prompt="environnement?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="recette" internalId="_OXa3bGMkEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="Repertoire_archive_FYL01" prompt="Repertoire_archive_FYL01?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_jDJ7UXBxEfG52YjVHoB4VQ"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="PRODUCTION">
@@ -93,12 +93,12 @@
     <contextParameter comment="" name="connection_TALENTIA_DB_Login" prompt="connection_TALENTIA_DB_Login?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_OXa3gGMkEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="connection_TALENTIA_DB_Password" prompt="connection_TALENTIA_DB_Password?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_Password" value="" internalId="_OXa3gWMkEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="connection_TALENTIA_DB_Server" prompt="connection_TALENTIA_DB_Server?" promptNeeded="false" repositoryContextId="_v_AqQEhPEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_OXa3gmMkEfGkkq5kPO8l8g"/>
-    <contextParameter comment="" name="envireonnement" prompt="envireonnement?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_OXa3g2MkEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="environnement" prompt="environnement?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_OXa3g2MkEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="Repertoire_archive_FYL01" prompt="Repertoire_archive_FYL01?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_jDJ7UnBxEfG52YjVHoB4VQ"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="40" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="54" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="280" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
