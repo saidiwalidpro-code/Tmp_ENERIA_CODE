@@ -1,0 +1,193 @@
+{
+  "itemId" : "_YQJkUHE4EfG52YjVHoB4VQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_asVRUE6mEfGMBaGXq0VANg",
+    "parameterList" : [ {
+      "id" : "_0FnYkkkmEfG9ndm8B-jwTQ",
+      "name" : "ADP_SFTP_Adresse"
+    }, {
+      "id" : "_0FnYlEkmEfG9ndm8B-jwTQ",
+      "name" : "ADP_SFTP_Key"
+    }, {
+      "id" : "_0FnYkUkmEfG9ndm8B-jwTQ",
+      "name" : "ADP_SFTP_Login"
+    }, {
+      "id" : "_0FnYk0kmEfG9ndm8B-jwTQ",
+      "name" : "ADP_SFTP_MDP"
+    }, {
+      "id" : "_0FnYlUkmEfG9ndm8B-jwTQ",
+      "name" : "ADP_SFTP_Port"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_HvA6IEPOEfG9ndm8B-jwTQ",
+    "parameterList" : [ {
+      "id" : "_HvOVgkPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_AdditionalParams"
+    }, {
+      "id" : "_HvOVh0POEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Database"
+    }, {
+      "id" : "_HvOVgUPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Login"
+    }, {
+      "id" : "_HvOVhUPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Password"
+    }, {
+      "id" : "_HvOVhEPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Port"
+    }, {
+      "id" : "_HvOVhkPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Schema"
+    }, {
+      "id" : "_HvOVg0POEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Server"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_M3YwUGMWEfGkkq5kPO8l8g",
+    "parameterList" : [ {
+      "id" : "_M4BpgGMWEfGkkq5kPO8l8g",
+      "name" : "Mail_destinataire"
+    }, {
+      "id" : "_M4BpgWMWEfGkkq5kPO8l8g",
+      "name" : "Mail_expediteur"
+    }, {
+      "id" : "_M4BpgmMWEfGkkq5kPO8l8g",
+      "name" : "Mail_cc"
+    }, {
+      "id" : "_M4Bpg2MWEfGkkq5kPO8l8g",
+      "name" : "Mail_SMTP_host"
+    }, {
+      "id" : "_M4BphGMWEfGkkq5kPO8l8g",
+      "name" : "Mail_SMTP_port"
+    } ]
+  }, {
+    "contextName" : "RECETTE",
+    "repoId" : "_asVRUE6mEfGMBaGXq0VANg",
+    "parameterList" : [ {
+      "id" : "_0FnYmEkmEfG9ndm8B-jwTQ",
+      "name" : "ADP_SFTP_Adresse"
+    }, {
+      "id" : "_0FnYmkkmEfG9ndm8B-jwTQ",
+      "name" : "ADP_SFTP_Key"
+    }, {
+      "id" : "_0FnYl0kmEfG9ndm8B-jwTQ",
+      "name" : "ADP_SFTP_Login"
+    }, {
+      "id" : "_0FnYmUkmEfG9ndm8B-jwTQ",
+      "name" : "ADP_SFTP_MDP"
+    }, {
+      "id" : "_0FnYm0kmEfG9ndm8B-jwTQ",
+      "name" : "ADP_SFTP_Port"
+    } ]
+  }, {
+    "contextName" : "RECETTE",
+    "repoId" : "_HvA6IEPOEfG9ndm8B-jwTQ",
+    "parameterList" : [ {
+      "id" : "_HvOVkkPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_AdditionalParams"
+    }, {
+      "id" : "_HvOVl0POEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Database"
+    }, {
+      "id" : "_HvOVkUPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Login"
+    }, {
+      "id" : "_HvOVlUPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Password"
+    }, {
+      "id" : "_HvOVlEPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Port"
+    }, {
+      "id" : "_HvOVlkPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Schema"
+    }, {
+      "id" : "_HvOVk0POEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Server"
+    } ]
+  }, {
+    "contextName" : "RECETTE",
+    "repoId" : "_M3YwUGMWEfGkkq5kPO8l8g",
+    "parameterList" : [ {
+      "id" : "_M4BphWMWEfGkkq5kPO8l8g",
+      "name" : "Mail_destinataire"
+    }, {
+      "id" : "_M4BphmMWEfGkkq5kPO8l8g",
+      "name" : "Mail_expediteur"
+    }, {
+      "id" : "_M4Bph2MWEfGkkq5kPO8l8g",
+      "name" : "Mail_cc"
+    }, {
+      "id" : "_M4BpiGMWEfGkkq5kPO8l8g",
+      "name" : "Mail_SMTP_host"
+    }, {
+      "id" : "_M4BpiWMWEfGkkq5kPO8l8g",
+      "name" : "Mail_SMTP_port"
+    } ]
+  }, {
+    "contextName" : "PRODUCTION",
+    "repoId" : "_asVRUE6mEfGMBaGXq0VANg",
+    "parameterList" : [ {
+      "id" : "_0FnYnkkmEfG9ndm8B-jwTQ",
+      "name" : "ADP_SFTP_Adresse"
+    }, {
+      "id" : "_0FnYoEkmEfG9ndm8B-jwTQ",
+      "name" : "ADP_SFTP_Key"
+    }, {
+      "id" : "_0FnYnUkmEfG9ndm8B-jwTQ",
+      "name" : "ADP_SFTP_Login"
+    }, {
+      "id" : "_0FnYn0kmEfG9ndm8B-jwTQ",
+      "name" : "ADP_SFTP_MDP"
+    }, {
+      "id" : "_0FnYoUkmEfG9ndm8B-jwTQ",
+      "name" : "ADP_SFTP_Port"
+    } ]
+  }, {
+    "contextName" : "PRODUCTION",
+    "repoId" : "_HvA6IEPOEfG9ndm8B-jwTQ",
+    "parameterList" : [ {
+      "id" : "_HvOVikPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_AdditionalParams"
+    }, {
+      "id" : "_HvOVj0POEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Database"
+    }, {
+      "id" : "_HvOViUPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Login"
+    }, {
+      "id" : "_HvOVjUPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Password"
+    }, {
+      "id" : "_HvOVjEPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Port"
+    }, {
+      "id" : "_HvOVjkPOEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Schema"
+    }, {
+      "id" : "_HvOVi0POEfG9ndm8B-jwTQ",
+      "name" : "connection_SAVOIR_DB_Server"
+    } ]
+  }, {
+    "contextName" : "PRODUCTION",
+    "repoId" : "_M3YwUGMWEfGkkq5kPO8l8g",
+    "parameterList" : [ {
+      "id" : "_M4BpimMWEfGkkq5kPO8l8g",
+      "name" : "Mail_destinataire"
+    }, {
+      "id" : "_M4Bpi2MWEfGkkq5kPO8l8g",
+      "name" : "Mail_expediteur"
+    }, {
+      "id" : "_M4BpjGMWEfGkkq5kPO8l8g",
+      "name" : "Mail_cc"
+    }, {
+      "id" : "_M4BpjWMWEfGkkq5kPO8l8g",
+      "name" : "Mail_SMTP_host"
+    }, {
+      "id" : "_M4BpjmMWEfGkkq5kPO8l8g",
+      "name" : "Mail_SMTP_port"
+    } ]
+  } ]
+}
