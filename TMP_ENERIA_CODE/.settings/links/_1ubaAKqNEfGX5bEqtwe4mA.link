@@ -2,25 +2,6 @@
   "itemId" : "_1ubaAKqNEfGX5bEqtwe4mA",
   "contextList" : [ {
     "contextName" : "Default",
-    "repoId" : "_asVRUE6mEfGMBaGXq0VANg",
-    "parameterList" : [ {
-      "id" : "_0FnYkkkmEfG9ndm8B-jwTQ",
-      "name" : "ADP_SFTP_Adresse"
-    }, {
-      "id" : "_0FnYlEkmEfG9ndm8B-jwTQ",
-      "name" : "ADP_SFTP_Key"
-    }, {
-      "id" : "_0FnYkUkmEfG9ndm8B-jwTQ",
-      "name" : "ADP_SFTP_Login"
-    }, {
-      "id" : "_0FnYk0kmEfG9ndm8B-jwTQ",
-      "name" : "ADP_SFTP_MDP"
-    }, {
-      "id" : "_0FnYlUkmEfG9ndm8B-jwTQ",
-      "name" : "ADP_SFTP_Port"
-    } ]
-  }, {
-    "contextName" : "Default",
     "repoId" : "_HvA6IEPOEfG9ndm8B-jwTQ",
     "parameterList" : [ {
       "id" : "_HvOVgkPOEfG9ndm8B-jwTQ",
@@ -65,25 +46,6 @@
     } ]
   }, {
     "contextName" : "RECETTE",
-    "repoId" : "_asVRUE6mEfGMBaGXq0VANg",
-    "parameterList" : [ {
-      "id" : "_0FnYmEkmEfG9ndm8B-jwTQ",
-      "name" : "ADP_SFTP_Adresse"
-    }, {
-      "id" : "_0FnYmkkmEfG9ndm8B-jwTQ",
-      "name" : "ADP_SFTP_Key"
-    }, {
-      "id" : "_0FnYl0kmEfG9ndm8B-jwTQ",
-      "name" : "ADP_SFTP_Login"
-    }, {
-      "id" : "_0FnYmUkmEfG9ndm8B-jwTQ",
-      "name" : "ADP_SFTP_MDP"
-    }, {
-      "id" : "_0FnYm0kmEfG9ndm8B-jwTQ",
-      "name" : "ADP_SFTP_Port"
-    } ]
-  }, {
-    "contextName" : "RECETTE",
     "repoId" : "_HvA6IEPOEfG9ndm8B-jwTQ",
     "parameterList" : [ {
       "id" : "_HvOVkkPOEfG9ndm8B-jwTQ",
@@ -125,25 +87,6 @@
     }, {
       "id" : "_M4BpiWMWEfGkkq5kPO8l8g",
       "name" : "Mail_SMTP_port"
-    } ]
-  }, {
-    "contextName" : "PRODUCTION",
-    "repoId" : "_asVRUE6mEfGMBaGXq0VANg",
-    "parameterList" : [ {
-      "id" : "_0FnYnkkmEfG9ndm8B-jwTQ",
-      "name" : "ADP_SFTP_Adresse"
-    }, {
-      "id" : "_0FnYoEkmEfG9ndm8B-jwTQ",
-      "name" : "ADP_SFTP_Key"
-    }, {
-      "id" : "_0FnYnUkmEfG9ndm8B-jwTQ",
-      "name" : "ADP_SFTP_Login"
-    }, {
-      "id" : "_0FnYn0kmEfG9ndm8B-jwTQ",
-      "name" : "ADP_SFTP_MDP"
-    }, {
-      "id" : "_0FnYoUkmEfG9ndm8B-jwTQ",
-      "name" : "ADP_SFTP_Port"
     } ]
   }, {
     "contextName" : "PRODUCTION",
