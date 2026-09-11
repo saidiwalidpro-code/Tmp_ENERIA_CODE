@@ -20,6 +20,7 @@
     <contextParameter comment="" name="Mail_SMTP_port" prompt="Mail_SMTP_port?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_N0i8IWMWEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="archive" prompt="archive?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="true" internalId="_SxvU4GonEfG52YjVHoB4VQ"/>
     <contextParameter comment="" name="Mail_destinataire_metier" prompt="Mail_destinataire_metier?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_Ui-bUK26EfGX5bEqtwe4mA"/>
+    <contextParameter comment="" name="Mail_expediteur_metier" prompt="Mail_expediteur_metier?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zUvGEK2_EfGX5bEqtwe4mA"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="RECETTE">
     <contextParameter comment="" name="Repertoire_racine" prompt="Repertoire_racine?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="E:/Talend/data/" internalId="_WUTlpUhaEfG9ndm8B-jwTQ"/>
@@ -41,6 +42,7 @@
     <contextParameter comment="" name="Mail_SMTP_port" prompt="Mail_SMTP_port?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_N0jjMWMWEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="archive" prompt="archive?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="true" internalId="_SxvU4WonEfG52YjVHoB4VQ"/>
     <contextParameter comment="" name="Mail_destinataire_metier" prompt="Mail_destinataire_metier?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_Ui-bUa26EfGX5bEqtwe4mA"/>
+    <contextParameter comment="" name="Mail_expediteur_metier" prompt="Mail_expediteur_metier?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zUvGEa2_EfGX5bEqtwe4mA"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="PRODUCTION">
     <contextParameter comment="" name="Repertoire_racine" prompt="Repertoire_racine?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_WUTlqUhaEfG9ndm8B-jwTQ"/>
@@ -62,12 +64,13 @@
     <contextParameter comment="" name="Mail_SMTP_port" prompt="Mail_SMTP_port?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="" internalId="_N0jjM2MWEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="archive" prompt="archive?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="" internalId="_SxvU4monEfG52YjVHoB4VQ"/>
     <contextParameter comment="" name="Mail_destinataire_metier" prompt="Mail_destinataire_metier?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_Ui-bUq26EfGX5bEqtwe4mA"/>
+    <contextParameter comment="" name="Mail_expediteur_metier" prompt="Mail_expediteur_metier?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zUvGEq2_EfGX5bEqtwe4mA"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
     <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms1024M&quot;,&quot;-Xmx2056M&quot;]}" show="false"/>
     <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="true" show="false"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="200" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="214" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="1080" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
@@ -539,7 +542,7 @@
   <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="-80" posY="-480">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSendMail_2" show="false"/>
     <elementParameter field="TEXT" name="TO" value="context.Mail_destinataire_metier"/>
-    <elementParameter field="TEXT" name="FROM" value="context.Mail_expediteur"/>
+    <elementParameter field="TEXT" name="FROM" value="context.Mail_expediteur_metier"/>
     <elementParameter field="CHECK" name="NEED_PERSONAL_NAME" value="false"/>
     <elementParameter field="TEXT" name="PERSONAL_NAME" value="&quot;sender&quot;" show="false"/>
     <elementParameter field="TEXT" name="CC" value="&quot;&quot;"/>
