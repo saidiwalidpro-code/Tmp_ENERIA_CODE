@@ -68,7 +68,7 @@
     <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms1024M&quot;,&quot;-Xmx2056M&quot;]}" show="false"/>
     <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="true" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="200" show="false"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="1080" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="1094" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
@@ -324,7 +324,7 @@
   </node>
   <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="600" posY="-640">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_7" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Le fichier : heures_affaire_non_fact.csv a été mis en archive dans le repertoire &quot;+ context.Repertoire_racine+jobName+&quot;/&quot;+context.environnement+&quot;/&quot;+context.Repertoire_in"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Le fichier : heures_affaire_non_facturees.csv a été mis en archive dans le repertoire &quot;+ context.Repertoire_racine+jobName+&quot;/&quot;+context.environnement+&quot;/&quot;+context.Repertoire_in"/>
     <elementParameter field="TEXT" name="CODE" value="1"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -466,7 +466,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_1" show="false"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.Repertoire_racine+jobName+&quot;/&quot;+context.environnement+&quot;/&quot;+context.Repertoire_in+&quot;heures_affaire_non_fact.csv&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.Repertoire_racine+jobName+&quot;/&quot;+context.environnement+&quot;/&quot;+context.Repertoire_in+&quot;heures_affaire_non_facturees.csv&quot;"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\r\n&quot;"/>
     <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
@@ -516,11 +516,11 @@
     <elementParameter field="TEXT" name="PERSONAL_NAME" value="&quot;sender&quot;" show="false"/>
     <elementParameter field="TEXT" name="CC" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="BCC" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="SUBJECT" value="&quot;Itime_Projets:heures_affaire_non_fact&quot;"/>
-    <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="&quot;Bonjour,&lt;br>&lt;br>&#xD;&#xA;&#xD;&#xA;Veuillez recevoir ci-joint le fichier &lt;b>heures_affaire_non_fact.csv&lt;/b>.&lt;br>&lt;br>&#xD;&#xA;&#xD;&#xA;Cordialement&quot;"/>
+    <elementParameter field="TEXT" name="SUBJECT" value="&quot;Itime_Projets:heures_affaire_non_facturees&quot;"/>
+    <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="&quot;Bonjour,&lt;br>&lt;br>&#xD;&#xA;&#xD;&#xA;Veuillez recevoir ci-joint le fichier &lt;b>heures_affaire_non_facturees.csv&lt;/b>.&lt;br>&lt;br>&#xD;&#xA;&#xD;&#xA;Cordialement&quot;"/>
     <elementParameter field="CHECK" name="CHECK_ATTACHMENT" value="true"/>
     <elementParameter field="TABLE" name="ATTACHMENTS">
-      <elementValue elementRef="FILE" value="context.Repertoire_racine+jobName+&quot;/&quot;+context.environnement+&quot;/&quot;+context.Repertoire_in+&quot;heures_affaire_non_fact.csv&quot;" id="0"/>
+      <elementValue elementRef="FILE" value="context.Repertoire_racine+jobName+&quot;/&quot;+context.environnement+&quot;/&quot;+context.Repertoire_in+&quot;heures_affaire_non_facturees.csv&quot;" id="0"/>
       <elementValue elementRef="CONTENT_TRANSFER_ENCODING" value="DEFAULT" id="1"/>
     </elementParameter>
     <elementParameter field="TABLE" name="HEADERS"/>
@@ -546,7 +546,7 @@
   </node>
   <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="80" posY="-480">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Le fichier : heures_affaire_non_fact.csv a été envoyé en attachement par mail a &quot; +context.Mail_destinataire_metier"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Le fichier : heures_affaire_non_facturees.csv a été envoyé en attachement par mail a &quot; +context.Mail_destinataire_metier"/>
     <elementParameter field="TEXT" name="CODE" value="1"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
