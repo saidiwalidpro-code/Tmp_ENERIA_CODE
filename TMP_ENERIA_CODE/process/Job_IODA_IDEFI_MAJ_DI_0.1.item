@@ -739,8 +739,8 @@
     <elementParameter field="CLOSED_LIST" name="AUTH_METHOD" value="PASSWORD" show="false"/>
     <elementParameter field="FILE" name="PRIVATEKEY" value="&quot;/.ssh/id_dsa&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="PASSPHRASE" value="enc:system.encryption.key.v1:tafG+7Zd/OOPAp7LVt5PiWjB9V8vQWzp+TBBGxnMXQRJdcJC" show="false"/>
-    <elementParameter field="DIRECTORY" name="LOCALDIR" value="context.repertoire_destination_ftp"/>
-    <elementParameter field="TEXT" name="REMOTEDIR" value="&quot;//www/IDEFIT/gicjzz12m/DATAS/DBTESTFR2/MAJ_DI&quot;"/>
+    <elementParameter field="DIRECTORY" name="LOCALDIR" value="context.Repertoire_racine+jobName+&quot;/&quot;+context.environnement+&quot;/&quot;+context.Repertoire_temp"/>
+    <elementParameter field="TEXT" name="REMOTEDIR" value="context.repertoire_destination_ftp"/>
     <elementParameter field="CHECK" name="CREATE_DIR_IF_NOT_EXIST" value="false"/>
     <elementParameter field="CHECK" name="MOVE_TO_THE_CURRENT_DIRECTORY" value="true"/>
     <elementParameter field="FILE" name="KEYSTORE_FILE" value="&quot;&quot;" show="false"/>
