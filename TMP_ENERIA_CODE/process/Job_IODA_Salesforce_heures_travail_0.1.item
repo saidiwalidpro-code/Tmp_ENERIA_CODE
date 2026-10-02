@@ -276,6 +276,7 @@
   </node>
   <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="-320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSendMail_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TEXT" name="TO" value="context.Mail_destinataire"/>
     <elementParameter field="TEXT" name="FROM" value="context.Mail_expediteur"/>
     <elementParameter field="CHECK" name="NEED_PERSONAL_NAME" value="false"/>
@@ -460,7 +461,6 @@
       <column comment="" defaultValue="" key="false" length="5" name="kilometres" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="type_taux_km" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="7" name="frais_sejour" nullable="true" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="date_traitement" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="7" name="fournitures" nullable="true" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="29" name="date_creation_mvt" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="marqueur" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -488,11 +488,11 @@
       <column comment="" key="false" length="29" name="date_traitement" nullable="true" pattern="&quot;dd-MM-yyyy HHmmss&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var">
         <mapperTableEntries name="var1" expression="row_IN_SMU.erp_or_id__c == null&#xD;&#xA;|| !row_IN_SMU.erp_or_id__c.matches(&quot;[0-9]+&quot;)&#xD;&#xA;    ? &quot;ko&quot;&#xD;&#xA;    : &quot;ok&quot; " type="id_String"/>
       </varTables>
-      <outputTables sizeState="INTERMEDIATE" name="insert" expressionFilter="row_IN_SMU.date_traitement == null&#xA;|| row_IN_SMU.date_traitement.compareTo(&#xA;    TalendDate.parseDate(&quot;yyyy-MM-dd&quot;, &quot;1900-01-02&quot;)&#xA;) &lt;= 0" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="insert" expressionFilter="row_IN_SMU.date_traitement == null" activateExpressionFilter="true">
         <mapperTableEntries name="id" expression="row_IN_SMU.id " type="id_Integer"/>
         <mapperTableEntries name="source" expression="&quot;Salesforce&quot;" type="id_String" nullable="true"/>
         <mapperTableEntries name="sid" expression="row_IN_SMU.sid" type="id_String" nullable="true"/>
@@ -509,7 +509,6 @@
         <mapperTableEntries name="kilometres" expression="row_IN_SMU.kilometres " type="id_BigDecimal" nullable="true"/>
         <mapperTableEntries name="type_taux_km" expression="&quot;TX1&quot;" type="id_String" nullable="true"/>
         <mapperTableEntries name="frais_sejour" type="id_BigDecimal" nullable="true"/>
-        <mapperTableEntries name="date_traitement" expression="TalendDate.getCurrentDate()" type="id_Date" nullable="true"/>
         <mapperTableEntries name="fournitures" type="id_BigDecimal" nullable="true"/>
         <mapperTableEntries name="date_creation_mvt" expression="row_IN_SMU.date_envoi" type="id_Date" nullable="true"/>
         <mapperTableEntries name="marqueur" expression="&quot;M&quot;" type="id_String" nullable="true"/>
@@ -532,9 +531,9 @@
         <mapperTableEntries name="profilgroupcode" type="id_String" nullable="true"/>
         <mapperTableEntries name="code_contrat" type="id_String" nullable="true"/>
       </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="maj_date_traitement" expressionFilter="row_IN_SMU.date_traitement == null&#xD;&#xA;|| row_IN_SMU.date_traitement.compareTo(&#xD;&#xA;    TalendDate.parseDate(&quot;yyyy-MM-dd&quot;, &quot;1900-01-02&quot;)&#xD;&#xA;) &lt;= 0" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="maj_date_traitement" expressionFilter="row_IN_SMU.date_traitement == null" activateExpressionFilter="true">
         <mapperTableEntries name="id" expression="row_IN_SMU.id " type="id_Integer"/>
-        <mapperTableEntries name="date_traitement" expression="TalendDate.getCurrentDate()" type="id_Date" nullable="true"/>
+        <mapperTableEntries name="date_traitement" expression="TalendDate.parseDate(&#xD;&#xA;    &quot;yyyy-MM-dd HH:mm:ss&quot;,&#xD;&#xA;    TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;, TalendDate.getCurrentDate())&#xD;&#xA;) " type="id_Date" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row_IN_SMU" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="id" type="id_Integer"/>
@@ -606,50 +605,48 @@
       <elementValue elementRef="LENGTH" value="10" id="29"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="frais_sejour" id="30"/>
       <elementValue elementRef="LENGTH" value="10" id="31"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="date_traitement" id="32"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="fournitures" id="32"/>
       <elementValue elementRef="LENGTH" value="10" id="33"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="fournitures" id="34"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="date_creation_mvt" id="34"/>
       <elementValue elementRef="LENGTH" value="10" id="35"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="date_creation_mvt" id="36"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="marqueur" id="36"/>
       <elementValue elementRef="LENGTH" value="10" id="37"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="marqueur" id="38"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="type_evenement" id="38"/>
       <elementValue elementRef="LENGTH" value="10" id="39"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="type_evenement" id="40"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="num7_di" id="40"/>
       <elementValue elementRef="LENGTH" value="10" id="41"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="num7_di" id="42"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="date_integration_sav" id="42"/>
       <elementValue elementRef="LENGTH" value="10" id="43"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="date_integration_sav" id="44"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="matriculeauteur" id="44"/>
       <elementValue elementRef="LENGTH" value="10" id="45"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="matriculeauteur" id="46"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="commentaires" id="46"/>
       <elementValue elementRef="LENGTH" value="10" id="47"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="commentaires" id="48"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="date_zadig" id="48"/>
       <elementValue elementRef="LENGTH" value="10" id="49"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="date_zadig" id="50"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="dossierid" id="50"/>
       <elementValue elementRef="LENGTH" value="10" id="51"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="dossierid" id="52"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="numero_affaire" id="52"/>
       <elementValue elementRef="LENGTH" value="10" id="53"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="numero_affaire" id="54"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ischefprojet" id="54"/>
       <elementValue elementRef="LENGTH" value="10" id="55"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ischefprojet" id="56"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="isattenteaffaire" id="56"/>
       <elementValue elementRef="LENGTH" value="10" id="57"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="isattenteaffaire" id="58"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="taux_horaire2" id="58"/>
       <elementValue elementRef="LENGTH" value="10" id="59"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="taux_horaire2" id="60"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="produit" id="60"/>
       <elementValue elementRef="LENGTH" value="10" id="61"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="produit" id="62"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="statut" id="62"/>
       <elementValue elementRef="LENGTH" value="10" id="63"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="statut" id="64"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="etape" id="64"/>
       <elementValue elementRef="LENGTH" value="10" id="65"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="etape" id="66"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="produitid" id="66"/>
       <elementValue elementRef="LENGTH" value="10" id="67"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="produitid" id="68"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="code_service_salarie" id="68"/>
       <elementValue elementRef="LENGTH" value="10" id="69"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="code_service_salarie" id="70"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="profilgroupcode" id="70"/>
       <elementValue elementRef="LENGTH" value="10" id="71"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="profilgroupcode" id="72"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="code_contrat" id="72"/>
       <elementValue elementRef="LENGTH" value="10" id="73"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="code_contrat" id="74"/>
-      <elementValue elementRef="LENGTH" value="10" id="75"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -671,7 +668,6 @@
       <column comment="" defaultValue="" key="false" length="5" name="kilometres" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="type_taux_km" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="7" name="frais_sejour" nullable="true" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="date_traitement" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="7" name="fournitures" nullable="true" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="29" name="date_creation_mvt" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="marqueur" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -767,66 +763,6 @@
       <column comment="" key="false" length="29" name="date_traitement" nullable="true" pattern="&quot;dd-MM-yyyy HHmmss&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="600" posY="-520">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_2" show="false"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;" show="false"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="TYPE" value="PostgreSQL" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ZPGRrN2wske1a+z7brzqf4ijmnTltaaLeAYbD2YZ" show="false"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;ioda.in_heures_field&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
-    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="UPDATE_OR_INSERT"/>
-    <elementParameter field="CHECK" name="USE_SPATIAL_OPTIONS" value="false" show="false"/>
-    <elementParameter field="CHECK" name="SPATIAL_INDEX" value="false" show="false"/>
-    <elementParameter field="CHECK" name="GEOMETRY_COLUMNS" value="false" show="false"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
-    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
-    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false"/>
-    <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CHECK" name="SAVE_POINT" value="false" show="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000" show="false"/>
-    <elementParameter field="TABLE" name="ADD_COLS"/>
-    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="true"/>
-    <elementParameter field="TABLE" name="FIELD_OPTIONS">
-      <elementValue elementRef="SCHEMA_COLUMN" value="id" id="0"/>
-      <elementValue elementRef="UPDATE_KEY" value="true" id="1"/>
-      <elementValue elementRef="DELETE_KEY" value="false" id="2"/>
-      <elementValue elementRef="UPDATABLE" value="true" id="3"/>
-      <elementValue elementRef="INSERTABLE" value="true" id="4"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="date_traitement" id="5"/>
-      <elementValue elementRef="UPDATE_KEY" value="false" id="6"/>
-      <elementValue elementRef="DELETE_KEY" value="false" id="7"/>
-      <elementValue elementRef="UPDATABLE" value="true" id="8"/>
-      <elementValue elementRef="INSERTABLE" value="true" id="9"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
-    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
-    <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_LOWERCASE" value="false"/>
-    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true" show="false"/>
-    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000" show="false"/>
-    <metadata connector="FLOW" name="tDBOutput_2">
-      <column comment="" defaultValue="" key="false" length="10" name="id" nullable="false" pattern="" precision="0" sourceType="SERIAL" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="29" name="date_traitement" nullable="true" pattern="&quot;dd-MM-yyyy HHmmss&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" originalLength="-1" usefulColumn="true"/>
-    </metadata>
-    <metadata connector="REJECT" name="REJECT">
-      <column comment="" defaultValue="" key="false" length="10" name="id" nullable="false" pattern="" precision="0" sourceType="SERIAL" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="29" name="date_traitement" nullable="true" pattern="&quot;dd-MM-yyyy HHmmss&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-    </metadata>
-  </node>
   <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="600" posY="-640">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_1" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
@@ -839,7 +775,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9dtopzqnG1qjHKbA3P1Kfopo8jyM/Td9MF/ZmnY2" show="false"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;savoir.heures_travail&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;heures_travail&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="UPDATE_OR_INSERT"/>
     <elementParameter field="CHECK" name="USE_SPATIAL_OPTIONS" value="false" show="false"/>
@@ -848,7 +784,7 @@
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
     <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false"/>
     <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
@@ -940,122 +876,118 @@
       <elementValue elementRef="DELETE_KEY" value="false" id="77"/>
       <elementValue elementRef="UPDATABLE" value="false" id="78"/>
       <elementValue elementRef="INSERTABLE" value="false" id="79"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="date_traitement" id="80"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="fournitures" id="80"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="81"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="82"/>
-      <elementValue elementRef="UPDATABLE" value="true" id="83"/>
-      <elementValue elementRef="INSERTABLE" value="true" id="84"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="fournitures" id="85"/>
+      <elementValue elementRef="UPDATABLE" value="false" id="83"/>
+      <elementValue elementRef="INSERTABLE" value="false" id="84"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="date_creation_mvt" id="85"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="86"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="87"/>
-      <elementValue elementRef="UPDATABLE" value="false" id="88"/>
-      <elementValue elementRef="INSERTABLE" value="false" id="89"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="date_creation_mvt" id="90"/>
+      <elementValue elementRef="UPDATABLE" value="true" id="88"/>
+      <elementValue elementRef="INSERTABLE" value="true" id="89"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="marqueur" id="90"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="91"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="92"/>
       <elementValue elementRef="UPDATABLE" value="true" id="93"/>
       <elementValue elementRef="INSERTABLE" value="true" id="94"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="marqueur" id="95"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="type_evenement" id="95"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="96"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="97"/>
       <elementValue elementRef="UPDATABLE" value="true" id="98"/>
       <elementValue elementRef="INSERTABLE" value="true" id="99"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="type_evenement" id="100"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="num7_di" id="100"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="101"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="102"/>
       <elementValue elementRef="UPDATABLE" value="true" id="103"/>
       <elementValue elementRef="INSERTABLE" value="true" id="104"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="num7_di" id="105"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="date_integration_sav" id="105"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="106"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="107"/>
       <elementValue elementRef="UPDATABLE" value="true" id="108"/>
       <elementValue elementRef="INSERTABLE" value="true" id="109"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="date_integration_sav" id="110"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="matriculeauteur" id="110"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="111"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="112"/>
-      <elementValue elementRef="UPDATABLE" value="true" id="113"/>
-      <elementValue elementRef="INSERTABLE" value="true" id="114"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="matriculeauteur" id="115"/>
+      <elementValue elementRef="UPDATABLE" value="false" id="113"/>
+      <elementValue elementRef="INSERTABLE" value="false" id="114"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="commentaires" id="115"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="116"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="117"/>
-      <elementValue elementRef="UPDATABLE" value="false" id="118"/>
-      <elementValue elementRef="INSERTABLE" value="false" id="119"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="commentaires" id="120"/>
+      <elementValue elementRef="UPDATABLE" value="true" id="118"/>
+      <elementValue elementRef="INSERTABLE" value="true" id="119"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="date_zadig" id="120"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="121"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="122"/>
-      <elementValue elementRef="UPDATABLE" value="true" id="123"/>
-      <elementValue elementRef="INSERTABLE" value="true" id="124"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="date_zadig" id="125"/>
+      <elementValue elementRef="UPDATABLE" value="false" id="123"/>
+      <elementValue elementRef="INSERTABLE" value="false" id="124"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="dossierid" id="125"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="126"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="127"/>
       <elementValue elementRef="UPDATABLE" value="false" id="128"/>
       <elementValue elementRef="INSERTABLE" value="false" id="129"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="dossierid" id="130"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="numero_affaire" id="130"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="131"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="132"/>
       <elementValue elementRef="UPDATABLE" value="false" id="133"/>
       <elementValue elementRef="INSERTABLE" value="false" id="134"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="numero_affaire" id="135"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ischefprojet" id="135"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="136"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="137"/>
       <elementValue elementRef="UPDATABLE" value="false" id="138"/>
       <elementValue elementRef="INSERTABLE" value="false" id="139"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ischefprojet" id="140"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="isattenteaffaire" id="140"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="141"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="142"/>
       <elementValue elementRef="UPDATABLE" value="false" id="143"/>
       <elementValue elementRef="INSERTABLE" value="false" id="144"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="isattenteaffaire" id="145"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="taux_horaire2" id="145"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="146"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="147"/>
       <elementValue elementRef="UPDATABLE" value="false" id="148"/>
       <elementValue elementRef="INSERTABLE" value="false" id="149"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="taux_horaire2" id="150"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="produit" id="150"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="151"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="152"/>
       <elementValue elementRef="UPDATABLE" value="false" id="153"/>
       <elementValue elementRef="INSERTABLE" value="false" id="154"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="produit" id="155"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="statut" id="155"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="156"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="157"/>
       <elementValue elementRef="UPDATABLE" value="false" id="158"/>
       <elementValue elementRef="INSERTABLE" value="false" id="159"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="statut" id="160"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="etape" id="160"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="161"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="162"/>
       <elementValue elementRef="UPDATABLE" value="false" id="163"/>
       <elementValue elementRef="INSERTABLE" value="false" id="164"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="etape" id="165"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="produitid" id="165"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="166"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="167"/>
       <elementValue elementRef="UPDATABLE" value="false" id="168"/>
       <elementValue elementRef="INSERTABLE" value="false" id="169"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="produitid" id="170"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="code_service_salarie" id="170"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="171"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="172"/>
       <elementValue elementRef="UPDATABLE" value="false" id="173"/>
       <elementValue elementRef="INSERTABLE" value="false" id="174"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="code_service_salarie" id="175"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="profilgroupcode" id="175"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="176"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="177"/>
       <elementValue elementRef="UPDATABLE" value="false" id="178"/>
       <elementValue elementRef="INSERTABLE" value="false" id="179"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="profilgroupcode" id="180"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="code_contrat" id="180"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="181"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="182"/>
       <elementValue elementRef="UPDATABLE" value="false" id="183"/>
       <elementValue elementRef="INSERTABLE" value="false" id="184"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="code_contrat" id="185"/>
-      <elementValue elementRef="UPDATE_KEY" value="false" id="186"/>
-      <elementValue elementRef="DELETE_KEY" value="false" id="187"/>
-      <elementValue elementRef="UPDATABLE" value="false" id="188"/>
-      <elementValue elementRef="INSERTABLE" value="false" id="189"/>
     </elementParameter>
     <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_LOWERCASE" value="false"/>
     <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true" show="false"/>
     <elementParameter field="TEXT" name="BATCH_SIZE" value="10000" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_1">
       <column comment="" defaultValue="" key="false" length="10" name="id" nullable="false" pattern="" precision="0" sourceType="SERIAL" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="source" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -1073,7 +1005,6 @@
       <column comment="" defaultValue="" key="false" length="5" name="kilometres" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="type_taux_km" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="7" name="frais_sejour" nullable="true" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="date_traitement" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="7" name="fournitures" nullable="true" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="29" name="date_creation_mvt" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="marqueur" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -1113,7 +1044,6 @@
       <column comment="" defaultValue="" key="false" length="5" name="kilometres" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="type_taux_km" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="7" name="frais_sejour" nullable="true" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="date_traitement" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="7" name="fournitures" nullable="true" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="29" name="date_creation_mvt" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="marqueur" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -1135,6 +1065,67 @@
       <column comment="" key="false" length="10" name="code_service_salarie" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="profilgroupcode" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="code_contrat" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="600" posY="-520">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_2" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="PostgreSQL" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ZPGRrN2wske1a+z7brzqf4ijmnTltaaLeAYbD2YZ" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;in_heures_field&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="UPDATE"/>
+    <elementParameter field="CHECK" name="USE_SPATIAL_OPTIONS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="SPATIAL_INDEX" value="false" show="false"/>
+    <elementParameter field="CHECK" name="GEOMETRY_COLUMNS" value="false" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false"/>
+    <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="SAVE_POINT" value="false" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000" show="false"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="true"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS">
+      <elementValue elementRef="SCHEMA_COLUMN" value="id" id="0"/>
+      <elementValue elementRef="UPDATE_KEY" value="true" id="1"/>
+      <elementValue elementRef="DELETE_KEY" value="false" id="2"/>
+      <elementValue elementRef="UPDATABLE" value="true" id="3"/>
+      <elementValue elementRef="INSERTABLE" value="true" id="4"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="date_traitement" id="5"/>
+      <elementValue elementRef="UPDATE_KEY" value="false" id="6"/>
+      <elementValue elementRef="DELETE_KEY" value="false" id="7"/>
+      <elementValue elementRef="UPDATABLE" value="true" id="8"/>
+      <elementValue elementRef="INSERTABLE" value="true" id="9"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_LOWERCASE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBOutput_2">
+      <column comment="" defaultValue="" key="false" length="10" name="id" nullable="false" pattern="" precision="0" sourceType="SERIAL" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="29" name="date_traitement" nullable="true" pattern="&quot;dd-MM-yyyy HHmmss&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" defaultValue="" key="false" length="10" name="id" nullable="false" pattern="" precision="0" sourceType="SERIAL" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="29" name="date_traitement" nullable="true" pattern="&quot;dd-MM-yyyy HHmmss&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
@@ -1165,14 +1156,16 @@
   </node>
   <node componentName="tPostgresqlCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="760" posY="-640">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBCommit_2" show="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
-    <elementParameter field="CHECK" name="CLOSE" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
+    <elementParameter field="CHECK" name="CLOSE" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBCommit_2"/>
   </node>
   <node componentName="tPostgresqlCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="760" posY="-520">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBCommit_3" show="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
-    <elementParameter field="CHECK" name="CLOSE" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="CHECK" name="CLOSE" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBCommit_3"/>
   </node>
   <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="600" posY="-1080">
@@ -1213,6 +1206,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk8" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_2" offsetLabelX="0" offsetLabelY="0" source="tJava_2" target="tSendMail_1">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk9" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tLogCatcher_1" offsetLabelX="0" offsetLabelY="0" source="tLogCatcher_1" target="tJavaRow_1">
@@ -1359,11 +1353,11 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
   </connection>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBOutput_2" offsetLabelX="0" offsetLabelY="0" source="tDBOutput_2" target="tDBCommit_3">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk11" show="false"/>
-  </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBOutput_1" offsetLabelX="0" offsetLabelY="0" source="tDBOutput_1" target="tDBCommit_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk10" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBOutput_2" offsetLabelX="0" offsetLabelY="0" source="tDBOutput_2" target="tDBCommit_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk11" show="false"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBConnection_2" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_2" target="tDBConnection_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk7" show="false"/>
