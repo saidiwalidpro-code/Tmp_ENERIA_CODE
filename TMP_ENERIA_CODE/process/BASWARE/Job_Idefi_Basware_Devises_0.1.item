@@ -21,7 +21,7 @@
     <contextParameter comment="" name="connection_IDEFI_DB_AdditionalParams" prompt="connection_IDEFI_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_Z-Dd3GPVEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="connection_IDEFI_DB_Database" prompt="connection_IDEFI_DB_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="DBTESTFR2" internalId="_Z-Dd3WPVEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="connection_IDEFI_DB_Login" prompt="connection_IDEFI_DB_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_Z-Dd3mPVEfGkkq5kPO8l8g"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Password" prompt="connection_IDEFI_DB_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:Iq+bjPFWYFGmDs0EmusRXy9QAYDkycKUPCE7JxviOTu5glAgvkQ=" internalId="_Z-Dd32PVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Password" prompt="connection_IDEFI_DB_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:h1gHQpA/9qTNQbMoQiZZKKzo9qGHjUTS/AxKHxF1sE9iLY4vxfw=" internalId="_Z-Dd32PVEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="connection_IDEFI_DB_Server" prompt="connection_IDEFI_DB_Server?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_Z-Dd4GPVEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="Mail_cc" prompt="Mail_cc?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="&quot;&quot;" internalId="_Z-Dd4WPVEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="Mail_destinataire" prompt="Mail_destinataire?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="lalliot@eneria.com" internalId="_Z-Dd4mPVEfGkkq5kPO8l8g"/>
@@ -51,7 +51,7 @@
     <contextParameter comment="" name="connection_IDEFI_DB_AdditionalParams" prompt="connection_IDEFI_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_Z-Dd8mPVEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="connection_IDEFI_DB_Database" prompt="connection_IDEFI_DB_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="DBTESTFR2" internalId="_Z-Dd82PVEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="connection_IDEFI_DB_Login" prompt="connection_IDEFI_DB_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_Z-Dd9GPVEfGkkq5kPO8l8g"/>
-    <contextParameter comment="" name="connection_IDEFI_DB_Password" prompt="connection_IDEFI_DB_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:G/JfblOvjOBs52tmBrdcx/9YaAqm0+Me2VgaI8wmGMZjPVbO7+k=" internalId="_Z-Dd9WPVEfGkkq5kPO8l8g"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Password" prompt="connection_IDEFI_DB_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:NHs9yHuYuEAVVX+txUO19C1VIuXfW4ka+ipBAouzBpqtYnjDntw=" internalId="_Z-Dd9WPVEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="connection_IDEFI_DB_Server" prompt="connection_IDEFI_DB_Server?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_Z-Dd9mPVEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="Mail_cc" prompt="Mail_cc?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="&quot;&quot;" internalId="_Z-Dd92PVEfGkkq5kPO8l8g"/>
     <contextParameter comment="" name="Mail_destinataire" prompt="Mail_destinataire?" promptNeeded="false" repositoryContextId="_M3YwUGMWEfGkkq5kPO8l8g" type="id_String" value="lalliot@eneria.com" internalId="_Z-Dd-GPVEfGkkq5kPO8l8g"/>
@@ -895,13 +895,13 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
