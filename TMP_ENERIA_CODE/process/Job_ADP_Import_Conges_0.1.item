@@ -275,7 +275,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_SAVOIR_DB_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_SAVOIR_DB_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_SAVOIR_DB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:lCrV5GGYRh18IorKj5ji2dayBq2K5SVK3H8cW/BJk8aWLY7ISnj/3E4bnWMT4/GsK3LFKLGsu4B3yswBo+i0jdQ="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_SAVOIR_DB_Password"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
@@ -1219,7 +1219,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_SAVOIR_DB_Schema" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_SAVOIR_DB_Login" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:s7lHXxz1mqQdWQ29KuNpLu/saolGsml0G5aBX5oEXqjjLW8rzn8LiiW2vI40k6eM3i4VYVMn8+i6MKsk1eut2y0=" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_SAVOIR_DB_Password" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="context.Table_cible"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="DELETE"/>
@@ -1739,7 +1739,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_SAVOIR_DB_Schema" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_SAVOIR_DB_Login" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:PVNzERfyUmy+fAvJds5ka8+2HNW/Gqj4nVCzGj33cIUTFr6+Clow3noBiFSgYEayvXSXjKP3BYBMSUywdi+yOfg=" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_SAVOIR_DB_Password" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="context.Table_cible"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT_OR_UPDATE"/>

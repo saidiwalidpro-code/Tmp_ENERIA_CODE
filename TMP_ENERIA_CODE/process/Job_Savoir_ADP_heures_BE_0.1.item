@@ -266,7 +266,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_SAVOIR_DB_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_SAVOIR_DB_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_SAVOIR_DB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:lCrV5GGYRh18IorKj5ji2dayBq2K5SVK3H8cW/BJk8aWLY7ISnj/3E4bnWMT4/GsK3LFKLGsu4B3yswBo+i0jdQ="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_SAVOIR_DB_Password"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>

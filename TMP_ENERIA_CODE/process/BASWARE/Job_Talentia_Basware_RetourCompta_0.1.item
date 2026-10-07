@@ -244,7 +244,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_BASWARE_DB_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_BASWARE_DB_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_BASWARE_DB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:TdBCxYyZ2AoXGcs6bFMvOxGs+L/ZHEbxEqnGju+LArX/g7pFNPy+PSc2J36fBk37rtTVpyX/DEhosBGQOascwE2e"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_BASWARE_DB_Password"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="true"/>
@@ -338,7 +338,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_TALENTIA_DB_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="AS400" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_TALENTIA_DB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:3xzhMubCR4HnsXtj4GhdPULNELP1vZZnlenS/40JWB77mqC91IoPH/JAPJtX5yoOTRxDSyxOF+S/Y5V2xW+GwuVV1g=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_TALENTIA_DB_Password"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="true"/>
@@ -359,7 +359,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_TALENTIA_DB_Database" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="AS400" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_TALENTIA_DB_Login" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:8nXUvaSFFTYPliS9lDhj83mYBfbGIEpv083RauwBPmI5Y93F3kFnyn8NH6d3qfqLoVLSkG3r8CUs9EoyaQkLHGTMWQ==" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_TALENTIA_DB_Password" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -476,7 +476,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_BASWARE_DB_Schema" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_BASWARE_DB_Login" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:vS4FUfDN7ISqIVQd8fh2Sh90ZW5mhtyR+Fxwv6Ni71Cpu1Y42Snt448F0jrv+PraseMjofZxUsZV/tfDjgHWCii8" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_BASWARE_DB_Password" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="context.Table_cible"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT_OR_UPDATE"/>
@@ -589,7 +589,7 @@
     <elementParameter field="TEXT" name="FTPS_PORT" value="990" show="false"/>
     <elementParameter field="CLOSED_LIST" name="LOGON_TYPE" value="PASSWORD" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.Baseware_SFTP_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:l+hxTBC1+7BH0DbvBgiDyIirW4FFsPd/9KOx1OCMWk7Di2UJ8RkongU/r+gh3u5Ts64IqOg="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.Baseware_SFTP_MDP"/>
     <elementParameter field="TEXT" name="ACCOUNT" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="SFTP" value="true"/>
     <elementParameter field="CHECK" name="FTPS" value="false" show="false"/>
@@ -707,7 +707,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_BASWARE_DB_Database" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_BASWARE_DB_Schema" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_BASWARE_DB_Login" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:vYyp9nCLMi6JyviUEEENoqUjL4jqnNVoDBcakXC9U3PTGXH99jx4jrn08hg8ssfucn3dUJFvsB6SJb2T/6CLOi97" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_BASWARE_DB_Password" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
