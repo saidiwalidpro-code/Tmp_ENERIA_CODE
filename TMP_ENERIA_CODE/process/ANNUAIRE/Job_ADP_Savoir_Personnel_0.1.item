@@ -845,7 +845,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_SAVOIR_DB_Schema" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_SAVOIR_DB_Login" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ao8QEHpUkdqw1BUKkOy7S9xkCfnU3HhCPv8XmSZ8GQic6FvW9OSE4B5Oeei5r2yEiKiQnZfWU/fl5hYJc9Tzarw=" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_SAVOIR_DB_Password" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="context.Table_cible"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="UPDATE"/>
@@ -1268,7 +1268,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_SAVOIR_DB_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_SAVOIR_DB_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_SAVOIR_DB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:xAunNOvKFFpKb1Jx97Poi7gFNbHsCTGhaAkf0/qo5cX/SSy8pgJsFsNBC02R1SofQvh703xqEovQFfx3dW1YG5o="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_SAVOIR_DB_Password"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>

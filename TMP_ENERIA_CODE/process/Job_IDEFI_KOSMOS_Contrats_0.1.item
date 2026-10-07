@@ -254,7 +254,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_IODA_DB_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_IODA_DB_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_IODA_DB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:yaTFXmMhW5bpQyxlZ4qRpG01+LKLF2CDcLL6M+8RCP7t3VOa5Cdji7t88KBYu6+icVpF35WA8ds6B9SfGjK+"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_IODA_DB_Password"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
@@ -384,7 +384,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_IDEFI_DB_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="AS400" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_IDEFI_DB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:tEUF4Ymfs3mIqHnBGSmij2QDnzpJCY9+NA0iXZ9TOENX4F4AgfHs9PGgowgKXPJUAQryqoWzT0GkoEN4qWzfxQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_IDEFI_DB_Password"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
@@ -412,7 +412,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_IDEFI_DB_Database" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="AS400" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_IDEFI_DB_Login" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:z55mla/h127hgIK+o9KKcH6PNtQ0FTJDjnrbZpK7KZe9a8vVrW053of/nxhhdPj2TopY6lwp2qWVB5MhBLGf7w==" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_IDEFI_DB_Password" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>

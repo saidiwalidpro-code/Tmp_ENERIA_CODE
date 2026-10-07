@@ -347,7 +347,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_IDEFI_DB_Database" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="AS400" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_IDEFI_DB_Login" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:z55mla/h127hgIK+o9KKcH6PNtQ0FTJDjnrbZpK7KZe9a8vVrW053of/nxhhdPj2TopY6lwp2qWVB5MhBLGf7w==" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_IDEFI_DB_Password" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -521,7 +521,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_IDEFI_DB_Database" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="AS400" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_IDEFI_DB_Login" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:fryCn9J3qeN3BjvKkVNqBL1MgNsllb5Y/wBB5RWrkIO9eSS39FnKG5TmBp7/ng4xPHJhKQ5Dib/KT8xcWV81OA==" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_IDEFI_DB_Password" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -573,7 +573,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_SAVOIR_DB_Schema" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_SAVOIR_DB_Login" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:6seNL2b6vG0KSfyKShecPOOPUv6g7ZyHTY+riebbr4DKmeOXgoFl60cuCT8p08VUGSUcsPsDuAbB8d5pwQ11+eM=" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_SAVOIR_DB_Password" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;banque_rappro&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="UPDATE_OR_INSERT"/>
@@ -801,7 +801,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_TALENTIA_DB_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="AS400" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_TALENTIA_DB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:7qJNF9Q49l/cUr4/YAoZ4mHwPydhfzrs3wQ+7suhFzOfe2XIhoKL+VDZVesqI3raJueCDsohhhesryaUv12n/VVZ7w=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_TALENTIA_DB_Password"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
@@ -822,7 +822,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_SAVOIR_DB_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_SAVOIR_DB_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_SAVOIR_DB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:8UzKUkTemVVCdG2poM4yxVGNgpYnKEojmj2eusQx0d4aT5+fM5LmsvcY3KIcFfAhb0So0YqRYNHiOZYsMRBkQDo="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_SAVOIR_DB_Password"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
