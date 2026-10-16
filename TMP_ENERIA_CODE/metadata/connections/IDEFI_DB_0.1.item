@@ -12,23 +12,23 @@
     <taggedValue xmi:id="_l85GcEOsEfGHjcSPz0OCDw" tag="DB ProductName" value="DB2 UDB for AS/400"/>
     <taggedValue xmi:id="_l85GcUOsEfGHjcSPz0OCDw" tag="DB ProductVersion" value="07.04.0000 V7R4m0"/>
     <taggedValue xmi:id="_l85GckOsEfGHjcSPz0OCDw" tag="DB IdentifierQuoteString" value=""/>
-    <cdcConns xmi:id="_ZmB14MI8EfG4KK5goHrAXw">
-      <cdcTypes xmi:id="_ZmDEAMI8EfG4KK5goHrAXw" linkDB="_SgFG4MI8EfG4KK5goHrAXw" cdcConnection="_ZmB14MI8EfG4KK5goHrAXw">
-        <subscribers xmi:id="_ZmIjkcI8EfG4KK5goHrAXw" name="TSUBSCRIBERS" id="_ZmIjkMI8EfG4KK5goHrAXw" label="TSUBSCRIBERS" system="true">
-          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZmIjksI8EfG4KK5goHrAXw" name="TALEND_CDC_TABLE_TO_WATCH" label="TALEND_CDC_TABLE_TO_WATCH" length="35" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false"/>
-          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZmIjk8I8EfG4KK5goHrAXw" name="TALEND_CDC_SUBSCRIBER_NAME" label="TALEND_CDC_SUBSCRIBER_NAME" length="50" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false"/>
-          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZmIjlMI8EfG4KK5goHrAXw" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date" nullable="false"/>
+    <cdcConns xmi:id="_ViBo8MeiEfG4KK5goHrAXw">
+      <cdcTypes xmi:id="_ViBo8ceiEfG4KK5goHrAXw" linkDB="_SgFG4MI8EfG4KK5goHrAXw" cdcConnection="_ViBo8MeiEfG4KK5goHrAXw">
+        <subscribers xmi:id="_ViBo88eiEfG4KK5goHrAXw" name="TSUBSCRIBERS" id="_ViBo8seiEfG4KK5goHrAXw" label="TSUBSCRIBERS" system="true">
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ViBo9MeiEfG4KK5goHrAXw" name="TALEND_CDC_TABLE_TO_WATCH" label="TALEND_CDC_TABLE_TO_WATCH" length="35" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ViBo9ceiEfG4KK5goHrAXw" name="TALEND_CDC_SUBSCRIBER_NAME" label="TALEND_CDC_SUBSCRIBER_NAME" length="50" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ViBo9seiEfG4KK5goHrAXw" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date" nullable="false"/>
         </subscribers>
-        <subscribers xmi:id="_uA26UMJHEfG4KK5goHrAXw" name="C21HDR" id="_uA2TQMJHEfG4KK5goHrAXw" label="C21HDR">
-          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uA26UcJHEfG4KK5goHrAXw" name="TALEND_CDC_SUBSCRIBERS_NAME" label="TALEND_CDC_SUBSCRIBERS_NAME" length="50" sourceType="VARCHAR" talendType="id_String" nullable="false"/>
-          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uA26UsJHEfG4KK5goHrAXw" name="TALEND_CDC_STATE" label="TALEND_CDC_STATE" length="1" sourceType="VARCHAR" talendType="id_String"/>
-          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uA26U8JHEfG4KK5goHrAXw" name="TALEND_CDC_TYPE" label="TALEND_CDC_TYPE" length="1" sourceType="VARCHAR" talendType="id_String"/>
-          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uA26VMJHEfG4KK5goHrAXw" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date"/>
-          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uA26VcJHEfG4KK5goHrAXw" name="CHNCLI" label="CHNCLI" length="7" sourceType="NUMERIC" talendType="id_Integer" key="true" nullable="false">
-            <initialValue xmi:id="_uA26VsJHEfG4KK5goHrAXw" body="0"/>
+        <subscribers xmi:id="_vwb2kceiEfG4KK5goHrAXw" name="C21HDR" id="_vwb2kMeiEfG4KK5goHrAXw" label="C21HDR">
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vwb2kseiEfG4KK5goHrAXw" name="TALEND_CDC_SUBSCRIBERS_NAME" label="TALEND_CDC_SUBSCRIBERS_NAME" length="50" sourceType="VARCHAR" talendType="id_String" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vwb2k8eiEfG4KK5goHrAXw" name="TALEND_CDC_STATE" label="TALEND_CDC_STATE" length="1" sourceType="VARCHAR" talendType="id_String"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vwb2lMeiEfG4KK5goHrAXw" name="TALEND_CDC_TYPE" label="TALEND_CDC_TYPE" length="1" sourceType="VARCHAR" talendType="id_String"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vwb2lceiEfG4KK5goHrAXw" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vwb2lseiEfG4KK5goHrAXw" name="CHNCLI" label="CHNCLI" length="7" sourceType="NUMERIC" talendType="id_Integer" key="true" nullable="false">
+            <initialValue xmi:id="_vwb2l8eiEfG4KK5goHrAXw" body="0"/>
           </feature>
-          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uA26V8JHEfG4KK5goHrAXw" name="CHNCON" label="CHNCON" length="8" sourceType="NUMERIC" talendType="id_Integer" key="true" nullable="false">
-            <initialValue xmi:id="_uA26WMJHEfG4KK5goHrAXw" body="0"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vwb2mMeiEfG4KK5goHrAXw" name="CHNCON" label="CHNCON" length="8" sourceType="NUMERIC" talendType="id_Integer" key="true" nullable="false">
+            <initialValue xmi:id="_vwb2mceiEfG4KK5goHrAXw" body="0"/>
           </feature>
         </subscribers>
       </cdcTypes>

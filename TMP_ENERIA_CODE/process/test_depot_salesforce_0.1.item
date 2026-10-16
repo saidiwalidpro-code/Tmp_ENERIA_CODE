@@ -29,6 +29,16 @@
     <contextParameter comment="" name="Repertoire_archive_FYL01" prompt="Repertoire_archive_FYL01?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="////frmlyfil01.energie.grp//APP//APPLIS//ZADIG//inarchive//expITIME" internalId="_E1j78GjJEfG52YjVHoB4VQ"/>
     <contextParameter comment="" name="archive" prompt="archive?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="true" internalId="_SxvU4GonEfG52YjVHoB4VQ"/>
     <contextParameter comment="" name="Repertoire_SalesForce" prompt="Repertoire_SalesForce?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;P:/ZADIG_ENERIA_TESTRUN&quot;" internalId="_TqqZIHlKEfGpEOmalEzqgQ"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Server" prompt="connection_IDEFI_DB_Server?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_LDYxwMegEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Database" prompt="connection_IDEFI_DB_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="DBTESTFR2" internalId="_LDYxwcegEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Password" prompt="connection_IDEFI_DB_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:lD/ooK1hd/JLunBpNNRCS5fv8TYxXidmHFjbHGIN8/VBXs4GH6I=" internalId="_LDYxwsegEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Login" prompt="connection_IDEFI_DB_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_LDYxw8egEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_AdditionalParams" prompt="connection_IDEFI_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_LDYxxMegEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Server" prompt="connection_IDEFI_CDC_DB_Server?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="172.19.4.58" internalId="_UEiP4MelEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Login" prompt="connection_IDEFI_CDC_DB_Login?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="QLIK" internalId="_UEiP4celEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Database" prompt="connection_IDEFI_CDC_DB_Database?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="DBTFR2CDC" internalId="_UEiP4selEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Password" prompt="connection_IDEFI_CDC_DB_Password?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_Password" value="enc:system.encryption.key.v1:1YT54UnP+J5uRKoEibYQsSlJRVjKq18aSmUfpqeSVzD3jEZh7ck=" internalId="_UEiP48elEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_AdditionalParams" prompt="connection_IDEFI_CDC_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_UEiP5MelEfG4KK5goHrAXw"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="RECETTE">
     <contextParameter comment="" name="Table_cible" prompt="Table_cible?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="heures_travail" internalId="_WUTlpEhaEfG9ndm8B-jwTQ"/>
@@ -59,6 +69,16 @@
     <contextParameter comment="" name="Repertoire_archive_FYL01" prompt="Repertoire_archive_FYL01?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_E1j78WjJEfG52YjVHoB4VQ"/>
     <contextParameter comment="" name="archive" prompt="archive?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="true" internalId="_SxvU4WonEfG52YjVHoB4VQ"/>
     <contextParameter comment="" name="Repertoire_SalesForce" prompt="Repertoire_SalesForce?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="P:/ZADIG_ENERIA_TESTRUN" internalId="_TqqZIXlKEfGpEOmalEzqgQ"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Server" prompt="connection_IDEFI_DB_Server?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="172.19.4.58" internalId="_LDYxxcegEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Database" prompt="connection_IDEFI_DB_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="DBTESTFR2" internalId="_LDYxxsegEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Password" prompt="connection_IDEFI_DB_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="enc:system.encryption.key.v1:ONZEoje8jT153hCFqKPVvNAX8n37nTCzfSGIeZQ12sLgQB7kucc=" internalId="_LDYxx8egEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Login" prompt="connection_IDEFI_DB_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_LDYxyMegEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_AdditionalParams" prompt="connection_IDEFI_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_LDYxycegEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Server" prompt="connection_IDEFI_CDC_DB_Server?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="172.19.4.58" internalId="_UEiP5celEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Login" prompt="connection_IDEFI_CDC_DB_Login?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="QLIK" internalId="_UEiP5selEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Database" prompt="connection_IDEFI_CDC_DB_Database?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="DBTFR2CDC" internalId="_UEiP58elEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Password" prompt="connection_IDEFI_CDC_DB_Password?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_Password" value="enc:system.encryption.key.v1:V1sDHXMq/F7usdz/fpCYrDqwWZ1CFbnJ00mgtI2W5UxD/2G4I/I=" internalId="_UEiP6MelEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_AdditionalParams" prompt="connection_IDEFI_CDC_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_UEiP6celEfG4KK5goHrAXw"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="PRODUCTION">
     <contextParameter comment="" name="Table_cible" prompt="Table_cible?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_WUTlqEhaEfG9ndm8B-jwTQ"/>
@@ -89,10 +109,20 @@
     <contextParameter comment="" name="Repertoire_archive_FYL01" prompt="Repertoire_archive_FYL01?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_E1j78mjJEfG52YjVHoB4VQ"/>
     <contextParameter comment="" name="archive" prompt="archive?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="" internalId="_SxvU4monEfG52YjVHoB4VQ"/>
     <contextParameter comment="" name="Repertoire_SalesForce" prompt="Repertoire_SalesForce?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_TqqZInlKEfGpEOmalEzqgQ"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Server" prompt="connection_IDEFI_DB_Server?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_LDYxysegEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Database" prompt="connection_IDEFI_DB_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_LDYxy8egEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Password" prompt="connection_IDEFI_DB_Password?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_Password" value="" internalId="_LDYxzMegEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_Login" prompt="connection_IDEFI_DB_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_LDYxzcegEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_DB_AdditionalParams" prompt="connection_IDEFI_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_LDYxzsegEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Server" prompt="connection_IDEFI_CDC_DB_Server?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="" internalId="_UEiP6selEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Login" prompt="connection_IDEFI_CDC_DB_Login?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="" internalId="_UEiP68elEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Database" prompt="connection_IDEFI_CDC_DB_Database?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="" internalId="_UEiP7MelEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Password" prompt="connection_IDEFI_CDC_DB_Password?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_Password" value="" internalId="_UEiP7celEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_AdditionalParams" prompt="connection_IDEFI_CDC_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="" internalId="_UEiP7selEfG4KK5goHrAXw"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
-    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms1024M&quot;,&quot;-Xmx2056M&quot;]}" show="false"/>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms1024M&quot;,&quot;-Xmx2056M&quot;,&quot;-Dcom.ibm.as400.access.AS400.guiAvailable=false&quot;]}" show="false"/>
     <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="true" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="200" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="1080" show="false"/>
@@ -192,6 +222,16 @@
   </parameters>
   <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="920" posY="-1000">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_2" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tDie" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Logs_Errors" show="false"/>
+    <elementParameter field="CHECK" name="START" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tDie" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connexion à la base de données SAVOIR KO&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="4"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
@@ -202,16 +242,46 @@
   </node>
   <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-54" posY="-925">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tPrejob" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Orchestration" show="false"/>
+    <elementParameter field="CHECK" name="START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tPrejob" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="Debut du job"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-40" posY="280">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tPostjob" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Orchestration" show="false"/>
+    <elementParameter field="CHECK" name="START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="!!!HELP!!!" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="Fin du job"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="920" posY="-840">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_2" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tWarn" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.101 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Logs_Errors" show="false"/>
+    <elementParameter field="CHECK" name="START" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tWarn" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connexion à la base de données SAVOIR OK&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="1"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
@@ -221,6 +291,16 @@
   </node>
   <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="680" posY="280">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_4" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tWarn" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.101 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Logs_Errors" show="false"/>
+    <elementParameter field="CHECK" name="START" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tWarn" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;Déconnexion de la base de données&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="1"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
@@ -230,6 +310,16 @@
   </node>
   <node componentName="tPostgresqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="600" posY="-920">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tPostgresqlConnection" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/PostgreSQL|ELT/Connections" show="false"/>
+    <elementParameter field="CHECK" name="START" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tPostgresqlConnection" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_Lf1R4DlxEfG3PdBWJalhYA" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
@@ -254,28 +344,69 @@
   </node>
   <node componentName="tPostgresqlClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="280">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBClose_1" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tPostgresqlClose" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/PostgreSQL" show="false"/>
+    <elementParameter field="CHECK" name="START" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tPostgresqlClose" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
     <elementParameter field="TEXT" name="LABEL" value="Deconnexion DB SAVOIR"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="280" posY="-920">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="120" posY="-920">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="context.timestamp= TalendDate.formatDate(&quot;yyyyMMddHHmmss&quot;, TalendDate.getCurrentDate());&#xA;globalMap.put(&quot;MAIL_WARNINGS&quot;, new java.util.ArrayList&lt;java.util.Map&lt;String, String>>());&#xA;globalMap.put(&quot;MAIL_ERRORS&quot;, new java.util.ArrayList&lt;java.util.Map&lt;String, String>>());&#xA;globalMap.put(&quot;JOB_HAS_ERROR&quot;, false);"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tJava" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.101 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Custom_Code" show="false"/>
+    <elementParameter field="CHECK" name="START" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tJava" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="context.timestamp= TalendDate.formatDate(&quot;yyyyMMddHHmmss&quot;, TalendDate.getCurrentDate());&#xA;globalMap.put(&quot;MAIL_WARNINGS&quot;, new java.util.ArrayList&lt;java.util.Map&lt;String, String>>());&#xA;globalMap.put(&quot;MAIL_ERRORS&quot;, new java.util.ArrayList&lt;java.util.Map&lt;String, String>>());&#xA;globalMap.put(&quot;JOB_HAS_ERROR&quot;, false);"/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="LABEL" value="initialisation"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="880" posY="280">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="java.util.List&lt;java.util.Map&lt;String, String>> warnings =&#xA;    (java.util.List&lt;java.util.Map&lt;String, String>>) globalMap.get(&quot;MAIL_WARNINGS&quot;);&#xA;&#xA;java.util.List&lt;java.util.Map&lt;String, String>> errors =&#xA;    (java.util.List&lt;java.util.Map&lt;String, String>>) globalMap.get(&quot;MAIL_ERRORS&quot;);&#xA;&#xA;// On considère le job en erreur si JOB_HAS_ERROR = true OU si la liste errors contient quelque chose&#xA;boolean hasError = Boolean.TRUE.equals(globalMap.get(&quot;JOB_HAS_ERROR&quot;))&#xA;    || (errors != null &amp;&amp; !errors.isEmpty());&#xA;&#xA;String currentJobName = jobName;&#xA;String status = hasError ? &quot;ERREUR&quot; : &quot;SUCCÈS&quot;;&#xA;String color = hasError ? &quot;#c00000&quot; : &quot;#2e7d32&quot;;&#xA;&#xA;String subject = &quot;[&quot; + status + &quot;] [&quot; + context.environnement + &quot;] Job Talend - &quot; + currentJobName;&#xA;&#xA;StringBuilder html = new StringBuilder();&#xA;&#xA;html.append(&quot;&lt;html>&lt;body style='font-family:Arial, sans-serif;'>&quot;);&#xA;&#xA;html.append(&quot;&lt;h2 style='color:&quot;)&#xA;    .append(color)&#xA;    .append(&quot;;'>Job Talend : &quot;)&#xA;    .append(jobName)&#xA;    .append(&quot; - &quot;)&#xA;    .append(status)&#xA;    .append(&quot;&lt;/h2>&quot;);&#xA;&#xA;html.append(&quot;&lt;p>&lt;b>Date d'exécution :&lt;/b> &quot;)&#xA;    .append(routines.TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;, new java.util.Date()))&#xA;    .append(&quot;&lt;/p>&quot;);&#xA;&#xA;html.append(&quot;&lt;p>&lt;b>Environnement :&lt;/b> &quot;)&#xA;    .append(context.environnement)&#xA;    .append(&quot;&lt;/p>&quot;);&#xA;&#xA;html.append(&quot;&lt;hr/>&quot;);&#xA;&#xA;&#xA;// =====================================================================&#xA;// Pattern pour récupérer uniquement Add event (...) / Delete event (...)&#xA;// =====================================================================&#xA;&#xA;java.util.regex.Pattern patternEventOutlook =&#xA;    java.util.regex.Pattern.compile(&quot;(Add event|Delete event)\\s*\\([^\\)]*\\)&quot;);&#xA;&#xA;&#xA;// =====================================================================&#xA;// Section 1 : Events Outlook détectés&#xA;// =====================================================================&#xA;&#xA;html.append(&quot;&lt;h3>Events Outlook détectés&lt;/h3>&quot;);&#xA;&#xA;html.append(&quot;&lt;table border='1' cellspacing='0' cellpadding='6' style='border-collapse:collapse;width:100%;'>&quot;);&#xA;html.append(&quot;&lt;tr style='background-color:#f2f2f2;'>&quot;);&#xA;html.append(&quot;&lt;th>Date&lt;/th>&lt;th>Composant&lt;/th>&lt;th>Message&lt;/th>&quot;);&#xA;html.append(&quot;&lt;/tr>&quot;);&#xA;&#xA;int nbEventsOutlook = 0;&#xA;&#xA;if (warnings != null &amp;&amp; !warnings.isEmpty()) {&#xA;&#xA;    for (java.util.Map&lt;String, String> w : warnings) {&#xA;&#xA;        String rawMsg = w.get(&quot;message&quot;);&#xA;        if (rawMsg == null) {&#xA;            rawMsg = &quot;&quot;;&#xA;        }&#xA;&#xA;        StringBuilder msgFiltreBuilder = new StringBuilder();&#xA;&#xA;        java.util.regex.Matcher matcher = patternEventOutlook.matcher(rawMsg);&#xA;&#xA;        while (matcher.find()) {&#xA;            if (msgFiltreBuilder.length() > 0) {&#xA;                msgFiltreBuilder.append(&quot;\n&quot;);&#xA;            }&#xA;&#xA;            msgFiltreBuilder.append(matcher.group());&#xA;        }&#xA;&#xA;        String msgFiltre = msgFiltreBuilder.toString();&#xA;&#xA;        // Si ce tWarn ne contient pas d'event Outlook, on ne l'affiche pas dans cette section&#xA;        if (msgFiltre == null || msgFiltre.trim().isEmpty()) {&#xA;            continue;&#xA;        }&#xA;&#xA;        nbEventsOutlook++;&#xA;&#xA;        String msgHtml = msgFiltre&#xA;            .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;            .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;            .replace(&quot;>&quot;, &quot;&amp;gt;&quot;)&#xA;            .replace(&quot;\&quot;&quot;, &quot;&amp;quot;&quot;)&#xA;            .replace(&quot;\r\n&quot;, &quot;\n&quot;)&#xA;            .replace(&quot;\r&quot;, &quot;\n&quot;)&#xA;            .replace(&quot;\n&quot;, &quot;&lt;br/>&quot;);&#xA;&#xA;        String dateWarning = w.get(&quot;date&quot;);&#xA;        if (dateWarning == null) {&#xA;            dateWarning = &quot;&quot;;&#xA;        }&#xA;&#xA;        dateWarning = dateWarning&#xA;            .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;            .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;            .replace(&quot;>&quot;, &quot;&amp;gt;&quot;)&#xA;            .replace(&quot;\&quot;&quot;, &quot;&amp;quot;&quot;);&#xA;&#xA;        String originWarning = w.get(&quot;origin&quot;);&#xA;        if (originWarning == null) {&#xA;            originWarning = &quot;&quot;;&#xA;        }&#xA;&#xA;        originWarning = originWarning&#xA;            .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;            .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;            .replace(&quot;>&quot;, &quot;&amp;gt;&quot;)&#xA;            .replace(&quot;\&quot;&quot;, &quot;&amp;quot;&quot;);&#xA;&#xA;        html.append(&quot;&lt;tr>&quot;);&#xA;        html.append(&quot;&lt;td>&quot;).append(dateWarning).append(&quot;&lt;/td>&quot;);&#xA;        html.append(&quot;&lt;td>&quot;).append(originWarning).append(&quot;&lt;/td>&quot;);&#xA;        html.append(&quot;&lt;td>&quot;).append(msgHtml).append(&quot;&lt;/td>&quot;);&#xA;        html.append(&quot;&lt;/tr>&quot;);&#xA;    }&#xA;}&#xA;&#xA;if (nbEventsOutlook == 0) {&#xA;    html.append(&quot;&lt;tr>&lt;td colspan='3'>Aucun Add event ou Delete event détecté.&lt;/td>&lt;/tr>&quot;);&#xA;}&#xA;&#xA;html.append(&quot;&lt;/table>&quot;);&#xA;&#xA;&#xA;// =====================================================================&#xA;// Section 2 : Messages tWarn classiques&#xA;// On garde les autres tWarn : connexion BDD, déconnexion, messages métiers, etc.&#xA;// On évite de remettre le gros message Outlook brut déjà filtré au-dessus.&#xA;// =====================================================================&#xA;&#xA;html.append(&quot;&lt;br/>&quot;);&#xA;html.append(&quot;&lt;h3>Messages tWarn&lt;/h3>&quot;);&#xA;&#xA;html.append(&quot;&lt;table border='1' cellspacing='0' cellpadding='6' style='border-collapse:collapse;width:100%;'>&quot;);&#xA;html.append(&quot;&lt;tr style='background-color:#f2f2f2;'>&quot;);&#xA;html.append(&quot;&lt;th>Date&lt;/th>&lt;th>Composant&lt;/th>&lt;th>Message&lt;/th>&quot;);&#xA;html.append(&quot;&lt;/tr>&quot;);&#xA;&#xA;int nbWarningsClassiques = 0;&#xA;&#xA;if (warnings != null &amp;&amp; !warnings.isEmpty()) {&#xA;&#xA;    for (java.util.Map&lt;String, String> w : warnings) {&#xA;&#xA;        String rawMsg = w.get(&quot;message&quot;);&#xA;        if (rawMsg == null) {&#xA;            rawMsg = &quot;&quot;;&#xA;        }&#xA;&#xA;        java.util.regex.Matcher matcher = patternEventOutlook.matcher(rawMsg);&#xA;        boolean contientEventOutlook = matcher.find();&#xA;&#xA;        // Si c'est le gros message Outlook qui contient Add/Delete event,&#xA;        // on ne le remet pas ici pour éviter de polluer le mail.&#xA;        if (contientEventOutlook) {&#xA;            continue;&#xA;        }&#xA;&#xA;        nbWarningsClassiques++;&#xA;&#xA;        String msgHtml = rawMsg&#xA;            .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;            .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;            .replace(&quot;>&quot;, &quot;&amp;gt;&quot;)&#xA;            .replace(&quot;\&quot;&quot;, &quot;&amp;quot;&quot;)&#xA;            .replace(&quot;\r\n&quot;, &quot;\n&quot;)&#xA;            .replace(&quot;\r&quot;, &quot;\n&quot;)&#xA;            .replace(&quot;\n&quot;, &quot;&lt;br/>&quot;);&#xA;&#xA;        String dateWarning = w.get(&quot;date&quot;);&#xA;        if (dateWarning == null) {&#xA;            dateWarning = &quot;&quot;;&#xA;        }&#xA;&#xA;        dateWarning = dateWarning&#xA;            .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;            .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;            .replace(&quot;>&quot;, &quot;&amp;gt;&quot;)&#xA;            .replace(&quot;\&quot;&quot;, &quot;&amp;quot;&quot;);&#xA;&#xA;        String originWarning = w.get(&quot;origin&quot;);&#xA;        if (originWarning == null) {&#xA;            originWarning = &quot;&quot;;&#xA;        }&#xA;&#xA;        originWarning = originWarning&#xA;            .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;            .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;            .replace(&quot;>&quot;, &quot;&amp;gt;&quot;)&#xA;            .replace(&quot;\&quot;&quot;, &quot;&amp;quot;&quot;);&#xA;&#xA;        html.append(&quot;&lt;tr>&quot;);&#xA;        html.append(&quot;&lt;td>&quot;).append(dateWarning).append(&quot;&lt;/td>&quot;);&#xA;        html.append(&quot;&lt;td>&quot;).append(originWarning).append(&quot;&lt;/td>&quot;);&#xA;        html.append(&quot;&lt;td>&quot;).append(msgHtml).append(&quot;&lt;/td>&quot;);&#xA;        html.append(&quot;&lt;/tr>&quot;);&#xA;    }&#xA;}&#xA;&#xA;if (nbWarningsClassiques == 0) {&#xA;    html.append(&quot;&lt;tr>&lt;td colspan='3'>Aucun autre tWarn détecté.&lt;/td>&lt;/tr>&quot;);&#xA;}&#xA;&#xA;html.append(&quot;&lt;/table>&quot;);&#xA;&#xA;&#xA;// =====================================================================&#xA;// Section 3 : Erreurs / tDie uniquement si erreur&#xA;// =====================================================================&#xA;&#xA;if (hasError) {&#xA;&#xA;    html.append(&quot;&lt;br/>&quot;);&#xA;    html.append(&quot;&lt;h3 style='color:#c00000;'>Erreur / tDie détecté&lt;/h3>&quot;);&#xA;&#xA;    html.append(&quot;&lt;table border='1' cellspacing='0' cellpadding='6' style='border-collapse:collapse;width:100%;'>&quot;);&#xA;    html.append(&quot;&lt;tr style='background-color:#c00000;color:white;'>&quot;);&#xA;    html.append(&quot;&lt;th>Date&lt;/th>&lt;th>Type&lt;/th>&lt;th>Composant&lt;/th>&lt;th>Code&lt;/th>&lt;th>Message&lt;/th>&quot;);&#xA;    html.append(&quot;&lt;/tr>&quot;);&#xA;&#xA;    if (errors == null || errors.isEmpty()) {&#xA;&#xA;        html.append(&quot;&lt;tr>&lt;td colspan='5'>Erreur détectée mais aucun détail récupéré par tLogCatcher.&lt;/td>&lt;/tr>&quot;);&#xA;&#xA;    } else {&#xA;&#xA;        for (java.util.Map&lt;String, String> e : errors) {&#xA;&#xA;            String errorDate = e.get(&quot;date&quot;);&#xA;            if (errorDate == null) {&#xA;                errorDate = &quot;&quot;;&#xA;            }&#xA;&#xA;            errorDate = errorDate&#xA;                .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;                .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;                .replace(&quot;>&quot;, &quot;&amp;gt;&quot;)&#xA;                .replace(&quot;\&quot;&quot;, &quot;&amp;quot;&quot;);&#xA;&#xA;            String errorType = e.get(&quot;type&quot;);&#xA;            if (errorType == null) {&#xA;                errorType = &quot;&quot;;&#xA;            }&#xA;&#xA;            errorType = errorType&#xA;                .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;                .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;                .replace(&quot;>&quot;, &quot;&amp;gt;&quot;)&#xA;                .replace(&quot;\&quot;&quot;, &quot;&amp;quot;&quot;);&#xA;&#xA;            String errorOrigin = e.get(&quot;origin&quot;);&#xA;            if (errorOrigin == null) {&#xA;                errorOrigin = &quot;&quot;;&#xA;            }&#xA;&#xA;            errorOrigin = errorOrigin&#xA;                .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;                .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;                .replace(&quot;>&quot;, &quot;&amp;gt;&quot;)&#xA;                .replace(&quot;\&quot;&quot;, &quot;&amp;quot;&quot;);&#xA;&#xA;            String errorCode = e.get(&quot;code&quot;);&#xA;            if (errorCode == null) {&#xA;                errorCode = &quot;&quot;;&#xA;            }&#xA;&#xA;            errorCode = errorCode&#xA;                .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;                .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;                .replace(&quot;>&quot;, &quot;&amp;gt;&quot;)&#xA;                .replace(&quot;\&quot;&quot;, &quot;&amp;quot;&quot;);&#xA;&#xA;            String errorMsg = e.get(&quot;message&quot;);&#xA;            if (errorMsg == null) {&#xA;                errorMsg = &quot;&quot;;&#xA;            }&#xA;&#xA;            errorMsg = errorMsg&#xA;                .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;                .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;                .replace(&quot;>&quot;, &quot;&amp;gt;&quot;)&#xA;                .replace(&quot;\&quot;&quot;, &quot;&amp;quot;&quot;)&#xA;                .replace(&quot;\r\n&quot;, &quot;\n&quot;)&#xA;                .replace(&quot;\r&quot;, &quot;\n&quot;)&#xA;                .replace(&quot;\n&quot;, &quot;&lt;br/>&quot;);&#xA;&#xA;            html.append(&quot;&lt;tr>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(errorDate).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(errorType).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(errorOrigin).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(errorCode).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(errorMsg).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;/tr>&quot;);&#xA;        }&#xA;    }&#xA;&#xA;    html.append(&quot;&lt;/table>&quot;);&#xA;}&#xA;&#xA;html.append(&quot;&lt;/body>&lt;/html>&quot;);&#xA;&#xA;globalMap.put(&quot;MAIL_SUBJECT&quot;, subject);&#xA;globalMap.put(&quot;MAIL_BODY&quot;, html.toString());"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tJava" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.101 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Custom_Code" show="false"/>
+    <elementParameter field="CHECK" name="START" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tJava" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="java.util.List&lt;java.util.Map&lt;String, String>> warnings =&#xA;    (java.util.List&lt;java.util.Map&lt;String, String>>) globalMap.get(&quot;MAIL_WARNINGS&quot;);&#xA;&#xA;java.util.List&lt;java.util.Map&lt;String, String>> errors =&#xA;    (java.util.List&lt;java.util.Map&lt;String, String>>) globalMap.get(&quot;MAIL_ERRORS&quot;);&#xA;&#xA;// On considère le job en erreur si JOB_HAS_ERROR = true OU si la liste errors contient quelque chose&#xA;boolean hasError = Boolean.TRUE.equals(globalMap.get(&quot;JOB_HAS_ERROR&quot;))&#xA;    || (errors != null &amp;&amp; !errors.isEmpty());&#xA;&#xA;String currentJobName = jobName;&#xA;String status = hasError ? &quot;ERREUR&quot; : &quot;SUCCÈS&quot;;&#xA;String color = hasError ? &quot;#c00000&quot; : &quot;#2e7d32&quot;;&#xA;&#xA;String subject = &quot;[&quot; + status + &quot;] [&quot; + context.environnement + &quot;] Job Talend - &quot; + currentJobName;&#xA;&#xA;StringBuilder html = new StringBuilder();&#xA;&#xA;html.append(&quot;&lt;html>&lt;body style='font-family:Arial, sans-serif;'>&quot;);&#xA;&#xA;html.append(&quot;&lt;h2 style='color:&quot;)&#xA;    .append(color)&#xA;    .append(&quot;;'>Job Talend : &quot;)&#xA;    .append(jobName)&#xA;    .append(&quot; - &quot;)&#xA;    .append(status)&#xA;    .append(&quot;&lt;/h2>&quot;);&#xA;&#xA;html.append(&quot;&lt;p>&lt;b>Date d'exécution :&lt;/b> &quot;)&#xA;    .append(routines.TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;, new java.util.Date()))&#xA;    .append(&quot;&lt;/p>&quot;);&#xA;&#xA;html.append(&quot;&lt;p>&lt;b>Environnement :&lt;/b> &quot;)&#xA;    .append(context.environnement)&#xA;    .append(&quot;&lt;/p>&quot;);&#xA;&#xA;html.append(&quot;&lt;hr/>&quot;);&#xA;&#xA;&#xA;// =====================================================================&#xA;// Pattern pour récupérer uniquement Add event (...) / Delete event (...)&#xA;// =====================================================================&#xA;&#xA;java.util.regex.Pattern patternEventOutlook =&#xA;    java.util.regex.Pattern.compile(&quot;(Add event|Delete event)\\s*\\([^\\)]*\\)&quot;);&#xA;&#xA;&#xA;// =====================================================================&#xA;// Section 1 : Events Outlook détectés&#xA;// =====================================================================&#xA;&#xA;html.append(&quot;&lt;h3>Events Outlook détectés&lt;/h3>&quot;);&#xA;&#xA;html.append(&quot;&lt;table border='1' cellspacing='0' cellpadding='6' style='border-collapse:collapse;width:100%;'>&quot;);&#xA;html.append(&quot;&lt;tr style='background-color:#f2f2f2;'>&quot;);&#xA;html.append(&quot;&lt;th>Date&lt;/th>&lt;th>Composant&lt;/th>&lt;th>Message&lt;/th>&quot;);&#xA;html.append(&quot;&lt;/tr>&quot;);&#xA;&#xA;int nbEventsOutlook = 0;&#xA;&#xA;if (warnings != null &amp;&amp; !warnings.isEmpty()) {&#xA;&#xA;    for (java.util.Map&lt;String, String> w : warnings) {&#xA;&#xA;        String rawMsg = w.get(&quot;message&quot;);&#xA;        if (rawMsg == null) {&#xA;            rawMsg = &quot;&quot;;&#xA;        }&#xA;&#xA;        StringBuilder msgFiltreBuilder = new StringBuilder();&#xA;&#xA;        java.util.regex.Matcher matcher = patternEventOutlook.matcher(rawMsg);&#xA;&#xA;        while (matcher.find()) {&#xA;            if (msgFiltreBuilder.length() > 0) {&#xA;                msgFiltreBuilder.append(&quot;\n&quot;);&#xA;            }&#xA;&#xA;            msgFiltreBuilder.append(matcher.group());&#xA;        }&#xA;&#xA;        String msgFiltre = msgFiltreBuilder.toString();&#xA;&#xA;        // Si ce tWarn ne contient pas d'event Outlook, on ne l'affiche pas dans cette section&#xA;        if (msgFiltre == null || msgFiltre.trim().isEmpty()) {&#xA;            continue;&#xA;        }&#xA;&#xA;        nbEventsOutlook++;&#xA;&#xA;        String msgHtml = msgFiltre&#xA;            .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;            .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;            .replace(&quot;>&quot;, &quot;&amp;gt;&quot;)&#xA;            .replace(&quot;\&quot;&quot;, &quot;&amp;quot;&quot;)&#xA;            .replace(&quot;\r\n&quot;, &quot;\n&quot;)&#xA;            .replace(&quot;\r&quot;, &quot;\n&quot;)&#xA;            .replace(&quot;\n&quot;, &quot;&lt;br/>&quot;);&#xA;&#xA;        String dateWarning = w.get(&quot;date&quot;);&#xA;        if (dateWarning == null) {&#xA;            dateWarning = &quot;&quot;;&#xA;        }&#xA;&#xA;        dateWarning = dateWarning&#xA;            .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;            .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;            .replace(&quot;>&quot;, &quot;&amp;gt;&quot;)&#xA;            .replace(&quot;\&quot;&quot;, &quot;&amp;quot;&quot;);&#xA;&#xA;        String originWarning = w.get(&quot;origin&quot;);&#xA;        if (originWarning == null) {&#xA;            originWarning = &quot;&quot;;&#xA;        }&#xA;&#xA;        originWarning = originWarning&#xA;            .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;            .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;            .replace(&quot;>&quot;, &quot;&amp;gt;&quot;)&#xA;            .replace(&quot;\&quot;&quot;, &quot;&amp;quot;&quot;);&#xA;&#xA;        html.append(&quot;&lt;tr>&quot;);&#xA;        html.append(&quot;&lt;td>&quot;).append(dateWarning).append(&quot;&lt;/td>&quot;);&#xA;        html.append(&quot;&lt;td>&quot;).append(originWarning).append(&quot;&lt;/td>&quot;);&#xA;        html.append(&quot;&lt;td>&quot;).append(msgHtml).append(&quot;&lt;/td>&quot;);&#xA;        html.append(&quot;&lt;/tr>&quot;);&#xA;    }&#xA;}&#xA;&#xA;if (nbEventsOutlook == 0) {&#xA;    html.append(&quot;&lt;tr>&lt;td colspan='3'>Aucun Add event ou Delete event détecté.&lt;/td>&lt;/tr>&quot;);&#xA;}&#xA;&#xA;html.append(&quot;&lt;/table>&quot;);&#xA;&#xA;&#xA;// =====================================================================&#xA;// Section 2 : Messages tWarn classiques&#xA;// On garde les autres tWarn : connexion BDD, déconnexion, messages métiers, etc.&#xA;// On évite de remettre le gros message Outlook brut déjà filtré au-dessus.&#xA;// =====================================================================&#xA;&#xA;html.append(&quot;&lt;br/>&quot;);&#xA;html.append(&quot;&lt;h3>Messages tWarn&lt;/h3>&quot;);&#xA;&#xA;html.append(&quot;&lt;table border='1' cellspacing='0' cellpadding='6' style='border-collapse:collapse;width:100%;'>&quot;);&#xA;html.append(&quot;&lt;tr style='background-color:#f2f2f2;'>&quot;);&#xA;html.append(&quot;&lt;th>Date&lt;/th>&lt;th>Composant&lt;/th>&lt;th>Message&lt;/th>&quot;);&#xA;html.append(&quot;&lt;/tr>&quot;);&#xA;&#xA;int nbWarningsClassiques = 0;&#xA;&#xA;if (warnings != null &amp;&amp; !warnings.isEmpty()) {&#xA;&#xA;    for (java.util.Map&lt;String, String> w : warnings) {&#xA;&#xA;        String rawMsg = w.get(&quot;message&quot;);&#xA;        if (rawMsg == null) {&#xA;            rawMsg = &quot;&quot;;&#xA;        }&#xA;&#xA;        java.util.regex.Matcher matcher = patternEventOutlook.matcher(rawMsg);&#xA;        boolean contientEventOutlook = matcher.find();&#xA;&#xA;        // Si c'est le gros message Outlook qui contient Add/Delete event,&#xA;        // on ne le remet pas ici pour éviter de polluer le mail.&#xA;        if (contientEventOutlook) {&#xA;            continue;&#xA;        }&#xA;&#xA;        nbWarningsClassiques++;&#xA;&#xA;        String msgHtml = rawMsg&#xA;            .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;            .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;            .replace(&quot;>&quot;, &quot;&amp;gt;&quot;)&#xA;            .replace(&quot;\&quot;&quot;, &quot;&amp;quot;&quot;)&#xA;            .replace(&quot;\r\n&quot;, &quot;\n&quot;)&#xA;            .replace(&quot;\r&quot;, &quot;\n&quot;)&#xA;            .replace(&quot;\n&quot;, &quot;&lt;br/>&quot;);&#xA;&#xA;        String dateWarning = w.get(&quot;date&quot;);&#xA;        if (dateWarning == null) {&#xA;            dateWarning = &quot;&quot;;&#xA;        }&#xA;&#xA;        dateWarning = dateWarning&#xA;            .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;            .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;            .replace(&quot;>&quot;, &quot;&amp;gt;&quot;)&#xA;            .replace(&quot;\&quot;&quot;, &quot;&amp;quot;&quot;);&#xA;&#xA;        String originWarning = w.get(&quot;origin&quot;);&#xA;        if (originWarning == null) {&#xA;            originWarning = &quot;&quot;;&#xA;        }&#xA;&#xA;        originWarning = originWarning&#xA;            .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;            .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;            .replace(&quot;>&quot;, &quot;&amp;gt;&quot;)&#xA;            .replace(&quot;\&quot;&quot;, &quot;&amp;quot;&quot;);&#xA;&#xA;        html.append(&quot;&lt;tr>&quot;);&#xA;        html.append(&quot;&lt;td>&quot;).append(dateWarning).append(&quot;&lt;/td>&quot;);&#xA;        html.append(&quot;&lt;td>&quot;).append(originWarning).append(&quot;&lt;/td>&quot;);&#xA;        html.append(&quot;&lt;td>&quot;).append(msgHtml).append(&quot;&lt;/td>&quot;);&#xA;        html.append(&quot;&lt;/tr>&quot;);&#xA;    }&#xA;}&#xA;&#xA;if (nbWarningsClassiques == 0) {&#xA;    html.append(&quot;&lt;tr>&lt;td colspan='3'>Aucun autre tWarn détecté.&lt;/td>&lt;/tr>&quot;);&#xA;}&#xA;&#xA;html.append(&quot;&lt;/table>&quot;);&#xA;&#xA;&#xA;// =====================================================================&#xA;// Section 3 : Erreurs / tDie uniquement si erreur&#xA;// =====================================================================&#xA;&#xA;if (hasError) {&#xA;&#xA;    html.append(&quot;&lt;br/>&quot;);&#xA;    html.append(&quot;&lt;h3 style='color:#c00000;'>Erreur / tDie détecté&lt;/h3>&quot;);&#xA;&#xA;    html.append(&quot;&lt;table border='1' cellspacing='0' cellpadding='6' style='border-collapse:collapse;width:100%;'>&quot;);&#xA;    html.append(&quot;&lt;tr style='background-color:#c00000;color:white;'>&quot;);&#xA;    html.append(&quot;&lt;th>Date&lt;/th>&lt;th>Type&lt;/th>&lt;th>Composant&lt;/th>&lt;th>Code&lt;/th>&lt;th>Message&lt;/th>&quot;);&#xA;    html.append(&quot;&lt;/tr>&quot;);&#xA;&#xA;    if (errors == null || errors.isEmpty()) {&#xA;&#xA;        html.append(&quot;&lt;tr>&lt;td colspan='5'>Erreur détectée mais aucun détail récupéré par tLogCatcher.&lt;/td>&lt;/tr>&quot;);&#xA;&#xA;    } else {&#xA;&#xA;        for (java.util.Map&lt;String, String> e : errors) {&#xA;&#xA;            String errorDate = e.get(&quot;date&quot;);&#xA;            if (errorDate == null) {&#xA;                errorDate = &quot;&quot;;&#xA;            }&#xA;&#xA;            errorDate = errorDate&#xA;                .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;                .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;                .replace(&quot;>&quot;, &quot;&amp;gt;&quot;)&#xA;                .replace(&quot;\&quot;&quot;, &quot;&amp;quot;&quot;);&#xA;&#xA;            String errorType = e.get(&quot;type&quot;);&#xA;            if (errorType == null) {&#xA;                errorType = &quot;&quot;;&#xA;            }&#xA;&#xA;            errorType = errorType&#xA;                .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;                .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;                .replace(&quot;>&quot;, &quot;&amp;gt;&quot;)&#xA;                .replace(&quot;\&quot;&quot;, &quot;&amp;quot;&quot;);&#xA;&#xA;            String errorOrigin = e.get(&quot;origin&quot;);&#xA;            if (errorOrigin == null) {&#xA;                errorOrigin = &quot;&quot;;&#xA;            }&#xA;&#xA;            errorOrigin = errorOrigin&#xA;                .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;                .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;                .replace(&quot;>&quot;, &quot;&amp;gt;&quot;)&#xA;                .replace(&quot;\&quot;&quot;, &quot;&amp;quot;&quot;);&#xA;&#xA;            String errorCode = e.get(&quot;code&quot;);&#xA;            if (errorCode == null) {&#xA;                errorCode = &quot;&quot;;&#xA;            }&#xA;&#xA;            errorCode = errorCode&#xA;                .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;                .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;                .replace(&quot;>&quot;, &quot;&amp;gt;&quot;)&#xA;                .replace(&quot;\&quot;&quot;, &quot;&amp;quot;&quot;);&#xA;&#xA;            String errorMsg = e.get(&quot;message&quot;);&#xA;            if (errorMsg == null) {&#xA;                errorMsg = &quot;&quot;;&#xA;            }&#xA;&#xA;            errorMsg = errorMsg&#xA;                .replace(&quot;&amp;&quot;, &quot;&amp;amp;&quot;)&#xA;                .replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;)&#xA;                .replace(&quot;>&quot;, &quot;&amp;gt;&quot;)&#xA;                .replace(&quot;\&quot;&quot;, &quot;&amp;quot;&quot;)&#xA;                .replace(&quot;\r\n&quot;, &quot;\n&quot;)&#xA;                .replace(&quot;\r&quot;, &quot;\n&quot;)&#xA;                .replace(&quot;\n&quot;, &quot;&lt;br/>&quot;);&#xA;&#xA;            html.append(&quot;&lt;tr>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(errorDate).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(errorType).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(errorOrigin).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(errorCode).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;td>&quot;).append(errorMsg).append(&quot;&lt;/td>&quot;);&#xA;            html.append(&quot;&lt;/tr>&quot;);&#xA;        }&#xA;    }&#xA;&#xA;    html.append(&quot;&lt;/table>&quot;);&#xA;}&#xA;&#xA;html.append(&quot;&lt;/body>&lt;/html>&quot;);&#xA;&#xA;globalMap.put(&quot;MAIL_SUBJECT&quot;, subject);&#xA;globalMap.put(&quot;MAIL_BODY&quot;, html.toString());"/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="LABEL" value="Construire le mail"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_2"/>
   </node>
   <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="280">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSendMail_1" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tSendMail" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.101 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Internet" show="false"/>
+    <elementParameter field="CHECK" name="START" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tSendMail" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TEXT" name="TO" value="context.Mail_destinataire"/>
     <elementParameter field="TEXT" name="FROM" value="context.Mail_expediteur"/>
     <elementParameter field="CHECK" name="NEED_PERSONAL_NAME" value="false"/>
@@ -309,6 +440,16 @@
   </node>
   <node componentName="tLogCatcher" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1280" posY="-1000">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogCatcher_1" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tLogCatcher" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.101 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Logs_Errors" show="false"/>
+    <elementParameter field="CHECK" name="START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tLogCatcher" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="CHECK" name="CATCH_JAVA_EXCEPTION" value="true"/>
     <elementParameter field="CHECK" name="CATCH_TDIE" value="true"/>
     <elementParameter field="CHECK" name="CATCH_TWARN" value="true"/>
@@ -331,8 +472,17 @@
   </node>
   <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1480" posY="-1000">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="java.util.List&lt;java.util.Map&lt;String, String>> warnings =&#xA;    (java.util.List&lt;java.util.Map&lt;String, String>>) globalMap.get(&quot;MAIL_WARNINGS&quot;);&#xA;&#xA;java.util.List&lt;java.util.Map&lt;String, String>> errors =&#xA;    (java.util.List&lt;java.util.Map&lt;String, String>>) globalMap.get(&quot;MAIL_ERRORS&quot;);&#xA;&#xA;String type = String.valueOf(input_row.type);&#xA;String priority = String.valueOf(input_row.priority);&#xA;String origin = String.valueOf(input_row.origin);&#xA;String message = String.valueOf(input_row.message);&#xA;String code = String.valueOf(input_row.code);&#xA;&#xA;java.util.Map&lt;String, String> log = new java.util.HashMap&lt;String, String>();&#xA;log.put(&quot;date&quot;, routines.TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;, input_row.moment));&#xA;log.put(&quot;type&quot;, type);&#xA;log.put(&quot;priority&quot;, priority);&#xA;log.put(&quot;origin&quot;, origin);&#xA;log.put(&quot;message&quot;, message);&#xA;log.put(&quot;code&quot;, code);&#xA;&#xA;// Cas tWarn&#xA;if (&quot;tWarn&quot;.equalsIgnoreCase(type)) {&#xA;    warnings.add(log);&#xA;}&#xA;&#xA;// Cas erreur technique ou tDie&#xA;String typeLower = type.toLowerCase();&#xA;String priorityLower = priority.toLowerCase();&#xA;&#xA;if (&#xA;    typeLower.contains(&quot;die&quot;)&#xA;    || typeLower.contains(&quot;exception&quot;)&#xA;    || typeLower.contains(&quot;error&quot;)&#xA;    || priorityLower.contains(&quot;error&quot;)&#xA;    || priorityLower.contains(&quot;fatal&quot;)&#xA;) {&#xA;    errors.add(log);&#xA;    globalMap.put(&quot;JOB_HAS_ERROR&quot;, true);&#xA;}&#xA;"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tJavaRow" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.101 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Custom_Code" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="false" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tJavaRow" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="java.util.List&lt;java.util.Map&lt;String, String>> warnings =&#xA;    (java.util.List&lt;java.util.Map&lt;String, String>>) globalMap.get(&quot;MAIL_WARNINGS&quot;);&#xA;&#xA;java.util.List&lt;java.util.Map&lt;String, String>> errors =&#xA;    (java.util.List&lt;java.util.Map&lt;String, String>>) globalMap.get(&quot;MAIL_ERRORS&quot;);&#xA;&#xA;String type = String.valueOf(input_row.type);&#xA;String priority = String.valueOf(input_row.priority);&#xA;String origin = String.valueOf(input_row.origin);&#xA;String message = String.valueOf(input_row.message);&#xA;String code = String.valueOf(input_row.code);&#xA;&#xA;java.util.Map&lt;String, String> log = new java.util.HashMap&lt;String, String>();&#xA;log.put(&quot;date&quot;, routines.TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;, input_row.moment));&#xA;log.put(&quot;type&quot;, type);&#xA;log.put(&quot;priority&quot;, priority);&#xA;log.put(&quot;origin&quot;, origin);&#xA;log.put(&quot;message&quot;, message);&#xA;log.put(&quot;code&quot;, code);&#xA;&#xA;// Cas tWarn&#xA;if (&quot;tWarn&quot;.equalsIgnoreCase(type)) {&#xA;    warnings.add(log);&#xA;}&#xA;&#xA;// Cas erreur technique ou tDie&#xA;String typeLower = type.toLowerCase();&#xA;String priorityLower = priority.toLowerCase();&#xA;&#xA;if (&#xA;    typeLower.contains(&quot;die&quot;)&#xA;    || typeLower.contains(&quot;exception&quot;)&#xA;    || typeLower.contains(&quot;error&quot;)&#xA;    || priorityLower.contains(&quot;error&quot;)&#xA;    || priorityLower.contains(&quot;fatal&quot;)&#xA;) {&#xA;    errors.add(log);&#xA;    globalMap.put(&quot;JOB_HAS_ERROR&quot;, true);&#xA;}&#xA;"/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJavaRow_1">
       <column defaultValue="" key="false" length="0" name="moment" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
@@ -349,54 +499,224 @@
       <column defaultValue="" key="false" length="3" name="code" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileCopy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-40" posY="-200">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_3" show="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.Repertoire_racine+jobName+&quot;/&quot;+context.environnement+&quot;/&quot;+context.Repertoire_in+context.ADP_SFTP_NomFichier"/>
-    <elementParameter field="CHECK" name="ENABLE_COPY_DIRECTORY" value="false"/>
-    <elementParameter field="DIRECTORY" name="SOURCE_DERECTORY" value="&quot;C:/Program Files (x86)/Talend-Studio/studio/workspace&quot;" show="false"/>
-    <elementParameter field="DIRECTORY" name="DESTINATION" value="context.Repertoire_SalesForce"/>
-    <elementParameter field="CHECK" name="RENAME" value="true"/>
-    <elementParameter field="TEXT" name="DESTINATION_RENAME" value="&quot;expITIME_&quot;+TalendDate.formatDate(&quot;yyyyMMdd&quot;, TalendDate.getCurrentDate())+&quot;.csv&quot;"/>
-    <elementParameter field="CHECK" name="REMOVE_FILE" value="false"/>
-    <elementParameter field="CHECK" name="REPLACE_FILE" value="true"/>
-    <elementParameter field="CHECK" name="CREATE_DIRECTORY" value="false"/>
-    <elementParameter field="CHECK" name="FAILON" value="true"/>
-    <elementParameter field="CHECK" name="FORCE_COPY_DELETE" value="false" show="false"/>
-    <elementParameter field="CHECK" name="PRESERVE_LAST_MODIFIED_TIME" value="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="vers_salesforce"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tFileCopy_3"/>
+  <node componentName="tAS400Row" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="280" posY="-320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_1" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tAS400Row" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/AS400" show="false"/>
+    <elementParameter field="CHECK" name="START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tAS400Row" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="jt400-20.0.7.jar" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="AS400" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:yoSnrV1mKCwjb14d/BnTiHnc81g7SU7GAg8Gz+nv" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;CALL QSYS2.QCMDEXC(&#xD;&#xA;'CHGJRN JRN(DDBME/JRNDEFISAV) JRNRCV(*GEN)'&#xD;&#xA;)&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;prompt=false&quot;" show="false"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000" show="false"/>
+    <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
+    <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" value="30" show="false"/>
+    <metadata connector="FLOW" name="tDBRow_1"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
   </node>
-  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="440" posY="-160">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_9" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Fichier &quot;+&quot;expITIME_&quot;+TalendDate.formatDate(&quot;yyyyMMdd&quot;, TalendDate.getCurrentDate())+&quot;.csv deposé sur le serveur sv-app01-pro pour intégration SalesForce&quot;"/>
-    <elementParameter field="TEXT" name="CODE" value="1"/>
-    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
+  <node componentName="tAS400Connection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="-920">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_2" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tAS400Connection" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/AS400|ELT/Connections" show="false"/>
+    <elementParameter field="CHECK" name="START" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tAS400Connection" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_SgFG4MI8EfG4KK5goHrAXw" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="jt400-20.0.7.jar"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_IDEFI_CDC_DB_Server"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_IDEFI_CDC_DB_Database"/>
+    <elementParameter field="TEXT" name="TYPE" value="AS400" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_IDEFI_CDC_DB_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_IDEFI_CDC_DB_Password"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_IDEFI_CDC_DB_AdditionalParams"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="IDEFI_DB_cdc"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tWarn_9"/>
   </node>
-  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="-320">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_5" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Erreur le fichier &quot;+&quot;expITIME_&quot;+TalendDate.formatDate(&quot;yyyyMMdd&quot;, TalendDate.getCurrentDate())+&quot;.csv n'a pas été deposé sur le serveur sv-app01-pro pour intégration SalesForce&quot;"/>
-    <elementParameter field="TEXT" name="CODE" value="4"/>
-    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
-    <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tDie_5"/>
+  <node componentName="tAS400Commit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="-320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBCommit_1" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tAS400Commit" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/AS400" show="false"/>
+    <elementParameter field="CHECK" name="START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tAS400Commit" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
+    <elementParameter field="CHECK" name="CLOSE" value="true"/>
+    <metadata connector="FLOW" name="tDBCommit_1"/>
   </node>
-  <node componentName="tSystem" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="-40" posY="-400">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSystem_2" show="false"/>
-    <elementParameter field="CHECK" name="ROOTDIR" value="false"/>
-    <elementParameter field="DIRECTORY" name="DIRECTORY" value="&quot;C:/Program Files (x86)/Talend-Studio/studio/workspace&quot;" show="false"/>
-    <elementParameter field="RADIO" name="USE_SINGLE_COMMAND" value="true"/>
-    <elementParameter field="MEMO_JAVA" name="COMMAND" value="&quot;cmd /c E:/Talend/SalesForce.bat&quot;"/>
-    <elementParameter field="RADIO" name="USE_ARRAY_COMMAND" value="false"/>
-    <elementParameter field="TABLE" name="ARRAY_COMMAND" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="OUTPUT" value="OUTPUT_TO_CONSOLE_AND_RETRIVE_OUTPUT"/>
-    <elementParameter field="CLOSED_LIST" name="ERROROUTPUT" value="OUTPUT_TO_CONSOLE_AND_RETRIVE_OUTPUT"/>
-    <elementParameter field="TABLE" name="PARAMS"/>
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="-320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tWarn" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.101 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Logs_Errors" show="false"/>
+    <elementParameter field="CHECK" name="START" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tWarn" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;this is a warning&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="42"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="4"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tSystem_2"/>
+    <metadata connector="FLOW" name="tWarn_1"/>
+  </node>
+  <node componentName="tAS400CDC" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="-40">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBCDC_1" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tAS400CDC" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/AS400" show="false"/>
+    <elementParameter field="CHECK" name="START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tAS400CDC" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_SgFG4MI8EfG4KK5goHrAXw" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="jt400-20.0.7.jar"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_IDEFI_CDC_DB_Server"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_IDEFI_CDC_DB_Database"/>
+    <elementParameter field="TEXT" name="TYPE" value="AS400" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_IDEFI_CDC_DB_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_IDEFI_CDC_DB_Password"/>
+    <elementParameter field="TEXT" name="SOURCE_LIB" value="&quot;DBTESTFR2&quot;"/>
+    <elementParameter field="DBTABLE" name="DATATABLE" value="&quot;C21HDR&quot;"/>
+    <elementParameter field="TEXT" name="SUSCRIBER" value="&quot;APP1&quot;"/>
+    <elementParameter field="LABEL" name="EVENTS_TYPE" value=""/>
+    <elementParameter field="CHECK" name="EVENTS_TYPE_INSERT" value="true"/>
+    <elementParameter field="CHECK" name="EVENTS_TYPE_UPDATE" value="true"/>
+    <elementParameter field="CHECK" name="EVENTS_TYPE_DELETE" value="true"/>
+    <elementParameter field="TEXT" name="MEMBER" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_IDEFI_CDC_DB_AdditionalParams"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="PROCESS_ALL_DATA" value="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="Only works with only one subscriber, will get all members, and type of changes." show="false"/>
+    <elementParameter field="CHECK" name="KEEP_CDC_DATAS" value="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="TALEND_CDC_TYPE" id="0"/>
+      <elementValue elementRef="TRIM" value="false" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TALEND_CDC_CREATION_DATE" id="2"/>
+      <elementValue elementRef="TRIM" value="false" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TALEND_CDC_MEMBER" id="4"/>
+      <elementValue elementRef="TRIM" value="false" id="5"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="DISABLE_FTP_CALL" value="false" show="false"/>
+    <elementParameter field="CHECK" name="CUSTOMISE_FTP_COMMAND" value="true"/>
+    <elementParameter field="TABLE" name="FTP_COMMANDS">
+      <elementValue elementRef="FTP_COMMAND" value="&quot;DBTFR2CDC/RUNCDC FILE(DBTESTFR2/C21HDR) LIBOUT(DBTFR2CDC) MODE(*DETACHED) MBROPT(*ADD) DTCHJRN(*YES)&quot;" id="0"/>
+    </elementParameter>
+    <metadata connector="FLOW" name="tDBCDC_1">
+      <column defaultValue="" key="false" length="1" name="TALEND_CDC_TYPE" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="11" name="TALEND_CDC_CREATION_DATE" nullable="true" precision="0" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="10" name="TALEND_CDC_MEMBER" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="-40">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tLogRow" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.101 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Logs_Errors" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="false" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tLogRow" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="TALEND_CDC_TYPE" id="0"/>
+      <elementValue elementRef="LENGTH" value="10" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TALEND_CDC_CREATION_DATE" id="2"/>
+      <elementValue elementRef="LENGTH" value="10" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TALEND_CDC_MEMBER" id="4"/>
+      <elementValue elementRef="LENGTH" value="10" id="5"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_1">
+      <column key="false" length="1" name="TALEND_CDC_TYPE" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="11" name="TALEND_CDC_CREATION_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="10" name="TALEND_CDC_MEMBER" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tAS400Commit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="680" posY="-40">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBCommit_2" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tAS400Commit" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/AS400" show="false"/>
+    <elementParameter field="CHECK" name="START" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tAS400Commit" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
+    <elementParameter field="CHECK" name="CLOSE" value="true"/>
+    <metadata connector="FLOW" name="tDBCommit_2"/>
   </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tJava_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
@@ -416,24 +736,34 @@
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBClose_1" offsetLabelX="0" offsetLabelY="0" source="tDBClose_1" target="tWarn_4">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
   </connection>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tDBConnection_1">
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tDBConnection_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk8" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_2" offsetLabelX="0" offsetLabelY="0" source="tJava_2" target="tSendMail_1">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk9" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tLogCatcher_1" offsetLabelX="0" offsetLabelY="0" source="tLogCatcher_1" target="tJavaRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileCopy_3" offsetLabelX="45" offsetLabelY="-50" source="tFileCopy_3" target="tWarn_9">
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_1" offsetLabelX="0" offsetLabelY="0" source="tDBRow_1" target="tDBCommit_1">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk7" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBConnection_2" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_2" target="tDBConnection_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk6" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBCommit_1" offsetLabelX="0" offsetLabelY="0" source="tDBCommit_1" target="tWarn_1">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk8" show="false"/>
   </connection>
-  <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tFileCopy_3" offsetLabelX="0" offsetLabelY="0" source="tFileCopy_3" target="tDie_5">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentError4" show="false"/>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tDBCDC_1" offsetLabelX="0" offsetLabelY="0" source="tDBCDC_1" target="tLogRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
   </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tSystem_2" offsetLabelX="0" offsetLabelY="0" source="tSystem_2" target="tFileCopy_3">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk18" show="false"/>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tLogRow_1" offsetLabelX="0" offsetLabelY="0" source="tLogRow_1" target="tDBCommit_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk6" show="false"/>
   </connection>
   <note opaque="true" posX="-160" posY="200" sizeHeight="201" sizeWidth="1681" text="Fermeture de la onnexion a la base de données &#xD;&#xA;SAVOIR">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="166;193;152"/>
@@ -465,79 +795,89 @@
   <subjob>
     <elementParameter field="CHECK" name="COLLAPSED" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_2" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_2" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_4" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBClose_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSendMail_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogCatcher_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_3" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_9" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_5" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBCommit_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSystem_2" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBCDC_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBCommit_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
 </talendfile:ProcessType>

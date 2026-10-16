@@ -34,6 +34,11 @@
     <contextParameter comment="" name="connection_IDEFI_DB_Database" prompt="connection_IDEFI_DB_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="DBTESTFR2" internalId="_xBvncsCREfGNftACpqmfMQ"/>
     <contextParameter comment="" name="connection_IDEFI_DB_Login" prompt="connection_IDEFI_DB_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_xBvnc8CREfGNftACpqmfMQ"/>
     <contextParameter comment="" name="connection_IDEFI_DB_AdditionalParams" prompt="connection_IDEFI_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_xBvndMCREfGNftACpqmfMQ"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Server" prompt="connection_IDEFI_CDC_DB_Server?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="172.19.4.58" internalId="_tl3aoMfdEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Login" prompt="connection_IDEFI_CDC_DB_Login?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="QLIK" internalId="_tl3aocfdEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Database" prompt="connection_IDEFI_CDC_DB_Database?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="DBTFR2CDC" internalId="_tl3aosfdEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Password" prompt="connection_IDEFI_CDC_DB_Password?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_Password" value="enc:system.encryption.key.v1:d1IVi/EPLAauL5xG1mW6ezqjK7BqAMim+YXKZZ/MBZ5RF+SSyOo=" internalId="_tl3ao8fdEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_AdditionalParams" prompt="connection_IDEFI_CDC_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_tl3apMfdEfG4KK5goHrAXw"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="RECETTE">
     <contextParameter comment="" name="Repertoire_racine" prompt="Repertoire_racine?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="E:/Talend/data/" internalId="_WUTlpUhaEfG9ndm8B-jwTQ"/>
@@ -69,6 +74,11 @@
     <contextParameter comment="" name="connection_IDEFI_DB_Database" prompt="connection_IDEFI_DB_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="DBTESTFR2" internalId="_xBvnd8CREfGNftACpqmfMQ"/>
     <contextParameter comment="" name="connection_IDEFI_DB_Login" prompt="connection_IDEFI_DB_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="QLIK" internalId="_xBvneMCREfGNftACpqmfMQ"/>
     <contextParameter comment="" name="connection_IDEFI_DB_AdditionalParams" prompt="connection_IDEFI_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_xBvnecCREfGNftACpqmfMQ"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Server" prompt="connection_IDEFI_CDC_DB_Server?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="172.19.4.58" internalId="_tl3apcfdEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Login" prompt="connection_IDEFI_CDC_DB_Login?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="QLIK" internalId="_tl3apsfdEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Database" prompt="connection_IDEFI_CDC_DB_Database?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="DBTFR2CDC" internalId="_tl3ap8fdEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Password" prompt="connection_IDEFI_CDC_DB_Password?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_Password" value="enc:system.encryption.key.v1:2X6iRSF9f52FhmmUnLv2zHVh1EInRBkd5i/2QpTrqlZp3i+zYU8=" internalId="_tl3aqMfdEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_AdditionalParams" prompt="connection_IDEFI_CDC_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="prompt=false;block criteria=2;block size=512;extended dynamic=true;package cache=true" internalId="_tl3aqcfdEfG4KK5goHrAXw"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="PRODUCTION">
     <contextParameter comment="" name="Repertoire_racine" prompt="Repertoire_racine?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_WUTlqUhaEfG9ndm8B-jwTQ"/>
@@ -104,6 +114,11 @@
     <contextParameter comment="" name="connection_IDEFI_DB_Database" prompt="connection_IDEFI_DB_Database?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_xBvnfMCREfGNftACpqmfMQ"/>
     <contextParameter comment="" name="connection_IDEFI_DB_Login" prompt="connection_IDEFI_DB_Login?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_xBvnfcCREfGNftACpqmfMQ"/>
     <contextParameter comment="" name="connection_IDEFI_DB_AdditionalParams" prompt="connection_IDEFI_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_zN404EPMEfG9ndm8B-jwTQ" type="id_String" value="" internalId="_xBvnfsCREfGNftACpqmfMQ"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Server" prompt="connection_IDEFI_CDC_DB_Server?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="" internalId="_tl3aqsfdEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Login" prompt="connection_IDEFI_CDC_DB_Login?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="" internalId="_tl3aq8fdEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Database" prompt="connection_IDEFI_CDC_DB_Database?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="" internalId="_tl3arMfdEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_Password" prompt="connection_IDEFI_CDC_DB_Password?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_Password" value="" internalId="_tl3arcfdEfG4KK5goHrAXw"/>
+    <contextParameter comment="" name="connection_IDEFI_CDC_DB_AdditionalParams" prompt="connection_IDEFI_CDC_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_qq8_8MehEfG4KK5goHrAXw" type="id_String" value="" internalId="_tl3arsfdEfG4KK5goHrAXw"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -1026,11 +1041,11 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_SgFG4MI8EfG4KK5goHrAXw" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="jt400-20.0.7.jar"/>
-    <elementParameter field="TEXT" name="HOST" value="context.connection_IDEFI_DB_Server"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.connection_IDEFI_DB_Database"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_IDEFI_CDC_DB_Server"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_IDEFI_CDC_DB_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="AS400" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="context.connection_IDEFI_DB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="context.connection_IDEFI_DB_Password"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_IDEFI_CDC_DB_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_IDEFI_CDC_DB_Password"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_NL7HMEOsEfGHjcSPz0OCDw - C21HDR" show="false"/>
     <elementParameter field="TEXT" name="SOURCE_LIB" value="&quot;DBTESTFR2&quot;"/>
@@ -1041,7 +1056,7 @@
     <elementParameter field="CHECK" name="EVENTS_TYPE_UPDATE" value="true"/>
     <elementParameter field="CHECK" name="EVENTS_TYPE_DELETE" value="true"/>
     <elementParameter field="TEXT" name="MEMBER" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_IDEFI_DB_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_IDEFI_CDC_DB_AdditionalParams"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="PROCESS_ALL_DATA" value="false"/>
